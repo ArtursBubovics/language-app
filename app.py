@@ -91,9 +91,15 @@ div[data-testid="stMetricLabel"] p { white-space: normal !important; }
 /* ---------- ПЕРЕКЛЮЧАТЕЛЬ ЯЗЫКОВ (ПИЛЮЛИ) ---------- */
 div[data-testid="stRadio"] div[role="radiogroup"] {
   display: flex !important;
-  flex-wrap: wrap !important;
+  flex-wrap: nowrap !important;
+  overflow-x: auto !important;
+  -webkit-overflow-scrolling: touch !important;
+  scrollbar-width: none !important;
   gap: 8px !important;
   padding: 4px 0 10px 0 !important;
+}
+div[data-testid="stRadio"] div[role="radiogroup"]::-webkit-scrollbar {
+  display: none !important;
 }
 div[data-testid="stRadio"] div[role="radiogroup"] label {
   background: rgba(128, 128, 128, 0.12) !important;
@@ -102,6 +108,8 @@ div[data-testid="stRadio"] div[role="radiogroup"] label {
   border: 1px solid rgba(128, 128, 128, 0.22) !important;
   cursor: pointer !important;
   margin: 0 !important;
+  white-space: nowrap !important;
+  flex-shrink: 0 !important;
   transition: all 0.18s ease-in-out !important;
   -webkit-tap-highlight-color: transparent !important;
 }
@@ -117,7 +125,11 @@ div[data-testid="stRadio"] div[role="radiogroup"] label:has(input:checked) span 
   color: #ffffff !important;
   font-weight: 700 !important;
 }
-div[data-testid="stRadio"] div[role="radiogroup"] label > div:first-child {
+div[data-testid="stRadio"] div[role="radiogroup"] label > div:first-child,
+div[data-testid="stRadio"] div[role="radiogroup"] label [data-testid="stRadioControl"],
+div[data-testid="stRadio"] div[role="radiogroup"] label span[data-testid="stRadioControl"],
+div[data-testid="stRadio"] div[role="radiogroup"] label input[type="radio"],
+div[data-testid="stRadio"] div[role="radiogroup"] label svg {
   display: none !important;
 }
 
@@ -272,15 +284,29 @@ div[class*="st-key-grade_"] button:active {
 .zf-hdr {
   background: linear-gradient(90deg, #5e35b1, #1e88e5);
   color: #fff;
-  border-radius: 14px;
-  padding: 9px 14px;
-  font-size: clamp(15px, 3.5vw, 20px);
+  border-radius: 12px;
+  padding: 10px 16px;
+  font-size: clamp(15px, 3.5vw, 19px);
   font-weight: 800;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 8px !important;
+  box-shadow: 0 2px 8px rgba(94, 53, 177, 0.25);
+  min-width: 0;
 }
-.zf-hdr small { font-size: 13px; font-weight: 500; opacity: 0.88; margin-left: 8px; }
+.zf-hdr span {
+  white-space: nowrap !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.zf-hdr small {
+  font-size: 13px;
+  font-weight: 500;
+  opacity: 0.9;
+  margin-left: 8px;
+  white-space: nowrap;
+}
 
 /* ---------- ЧИСТЫЙ РЕЖИМ (ТОПБАР И ОЧЕРЕДЬ) ---------- */
 .zf-clean-topbar {
@@ -694,10 +720,13 @@ div[class*="st-key-mrow_"] div[data-testid="column"] {
 /* ---------- СМАРТФОНЫ (<= 640px) ---------- */
 @media (max-width: 640px) {
   div.block-container, div[data-testid="stMainBlockContainer"] {
-    padding-left: 0.6rem !important;
-    padding-right: 0.6rem !important;
-    padding-top: 1.6rem !important;
-    padding-bottom: 2rem !important;
+    padding-left: 0.8rem !important;
+    padding-right: 0.8rem !important;
+    padding-top: 3.8rem !important;
+    padding-bottom: 2.5rem !important;
+  }
+  header[data-testid="stHeader"] {
+    background: transparent !important;
   }
   h1 { font-size: 1.35rem !important; padding: 0 !important; margin-bottom: 0.5rem !important; }
   
@@ -742,20 +771,21 @@ div[class*="st-key-mrow_"] div[data-testid="column"] {
     padding: 2px 5px !important;
   }
   
-  div[class*="st-key-stackhdr_"] div[data-testid="stHorizontalBlock"] {
-    flex-wrap: nowrap !important;
-    gap: 0.4rem !important;
-  }
-  div[class*="st-key-stackhdr_"] div[data-testid="stColumn"]:first-child {
-    flex: 1 1 auto !important; min-width: 0 !important;
-  }
-  div[class*="st-key-stackhdr_"] div[data-testid="stColumn"]:last-child {
-    flex: 0 0 auto !important; min-width: 80px !important;
-  }
-  div[class*="st-key-stackhdr_"] button {
-    min-height: 38px !important; padding: 2px 8px !important;
+  /* Кнопки управления стеком недели на мобильных */
+  div[class*="st-key-stackhdr"] div[data-testid="column"] button {
+    min-height: 42px !important;
+    font-size: 13.5px !important;
+    font-weight: 600 !important;
+    border-radius: 10px !important;
+    margin-top: 2px !important;
   }
 
+  .zf-hdr {
+    padding: 9px 14px !important;
+    font-size: 15px !important;
+    border-radius: 10px !important;
+    margin-bottom: 8px !important;
+  }
   .zf-hdr small { display: none !important; }
   div[class*="st-key-kbhint"] { display: none !important; }
   
@@ -2987,32 +3017,22 @@ def render_dashboard_stats(vp, vr, gp):
 def render_study_flow(compact=False):
     stack = T("stack")
     has_stack = not stack.empty and any(str(p).strip() for p in stack["phrase"])
-    if compact:
-        with kcont(f"stackhdr_c_{cur_id()}"):
-            hc = st.columns([3.2, 1.1, 1.3], vertical_alignment="center")
-            hc[0].markdown('<div class="zf-hdr"><span>📌 СТЕК НЕДЕЛИ</span> <small>нажми на фразу — услышишь</small></div>',
-                           unsafe_allow_html=True)
-            if hc[1].button("✏️ Изменить", key=f"stack_edit_c_{cur_id()}", use_container_width=True,
-                            help="Изменить стек недели"):
-                stack_dialog()
-            if hc[2].button("🎓 В стек слов", key=f"stack_to_vocab_c_{cur_id()}", use_container_width=True,
-                            disabled=not has_stack,
-                            help="Перенести фразы недели в стек слов как новичков"):
-                stack_to_vocab_dialog()
-    else:
-        with kcont(f"stackhdr_{cur_id()}"):
-            hc = st.columns([3.2, 1.1, 1.3], vertical_alignment="center")
-            hc[0].markdown('<div class="zf-hdr"><span>📌 СТЕК НЕДЕЛИ</span> <small>нажми на фразу — услышишь</small></div>',
-                           unsafe_allow_html=True)
-            if hc[1].button("✏️ Изменить", key=f"stack_edit_{cur_id()}", use_container_width=True,
-                            help="Изменить стек недели"):
-                stack_dialog()
-            if hc[2].button("🎓 В стек слов", key=f"stack_to_vocab_{cur_id()}", use_container_width=True,
-                            disabled=not has_stack,
-                            help="Перенести фразы недели в стек слов как новичков"):
-                stack_to_vocab_dialog()
+    s_key = "_c" if compact else ""
+    with kcont(f"stackhdr{s_key}_{cur_id()}"):
+        st.markdown(
+            '<div class="zf-hdr"><span>📌 СТЕК НЕДЕЛИ</span> <small>нажми на фразу — услышишь</small></div>',
+            unsafe_allow_html=True,
+        )
+        c_btn1, c_btn2 = st.columns([1, 1])
+        if c_btn1.button("✏️ Изменить стек", key=f"stack_edit{s_key}_{cur_id()}", use_container_width=True,
+                         help="Изменить стек недели"):
+            stack_dialog()
+        if c_btn2.button("🎓 В стек слов", key=f"stack_to_vocab{s_key}_{cur_id()}", use_container_width=True,
+                         disabled=not has_stack,
+                         help="Перенести фразы недели в стек слов как новичков"):
+            stack_to_vocab_dialog()
     if not has_stack:
-        st.caption("Стек недели пуст. Нажми «✏️ Изменить», чтобы добавить фразы.")
+        st.caption("Стек недели пуст. Нажми «✏️ Изменить стек», чтобы добавить фразы.")
     else:
         stack_cards(stack, L()["speech"])
 
