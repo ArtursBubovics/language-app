@@ -6,3 +6,5 @@ venv/
 ENV/
 .streamlit/secrets.toml
 .DS_Store
+*.exe
+
