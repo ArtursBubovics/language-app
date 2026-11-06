@@ -1,0 +1,1082 @@
+{
+ "version": 5,
+ "current": "es",
+ "languages": {
+  "es": {
+   "name": "Español",
+   "flag": "🇪🇸",
+   "speech": "es-ES",
+   "daily": {},
+   "tables": {
+    "vocab_base": [
+     {
+      "word": "hola",
+      "translation": "привет",
+      "pron": "ˈo.la",
+      "phrase": "¡Hola! ¿Cómo estás?",
+      "phrase_tr": "Привет! Как дела?",
+      "extra": "",
+      "in_stack": false
+     },
+     {
+      "word": "gracias",
+      "translation": "спасибо",
+      "pron": "ˈɡɾa.θjas",
+      "phrase": "Muchas gracias por tu ayuda.",
+      "phrase_tr": "Большое спасибо за помощь.",
+      "extra": "",
+      "in_stack": false
+     },
+     {
+      "word": "por favor",
+      "translation": "пожалуйста",
+      "pron": "poɾ faˈβoɾ",
+      "phrase": "Un café, por favor.",
+      "phrase_tr": "Один кофе, пожалуйста.",
+      "extra": "",
+      "in_stack": false
+     },
+     {
+      "word": "la casa",
+      "translation": "дом",
+      "pron": "la ˈka.sa",
+      "phrase": "Mi casa es pequeña.",
+      "phrase_tr": "Мой дом маленький.",
+      "extra": "",
+      "in_stack": false
+     },
+     {
+      "word": "el agua",
+      "translation": "вода",
+      "pron": "el ˈa.ɣwa",
+      "phrase": "Quiero un vaso de agua.",
+      "phrase_tr": "Хочу стакан воды.",
+      "extra": "",
+      "in_stack": false
+     },
+     {
+      "word": "comer",
+      "translation": "есть, кушать",
+      "pron": "koˈmeɾ",
+      "phrase": "Vamos a comer a las dos.",
+      "phrase_tr": "Пойдём обедать в два.",
+      "extra": "",
+      "in_stack": false
+     },
+     {
+      "word": "¿Cómo te llamas?",
+      "translation": "Как тебя зовут?",
+      "pron": "",
+      "phrase": "¿Cómo te llamas?",
+      "phrase_tr": "Как тебя зовут?",
+      "extra": "Из стека недели",
+      "in_stack": true
+     },
+     {
+      "word": "Me gustaría",
+      "translation": "Я бы хотел кофе",
+      "pron": "",
+      "phrase": "Me gustaría",
+      "phrase_tr": "Я бы хотел кофе",
+      "extra": "Из стека недели",
+      "in_stack": true
+     },
+     {
+      "word": "No entiendo",
+      "translation": "Я не понимаю",
+      "pron": "",
+      "phrase": "No entiendo",
+      "phrase_tr": "Я не понимаю",
+      "extra": "Из стека недели",
+      "in_stack": true
+     }
+    ],
+    "grammar_base": [
+     {
+      "rule": "Presente: глаголы на -ar",
+      "cheat": "o, as, a, amos, áis, an",
+      "phrase": "",
+      "phrase_tr": "",
+      "extra": ""
+     },
+     {
+      "rule": "Ser vs Estar",
+      "cheat": "ser — суть, профессия; estar — состояние, место",
+      "phrase": "",
+      "phrase_tr": "",
+      "extra": ""
+     },
+     {
+      "rule": "Tener (иметь)",
+      "cheat": "tengo, tienes, tiene, tenemos...",
+      "phrase": "",
+      "phrase_tr": "",
+      "extra": ""
+     }
+    ],
+    "stack": [
+     {
+      "phrase": "¿Cómo te llamas?",
+      "note": "Как тебя зовут?",
+      "pron": "",
+      "phrase_ex": "¿Cómo te llamas?",
+      "phrase_tr": "Как тебя зовут?",
+      "extra": "Из стека недели"
+     },
+     {
+      "phrase": "Me gustaría",
+      "note": "Я бы хотел кофе",
+      "pron": "",
+      "phrase_ex": "Me gustaría",
+      "phrase_tr": "Я бы хотел кофе",
+      "extra": "Из стека недели"
+     },
+     {
+      "phrase": "No entiendo",
+      "note": "Я не понимаю",
+      "pron": "",
+      "phrase_ex": "No entiendo",
+      "phrase_tr": "Я не понимаю",
+      "extra": "Из стека недели"
+     }
+    ],
+    "vocab_pool": [
+     {
+      "word": "hola",
+      "type": "Выпускник",
+      "position": 1,
+      "interval": 0,
+      "reviews": 5,
+      "last": "2026-10-29",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 0,
+      "_sort_prio": 1
+     },
+     {
+      "word": "gracias",
+      "type": "Выпускник",
+      "position": 2,
+      "interval": 0,
+      "reviews": 5,
+      "last": "2026-10-29",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 0,
+      "_sort_prio": 1
+     },
+     {
+      "word": "por favor",
+      "type": "Выпускник",
+      "position": 3,
+      "interval": 0,
+      "reviews": 5,
+      "last": "2026-10-29",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 0,
+      "_sort_prio": 1
+     },
+     {
+      "word": "la casa",
+      "type": "Выпускник",
+      "position": 4,
+      "interval": 0,
+      "reviews": 5,
+      "last": "2026-10-29",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 0,
+      "_sort_prio": 1
+     },
+     {
+      "word": "el agua",
+      "type": "Выпускник",
+      "position": 5,
+      "interval": 0,
+      "reviews": 5,
+      "last": "2026-10-29",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 0,
+      "_sort_prio": 1
+     },
+     {
+      "word": "comer",
+      "type": "Выпускник",
+      "position": 6,
+      "interval": 0,
+      "reviews": 5,
+      "last": "2026-10-29",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 0,
+      "_sort_prio": 1
+     },
+     {
+      "word": "¿Cómo te llamas?",
+      "type": "Выпускник",
+      "position": 7,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 5,
+      "_sort_prio": 1
+     },
+     {
+      "word": "Me gustaría",
+      "type": "Выпускник",
+      "position": 8,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 5,
+      "_sort_prio": 1
+     },
+     {
+      "word": "No entiendo",
+      "type": "Выпускник",
+      "position": 9,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 5,
+      "_sort_prio": 1
+     }
+    ],
+    "vocab_rev_pool": [
+     {
+      "word": "hola",
+      "type": "Выпускник",
+      "position": 1,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 5,
+      "_sort_prio": 1
+     },
+     {
+      "word": "gracias",
+      "type": "Выпускник",
+      "position": 2,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 5,
+      "_sort_prio": 1
+     },
+     {
+      "word": "por favor",
+      "type": "Выпускник",
+      "position": 3,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 5,
+      "_sort_prio": 1
+     },
+     {
+      "word": "la casa",
+      "type": "Выпускник",
+      "position": 4,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 5,
+      "_sort_prio": 1
+     },
+     {
+      "word": "el agua",
+      "type": "Выпускник",
+      "position": 5,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 5,
+      "_sort_prio": 1
+     },
+     {
+      "word": "comer",
+      "type": "Выпускник",
+      "position": 6,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 5,
+      "_sort_prio": 1
+     },
+     {
+      "word": "¿Cómo te llamas?",
+      "type": "Выпускник",
+      "position": 7,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 5,
+      "_sort_prio": 1
+     },
+     {
+      "word": "Me gustaría",
+      "type": "Выпускник",
+      "position": 8,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 5,
+      "_sort_prio": 1
+     },
+     {
+      "word": "No entiendo",
+      "type": "Выпускник",
+      "position": 9,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 5,
+      "_sort_prio": 1
+     }
+    ],
+    "grammar_pool": [
+     {
+      "rule": "Presente: глаголы на -ar",
+      "type": "Выпускник",
+      "cheat": "o, as, a, amos, áis, an",
+      "position": 1,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 0,
+      "_sort_prio": 1
+     },
+     {
+      "rule": "Ser vs Estar",
+      "type": "Выпускник",
+      "cheat": "ser — суть, профессия; estar — состояние, место",
+      "position": 2,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 0,
+      "_sort_prio": 1
+     },
+     {
+      "rule": "Tener (иметь)",
+      "type": "Выпускник",
+      "cheat": "tengo, tienes, tiene, tenemos...",
+      "position": 3,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 0,
+      "_sort_prio": 1
+     }
+    ]
+   }
+  },
+  "en": {
+   "name": "English",
+   "flag": "🇬🇧",
+   "speech": "en-GB",
+   "daily": {},
+   "tables": {
+    "vocab_base": [
+     {
+      "word": "hello",
+      "translation": "привет",
+      "pron": "həˈləʊ",
+      "phrase": "Hello! How are you?",
+      "phrase_tr": "Привет! Как дела?",
+      "extra": "",
+      "in_stack": false
+     },
+     {
+      "word": "thank you",
+      "translation": "спасибо",
+      "pron": "ˈθæŋk juː",
+      "phrase": "Thank you very much.",
+      "phrase_tr": "Большое спасибо.",
+      "extra": "",
+      "in_stack": false
+     },
+     {
+      "word": "please",
+      "translation": "пожалуйста",
+      "pron": "pliːz",
+      "phrase": "Could you help me, please?",
+      "phrase_tr": "Не могли бы вы мне помочь?",
+      "extra": "",
+      "in_stack": false
+     },
+     {
+      "word": "water",
+      "translation": "вода",
+      "pron": "ˈwɔːtə",
+      "phrase": "Can I have some water?",
+      "phrase_tr": "Можно мне воды?",
+      "extra": "",
+      "in_stack": false
+     },
+     {
+      "word": "How's it going?",
+      "translation": "Как дела?",
+      "pron": "[haʊz ɪt ˈɡoʊɪŋ]",
+      "phrase": "Hey, how's it going?",
+      "phrase_tr": "Привет, как дела?",
+      "extra": "Разговорное приветствие",
+      "in_stack": true
+     },
+     {
+      "word": "I'd like a coffee, please",
+      "translation": "Я бы хотел кофе, пожалуйста",
+      "pron": "[aɪd laɪk ə ˈkɔːfi pliːz]",
+      "phrase": "I'd like a coffee, please. With milk.",
+      "phrase_tr": "Я бы хотел кофе, пожалуйста. С молоком.",
+      "extra": "В кафе/ресторане",
+      "in_stack": false
+     },
+     {
+      "word": "I don't understand",
+      "translation": "Я не понимаю",
+      "pron": "[aɪ doʊnt ˌʌndərˈstænd]",
+      "phrase": "Sorry, I don't understand. Could you repeat?",
+      "phrase_tr": "Извините, я не понимаю. Можете повторить?",
+      "extra": "Базовая фраза",
+      "in_stack": true
+     }
+    ],
+    "grammar_base": [
+     {
+      "rule": "Present Simple",
+      "cheat": "I/you/we/they work · he/she/it works",
+      "phrase": "She works in a bank.",
+      "phrase_tr": "Она работает в банке.",
+      "extra": "3-е лицо ед. ч. +s"
+     },
+     {
+      "rule": "Артикли a / an / the",
+      "cheat": "a + согласный звук, an + гласный звук, the — конкретный предмет",
+      "phrase": "an apple, a book, the sun",
+      "phrase_tr": "яблоко, книга, солнце",
+      "extra": ""
+     }
+    ],
+    "stack": [
+     {
+      "phrase": "How's it going?",
+      "note": "Как дела?",
+      "pron": "[haʊz ɪt ˈɡoʊɪŋ]",
+      "phrase_ex": "Hey, how's it going?",
+      "phrase_tr": "Привет, как дела?",
+      "extra": "Разговорное приветствие"
+     },
+     {
+      "phrase": "I don't understand",
+      "note": "Я не понимаю",
+      "pron": "[aɪ doʊnt ˌʌndərˈstænd]",
+      "phrase_ex": "Sorry, I don't understand. Could you repeat?",
+      "phrase_tr": "Извините, я не понимаю. Можете повторить?",
+      "extra": "Базовая фраза"
+     }
+    ],
+    "vocab_pool": [
+     {
+      "word": "hello",
+      "type": "Выпускник",
+      "position": 1,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 0,
+      "_sort_prio": 1
+     },
+     {
+      "word": "thank you",
+      "type": "Выпускник",
+      "position": 2,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 0,
+      "_sort_prio": 1
+     },
+     {
+      "word": "please",
+      "type": "Выпускник",
+      "position": 3,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 0,
+      "_sort_prio": 1
+     },
+     {
+      "word": "water",
+      "type": "Выпускник",
+      "position": 4,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 0,
+      "_sort_prio": 1
+     },
+     {
+      "word": "How's it going?",
+      "type": "Выпускник",
+      "position": 5,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 5,
+      "_sort_prio": 1
+     },
+     {
+      "word": "I'd like a coffee, please",
+      "type": "Выпускник",
+      "position": 6,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 5,
+      "_sort_prio": 1
+     },
+     {
+      "word": "I don't understand",
+      "type": "Выпускник",
+      "position": 7,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 5,
+      "_sort_prio": 1
+     }
+    ],
+    "vocab_rev_pool": [
+     {
+      "word": "hello",
+      "type": "Выпускник",
+      "position": 1,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 0,
+      "_sort_prio": 1
+     },
+     {
+      "word": "thank you",
+      "type": "Выпускник",
+      "position": 2,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 0,
+      "_sort_prio": 1
+     },
+     {
+      "word": "please",
+      "type": "Выпускник",
+      "position": 3,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 0,
+      "_sort_prio": 1
+     },
+     {
+      "word": "water",
+      "type": "Выпускник",
+      "position": 4,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 0,
+      "_sort_prio": 1
+     },
+     {
+      "word": "How's it going?",
+      "type": "Выпускник",
+      "position": 5,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 5,
+      "_sort_prio": 1
+     },
+     {
+      "word": "I'd like a coffee, please",
+      "type": "Выпускник",
+      "position": 6,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 5,
+      "_sort_prio": 1
+     },
+     {
+      "word": "I don't understand",
+      "type": "Выпускник",
+      "position": 7,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 5,
+      "_sort_prio": 1
+     }
+    ],
+    "grammar_pool": [
+     {
+      "rule": "Present Simple",
+      "type": "Выпускник",
+      "cheat": "I/you/we/they work · he/she/it works",
+      "position": 1,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 0,
+      "_sort_prio": 1
+     },
+     {
+      "rule": "Артикли a / an / the",
+      "type": "Выпускник",
+      "cheat": "a + согласный звук, an + гласный звук, the — конкретный предмет",
+      "position": 2,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 0,
+      "_sort_prio": 1
+     }
+    ]
+   }
+  },
+  "lv": {
+   "name": "Latviešu",
+   "flag": "🇱🇻",
+   "speech": "lv-LV",
+   "daily": {},
+   "tables": {
+    "vocab_base": [
+     {
+      "word": "sveiki",
+      "translation": "привет, здравствуйте",
+      "pron": "[свэ́йки]",
+      "phrase": "Sveiki! Kā jums klājas?",
+      "phrase_tr": "Здравствуйте! Как у вас дела?",
+      "extra": "",
+      "in_stack": false
+     },
+     {
+      "word": "paldies",
+      "translation": "спасибо",
+      "pron": "[па́лдиэс]",
+      "phrase": "Paldies par palīdzību.",
+      "phrase_tr": "Спасибо за помощь.",
+      "extra": "",
+      "in_stack": false
+     },
+     {
+      "word": "lūdzu",
+      "translation": "пожалуйста",
+      "pron": "[лу́дзу]",
+      "phrase": "Vienu kafiju, lūdzu.",
+      "phrase_tr": "Один кофе, пожалуйста.",
+      "extra": "",
+      "in_stack": false
+     },
+     {
+      "word": "ūdens",
+      "translation": "вода",
+      "pron": "[у́дэнс]",
+      "phrase": "Es dzeru ūdeni.",
+      "phrase_tr": "Я пью воду.",
+      "extra": "муж. р.",
+      "in_stack": false
+     },
+     {
+      "word": "Kā tevi sauc?",
+      "translation": "Как тебя зовут?",
+      "pron": "",
+      "phrase": "Kā tevi sauc?",
+      "phrase_tr": "Как тебя зовут?",
+      "extra": "Из стека недели",
+      "in_stack": true
+     },
+     {
+      "word": "Vienu kafiju, lūdzu",
+      "translation": "Один кофе, пожалуйста",
+      "pron": "",
+      "phrase": "Vienu kafiju, lūdzu",
+      "phrase_tr": "Один кофе, пожалуйста",
+      "extra": "Из стека недели",
+      "in_stack": true
+     },
+     {
+      "word": "Es nesaprotu",
+      "translation": "Я не понимаю",
+      "pron": "",
+      "phrase": "Es nesaprotu",
+      "phrase_tr": "Я не понимаю",
+      "extra": "Из стека недели",
+      "in_stack": true
+     }
+    ],
+    "grammar_base": [
+     {
+      "rule": "Род существительных",
+      "cheat": "муж.: -s, -š, -is · жен.: -a, -e",
+      "phrase": "Zēns ir labs. Meitene ir laba.",
+      "phrase_tr": "Мальчик хороший. Девочка хорошая.",
+      "extra": ""
+     },
+     {
+      "rule": "Падежи (locījumi)",
+      "cheat": "6 падежей: nominatīvs, ģenitīvs, datīvs, akuzatīvs, instrumentālis, lokatīvs",
+      "phrase": "Es redzu māju.",
+      "phrase_tr": "Я вижу дом.",
+      "extra": "māju — винительный (akuzatīvs)"
+     }
+    ],
+    "stack": [
+     {
+      "phrase": "Kā tevi sauc?",
+      "note": "Как тебя зовут?",
+      "pron": "",
+      "phrase_ex": "",
+      "phrase_tr": "",
+      "extra": ""
+     },
+     {
+      "phrase": "Vienu kafiju, lūdzu",
+      "note": "Один кофе, пожалуйста",
+      "pron": "",
+      "phrase_ex": "",
+      "phrase_tr": "",
+      "extra": ""
+     },
+     {
+      "phrase": "Es nesaprotu",
+      "note": "Я не понимаю",
+      "pron": "",
+      "phrase_ex": "",
+      "phrase_tr": "",
+      "extra": ""
+     }
+    ],
+    "vocab_pool": [
+     {
+      "word": "sveiki",
+      "type": "Выпускник",
+      "position": 1,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 0,
+      "_sort_prio": 1
+     },
+     {
+      "word": "paldies",
+      "type": "Выпускник",
+      "position": 2,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 0,
+      "_sort_prio": 1
+     },
+     {
+      "word": "lūdzu",
+      "type": "Выпускник",
+      "position": 3,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 0,
+      "_sort_prio": 1
+     },
+     {
+      "word": "ūdens",
+      "type": "Выпускник",
+      "position": 4,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 0,
+      "_sort_prio": 1
+     },
+     {
+      "word": "Kā tevi sauc?",
+      "type": "Выпускник",
+      "position": 5,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 5,
+      "_sort_prio": 1
+     },
+     {
+      "word": "Vienu kafiju, lūdzu",
+      "type": "Выпускник",
+      "position": 6,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 5,
+      "_sort_prio": 1
+     },
+     {
+      "word": "Es nesaprotu",
+      "type": "Выпускник",
+      "position": 7,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 5,
+      "_sort_prio": 1
+     }
+    ],
+    "vocab_rev_pool": [
+     {
+      "word": "sveiki",
+      "type": "Выпускник",
+      "position": 1,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 0,
+      "_sort_prio": 1
+     },
+     {
+      "word": "paldies",
+      "type": "Выпускник",
+      "position": 2,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 0,
+      "_sort_prio": 1
+     },
+     {
+      "word": "lūdzu",
+      "type": "Выпускник",
+      "position": 3,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 0,
+      "_sort_prio": 1
+     },
+     {
+      "word": "ūdens",
+      "type": "Выпускник",
+      "position": 4,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 0,
+      "_sort_prio": 1
+     },
+     {
+      "word": "Kā tevi sauc?",
+      "type": "Выпускник",
+      "position": 5,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 5,
+      "_sort_prio": 1
+     },
+     {
+      "word": "Vienu kafiju, lūdzu",
+      "type": "Выпускник",
+      "position": 6,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 5,
+      "_sort_prio": 1
+     },
+     {
+      "word": "Es nesaprotu",
+      "type": "Выпускник",
+      "position": 7,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 5,
+      "_sort_prio": 1
+     }
+    ],
+    "grammar_pool": [
+     {
+      "rule": "Род существительных",
+      "type": "Выпускник",
+      "cheat": "муж.: -s, -š, -is · жен.: -a, -e",
+      "position": 1,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 0,
+      "_sort_prio": 1
+     },
+     {
+      "rule": "Падежи (locījumi)",
+      "type": "Выпускник",
+      "cheat": "6 падежей: nominatīvs, ģenitīvs, datīvs, akuzatīvs, instrumentālis, lokatīvs",
+      "position": 2,
+      "interval": 0,
+      "reviews": 0,
+      "last": "",
+      "weight": 1.0,
+      "streak": 0,
+      "due_date": "",
+      "star_days": 0,
+      "_sort_prio": 1
+     }
+    ]
+   }
+  }
+ }
+}
