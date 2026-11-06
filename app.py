@@ -771,13 +771,23 @@ div[class*="st-key-mrow_"] div[data-testid="column"] {
     padding: 2px 5px !important;
   }
   
-  /* Кнопки управления стеком недели на мобильных */
+  /* Кнопки и выпадающий блок управления стеком недели на мобильных */
   div[class*="st-key-stackhdr"] div[data-testid="column"] button {
     min-height: 42px !important;
     font-size: 13.5px !important;
     font-weight: 600 !important;
     border-radius: 10px !important;
     margin-top: 2px !important;
+  }
+  div[class*="st-key-stackhdr"] div[data-testid="stExpander"] {
+    border-radius: 10px !important;
+    border: 1px solid rgba(255, 255, 255, 0.12) !important;
+    background: rgba(255, 255, 255, 0.03) !important;
+    margin-bottom: 8px !important;
+  }
+  div[class*="st-key-stackhdr"] div[data-testid="stExpander"] summary {
+    font-size: 13.5px !important;
+    font-weight: 600 !important;
   }
 
   .zf-hdr {
@@ -3023,14 +3033,25 @@ def render_study_flow(compact=False):
             '<div class="zf-hdr"><span>📌 СТЕК НЕДЕЛИ</span> <small>нажми на фразу — услышишь</small></div>',
             unsafe_allow_html=True,
         )
-        c_btn1, c_btn2 = st.columns([1, 1])
-        if c_btn1.button("✏️ Изменить стек", key=f"stack_edit{s_key}_{cur_id()}", use_container_width=True,
-                         help="Изменить стек недели"):
-            stack_dialog()
-        if c_btn2.button("🎓 В стек слов", key=f"stack_to_vocab{s_key}_{cur_id()}", use_container_width=True,
-                         disabled=not has_stack,
-                         help="Перенести фразы недели в стек слов как новичков"):
-            stack_to_vocab_dialog()
+        if compact:
+            with st.expander("⚙️ Действия: Изменить / В стек слов", expanded=False):
+                c_btn1, c_btn2 = st.columns([1, 1])
+                if c_btn1.button("✏️ Изменить", key=f"stack_edit{s_key}_{cur_id()}", use_container_width=True,
+                                 help="Изменить стек недели"):
+                    stack_dialog()
+                if c_btn2.button("🎓 В стек слов", key=f"stack_to_vocab{s_key}_{cur_id()}", use_container_width=True,
+                                 disabled=not has_stack,
+                                 help="Перенести фразы недели в стек слов как новичков"):
+                    stack_to_vocab_dialog()
+        else:
+            c_btn1, c_btn2 = st.columns([1, 1])
+            if c_btn1.button("✏️ Изменить стек", key=f"stack_edit{s_key}_{cur_id()}", use_container_width=True,
+                             help="Изменить стек недели"):
+                stack_dialog()
+            if c_btn2.button("🎓 В стек слов", key=f"stack_to_vocab{s_key}_{cur_id()}", use_container_width=True,
+                             disabled=not has_stack,
+                             help="Перенести фразы недели в стек слов как новичков"):
+                stack_to_vocab_dialog()
     if not has_stack:
         st.caption("Стек недели пуст. Нажми «✏️ Изменить стек», чтобы добавить фразы.")
     else:
