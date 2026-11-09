@@ -2237,6 +2237,8 @@ def render_card(kind, compact=False):
         streak = int(top.get("streak", 0)) if "streak" in top and pd.notna(top.get("streak")) else (3 if is_star else 0)
         due_str = str(top.get("due_date", "")).strip()
         star_days = int(top.get("star_days", 5)) if "star_days" in top and pd.notna(top.get("star_days")) and int(top.get("star_days", 0)) > 0 else 5
+        weight = float(top.get("weight", 1.0)) if "weight" in top and pd.notna(top.get("weight")) else 1.0
+        weight_str = f"x{weight:.1f}"
 
         today = date.today()
         is_due = False
@@ -2287,9 +2289,6 @@ def render_card(kind, compact=False):
         # Активная очередь на сегодня: те, кому нужно уделить внимание прямо сейчас
         active_today = grads + reps + due_stars
         total_all = len(pool)
-
-        weight = float(top.get("weight", 1.0)) if "weight" in top and pd.notna(top.get("weight")) else 1.0
-        weight_str = f"x{weight:.1f}"
 
         unit_word = "слово" if is_vocab else "правило"
         if active_today % 10 == 1 and active_today % 100 != 11:
