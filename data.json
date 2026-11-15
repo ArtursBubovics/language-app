@@ -2468,6 +2468,150 @@
             "phrase_tr": "🗣️ [кье́ро паса́р лас бакасьо́нэс эн коло́мбья]\n🇷🇺 Хочу провести отпуск в Колумбии.",
             "extra": "Женский род во множественном числе: las vacaciones. Связка: pasar las vacaciones (проводить отпуск).",
             "in_stack": false
+          },
+          {
+            "word": "el periódico",
+            "translation": "Газета",
+            "pron": "peˈɾjoðiko",
+            "phrase": "Leo el periódico por la mañana.",
+            "phrase_tr": "🗣️ [ле́о эль пэрьо́дико пор ла манья́на]\n🇷🇺 Читаю газету утром.",
+            "extra": "Мужской род: el periódico, los periódicos.",
+            "in_stack": false
+          },
+          {
+            "word": "la revista",
+            "translation": "Журнал",
+            "pron": "reˈβista",
+            "phrase": "Ella lee una revista de moda.",
+            "phrase_tr": "🗣️ [э́лья ле́э у́на рэби́ста дэ мо́да]\n🇷🇺 Она читает модный журнал.",
+            "extra": "Женский род: la revista.",
+            "in_stack": false
+          },
+          {
+            "word": "el diario",
+            "translation": "Дневник / Ежедневник",
+            "pron": "ˈdjaɾjo",
+            "phrase": "Escribo en mi diario cada noche.",
+            "phrase_tr": "🗣️ [эскри́бо эн ми дья́рьо ка́да но́чэ]\n🇷🇺 Пишу в свой дневник каждый вечер.",
+            "extra": "Мужской род: el diario.",
+            "in_stack": false
+          },
+          {
+            "word": "el pódcast",
+            "translation": "Подкаст",
+            "pron": "ˈpodkast",
+            "phrase": "Escucho un pódcast en español.",
+            "phrase_tr": "🗣️ [эску́чо ун по́дкаст эн эспаньо́ль]\n🇷🇺 Слушаю подкаст на испанском.",
+            "extra": "Мужской род: el pódcast, los pódcasts.",
+            "in_stack": false
+          },
+          {
+            "word": "el nativo / la nativa",
+            "translation": "Носитель языка",
+            "pron": "naˈtiβo",
+            "phrase": "Quiero hablar con nativos.",
+            "phrase_tr": "🗣️ [кье́ро абла́р кон нати́бос]\n🇷🇺 Хочу говорить с носителями языка.",
+            "extra": "Мужской род: el nativo, женский род: la nativa.",
+            "in_stack": false
+          },
+          {
+            "word": "el hispanohablante",
+            "translation": "Испаноязычный человек",
+            "pron": "ispanoaˈβlante",
+            "phrase": "Hay muchos hispanohablantes en el mundo.",
+            "phrase_tr": "🗣️ [ай му́чос испаноабла́нтэс эн эль му́ндо]\n🇷🇺 В мире много испаноязычных людей.",
+            "extra": "Окончание на -e (хамелеон): el hispanohablante / la hispanohablante.",
+            "in_stack": false
+          },
+          {
+            "word": "el videojuego",
+            "translation": "Видеоигра",
+            "pron": "biðeoxˈweɣo",
+            "phrase": "Juego a videojuegos con mis amigos.",
+            "phrase_tr": "🗣️ [хуэ́го а бидэохуэ́гос кон мис ами́гос]\n🇷🇺 Играю в видеоигры с друзьями.",
+            "extra": "Мужской род: el videojuego, los videojuegos.",
+            "in_stack": false
+          },
+          {
+            "word": "el fútbol",
+            "translation": "Футбол",
+            "pron": "ˈfutβol",
+            "phrase": "Nos gusta jugar al fútbol.",
+            "phrase_tr": "🗣️ [нос гу́ста хуга́р аль фу́тболь]\n🇷🇺 Нам нравится играть в футбол.",
+            "extra": "Мужской род: el fútbol. Связка: jugar al fútbol.",
+            "in_stack": false
+          },
+          {
+            "word": "el tenis",
+            "translation": "Теннис",
+            "pron": "ˈtenis",
+            "phrase": "Juego al tenis los fines de semana.",
+            "phrase_tr": "🗣️ [хуэ́го аль тэ́нис лос фи́нэс дэ сэма́на]\n🇷🇺 Играю в теннис по выходным.",
+            "extra": "Мужской род: el tenis. Связка: jugar al tenis.",
+            "in_stack": false
+          },
+          {
+            "word": "bailar",
+            "translation": "Танцевать",
+            "pron": "bajˈlaɾ",
+            "phrase": "Quiero aprender a bailar salsa.",
+            "phrase_tr": "🗣️ [кье́ро апрэндэ́р а байла́р са́льса]\n🇷🇺 Хочу научиться танцевать сальсу.",
+            "extra": "Глагол 1-го спряжения (-AR): bailo, bailas, baila, bailamos.",
+            "in_stack": false
+          },
+          {
+            "word": "tocar",
+            "translation": "Играть (на инструменте) / Трогать",
+            "pron": "toˈkaɾ",
+            "phrase": "Aprendo a tocar la guitarra.",
+            "phrase_tr": "🗣️ [апрэ́ндо а тока́р ла гита́рра]\n🇷🇺 Учусь играть на гитаре.",
+            "extra": "Глагол 1-го спряжения (-AR): tocar la guitarra (играть на гитаре), tocar el piano (на пианино).",
+            "in_stack": false
+          },
+          {
+            "word": "el concierto",
+            "translation": "Концерт",
+            "pron": "konˈθjeɾto",
+            "phrase": "Vamos a un concierto este viernes.",
+            "phrase_tr": "🗣️ [ба́мос а ун консьэ́рто э́стэ бье́рнэс]\n🇷🇺 Мы идем на концерт в эту пятницу.",
+            "extra": "Мужской род: el concierto.",
+            "in_stack": false
+          },
+          {
+            "word": "el teatro",
+            "translation": "Театр",
+            "pron": "teˈatɾo",
+            "phrase": "Queremos ir al teatro.",
+            "phrase_tr": "🗣️ [кэрэ́мос ир аль тэа́тро]\n🇷🇺 Мы хотим пойти в театр.",
+            "extra": "Мужской род: el teatro. Связка: ir al teatro.",
+            "in_stack": false
+          },
+          {
+            "word": "el museo",
+            "translation": "Музей",
+            "pron": "muˈseo",
+            "phrase": "Visito un museo de arte.",
+            "phrase_tr": "🗣️ [биси́то ун мусэ́о дэ а́ртэ]\n🇷🇺 Посещаю художественный музей.",
+            "extra": "Мужской род: el museo.",
+            "in_stack": false
+          },
+          {
+            "word": "la exposición",
+            "translation": "Выставка",
+            "pron": "eksposiˈθjon",
+            "phrase": "Hay una exposición de pintura.",
+            "phrase_tr": "🗣️ [ай у́на экспосисьо́н дэ пинту́ра]\n🇷🇺 Проходит выставка живописи.",
+            "extra": "Женский род (-ión): la exposición, las exposiciones.",
+            "in_stack": false
+          },
+          {
+            "word": "la foto / las fotos",
+            "translation": "Фотография / Фотографии",
+            "pron": "ˈfoto",
+            "phrase": "Hago muchas fotos en mis viajes.",
+            "phrase_tr": "🗣️ [а́го му́час фо́тос эн мис бья́хэс]\n🇷🇺 Делаю много фотографий в поездках.",
+            "extra": "Женский род (сокращение от la fotografía): la foto, las fotos.",
+            "in_stack": false
           }
         ],
         "grammar_base": [
@@ -3504,6 +3648,62 @@
             "phrase": "1. Tom estudia español para chatear con sus amigos.\n2. Sam estudia español porque su novio es colombiano.\n3. Cris estudia español por su trabajo.\n4. Vanessa estudia español porque quiere vivir en Costa Rica.",
             "phrase_tr": "1. 🗣️ [па́ра чатэа́р кон сус ами́гос]\n   🇷🇺 Чтобы переписываться с друзьями.\n2. 🗣️ [по́ркэ су но́бьо эс коломбья́но]\n   🇷🇺 Потому что её парень — колумбиец.\n3. 🗣️ [пор су траба́хо]\n   🇷🇺 Из-за / ради своей работы.\n4. 🗣️ [по́ркэ кье́рэ биби́р эн ко́ста ри́ка]\n   🇷🇺 Потому что хочет жить в Коста-Рике.",
             "extra": "Реальное задание №9 из учебника Aula Internacional 1: Tom ➔ para (chatear), Sam ➔ porque (es), Cris ➔ por (su trabajo), Vanessa ➔ porque (quiere vivir).",
+            "in_stack": false
+          },
+          {
+            "rule": "🎯 ЗРЕНИЕ И СЛУХ: VER VS ESCUCHAR (Конспект стр. 4)\n1. Смотреть сериал (una serie) ➔ [глагол] ...?\n2. Слушать подкаст (un pódcast) ➔ [глагол] ...?\n3. Смотреть фильм (una película) ➔ [глагол] ...?\n4. Слушать музыку (música) ➔ [глагол] ...?",
+            "cheat": "1. Ver | 2. Escuchar | 3. Ver | 4. Escuchar",
+            "phrase": "1. Ver una serie.\n2. Escuchar un pódcast.\n3. Ver una película.\n4. Escuchar música.",
+            "phrase_tr": "1. 🗣️ [бэр у́на сэ́рье]\n   🇷🇺 Смотреть сериал.\n2. 🗣️ [эскуча́р ун по́дкаст]\n   🇷🇺 Слушать подкаст.\n3. 🗣️ [бэр у́на пэли́кула]\n   🇷🇺 Смотреть фильм.\n4. 🗣️ [эскуча́р му́сика]\n   🇷🇺 Слушать музыку.",
+            "extra": "💡 Модель органов чувств:\n• VER (глаза) ➔ la televisión, una serie, una película.\n• ESCUCHAR (уши) ➔ música, la radio, un pódcast.",
+            "in_stack": false
+          },
+          {
+            "rule": "🎯 ЧТЕНИЕ И ПИСЬМО: LEER VS ESCRIBIR (Конспект стр. 4)\n1. Читать газету (el periódico) ➔ [глагол] ...?\n2. Писать сообщение (un mensaje) ➔ [глагол] ...?\n3. Читать журнал (una revista) ➔ [глагол] ...?\n4. Вести / писать дневник (un diario) ➔ [глагол] ...?",
+            "cheat": "1. Leer | 2. Escribir | 3. Leer | 4. Escribir",
+            "phrase": "1. Leer el periódico.\n2. Escribir un mensaje.\n3. Leer una revista.\n4. Escribir un diario.",
+            "phrase_tr": "1. 🗣️ [леэ́р эль пэрьо́дико]\n   🇷🇺 Читать газету.\n2. 🗣️ [эскриби́р ун мэнса́хэ]\n   🇷🇺 Писать сообщение.\n3. 🗣️ [леэ́р у́на рэби́ста]\n   🇷🇺 Читать журнал.\n4. 🗣️ [эскриби́р ун дья́рьо]\n   🇷🇺 Вести / писать дневник.",
+            "extra": "💡 Текстовые связки:\n• LEER (читать) ➔ el periódico (газета), una revista (журнал), un libro (книга).\n• ESCRIBIR (писать) ➔ un mensaje (сообщение), un texto (текст), un diario (дневник).",
+            "in_stack": false
+          },
+          {
+            "rule": "🎯 ОБЩЕНИЕ: ЯЗЫК VS СОБЕСЕДНИК (HABLAR VS HABLAR CON)\n1. Говорить по-испански ➔ hablar [...] español ➔ ...?\n2. Разговаривать с носителями языка ➔ hablar [...] nativos ➔ ...?\n3. Говорить на иностранном языке ➔ hablar [...] un idioma ➔ ...?\n4. Разговаривать с испаноязычными ➔ hablar [...] hispanohablantes ➔ ...?",
+            "cheat": "1. hablar español | 2. hablar con nativos | 3. hablar un idioma | 4. hablar con hispanohablantes",
+            "phrase": "1. Hablar español.\n2. Hablar con nativos.\n3. Hablar un idioma.\n4. Hablar con hispanohablantes.",
+            "phrase_tr": "1. 🗣️ [абла́р эспаньо́ль]\n   🇷🇺 Говорить по-испански (на языке — предлог не нужен).\n2. 🗣️ [абла́р кон нати́бос]\n   🇷🇺 Разговаривать с носителями языка (с людьми — предлог CON).\n3. 🗣️ [абла́р ун идьо́ма]\n   🇷🇺 Говорить на иностранном языке.\n4. 🗣️ [абла́р кон испаноабла́нтэс]\n   🇷🇺 Разговаривать с испаноязычными собеседниками.",
+            "extra": "💡 Правило компаньона:\n• HABLAR + язык (что?): hablar español, hablar un idioma.\n• HABLAR CON + собеседник (с кем?): hablar con nativos, hablar con hispanohablantes.",
+            "in_stack": false
+          },
+          {
+            "rule": "🎯 ПОСЕЩЕНИЯ: МЕСТА VS ЛЮДИ (VISITAR VS VISITAR A)\n1. Посещать сайты / веб-страницы (páginas web) ➔ visitar [...] páginas web ➔ ...?\n2. Навестить семью (la familia) ➔ visitar [...] la familia ➔ ...?\n3. Посещать исторические места (lugares históricos) ➔ visitar [...] lugares históricos ➔ ...?\n4. Навестить друзей (los amigos) ➔ visitar [...] los amigos ➔ ...?",
+            "cheat": "1. visitar páginas web | 2. visitar a la familia | 3. visitar lugares históricos | 4. visitar a los amigos",
+            "phrase": "1. Visitar páginas web.\n2. Visitar a la familia.\n3. Visitar lugares históricos.\n4. Visitar a los amigos.",
+            "phrase_tr": "1. 🗣️ [бисита́р па́хинас уэ́б]\n   🇷🇺 Посещать сайты (неодушевленное — предлог не нужен).\n2. 🗣️ [бисита́р а ла фами́лья]\n   🇷🇺 Навестить семью (живые люди — предлог А!).\n3. 🗣️ [бисита́р луга́рэс исто́рикос]\n   🇷🇺 Посещать исторические места.\n4. 🗣️ [бисита́р а лос ами́гос]\n   🇷🇺 Навестить друзей (живые люди — предлог А!).",
+            "extra": "💡 Закон одушевленности: когда объект — живые люди (семья, друзья), перед ними ОБЯЗАТЕЛЕН личный предлог A: visitar A la familia, visitar A los amigos!",
+            "in_stack": false
+          },
+          {
+            "rule": "🎯 ИГРЫ И СПОРТ: ПРЕДЛОГ A И СЛИЯНИЕ AL (JUGAR A)\n1. Играть в видеоигры (videojuegos) ➔ jugar [...] videojuegos ➔ ...?\n2. Играть в футбол (el fútbol) ➔ jugar [...] fútbol ➔ ...?\n3. Играть в теннис (el tenis) ➔ jugar [...] tenis ➔ ...?",
+            "cheat": "1. jugar a videojuegos | 2. jugar al fútbol | 3. jugar al tenis",
+            "phrase": "1. Jugar a videojuegos.\n2. Jugar al fútbol.\n3. Jugar al tenis.",
+            "phrase_tr": "1. 🗣️ [хуга́р а бидэохуэ́гос]\n   🇷🇺 Играть в видеоигры (предлог A обязательно).\n2. 🗣️ [хуга́р аль фу́тболь]\n   🇷🇺 Играть в футбол (a + el = al).\n3. 🗣️ [хуга́р аль тэ́нис]\n   🇷🇺 Играть в теннис (a + el = al).",
+            "extra": "💡 Правило игры: глагол JUGAR всегда требует предлог A (играть ВО что-то). Если спорт мужского рода с артиклем el, срабатывает магнит: a + el = AL (al fútbol, al tenis).",
+            "in_stack": false
+          },
+          {
+            "rule": "🎯 УЧЁБА: ПРЕДМЕТ VS ДЕЙСТВИЕ (APRENDER VS APRENDER A)\n1. Учить испанский язык (español / предмет) ➔ aprender [...] español ➔ ...?\n2. Учиться танцевать (bailar / действие) ➔ aprender [...] bailar ➔ ...?\n3. Учить иностранные языки (idiomas / предмет) ➔ aprender [...] idiomas ➔ ...?\n4. Учиться играть на гитаре (tocar la guitarra / действие) ➔ aprender [...] tocar la guitarra ➔ ...?",
+            "cheat": "1. aprender español | 2. aprender a bailar | 3. aprender idiomas | 4. aprender a tocar la guitarra",
+            "phrase": "1. Aprender español.\n2. Aprender a bailar.\n3. Aprender idiomas.\n4. Aprender a tocar la guitarra.",
+            "phrase_tr": "1. 🗣️ [апрэндэ́р эспаньо́ль]\n   🇷🇺 Учить испанский язык (предмет — предлог не нужен).\n2. 🗣️ [апрэндэ́р а байла́р]\n   🇷🇺 Учиться танцевать (действие/навык — предлог A!).\n3. 🗣️ [апрэндэ́р идьо́мас]\n   🇷🇺 Учить иностранные языки.\n4. 🗣️ [апрэндэ́р а тока́р ла гита́рра]\n   🇷🇺 Учиться играть на гитаре (действие/навык — предлог A!).",
+            "extra": "💡 Тонкость APRENDER:\n• APRENDER + существительное (учить ЧТО): aprender español, aprender un idioma.\n• APRENDER A + инфинитив (учиться ДЕЛАТЬ что-то): aprender a bailar, aprender a tocar la guitarra.",
+            "in_stack": false
+          },
+          {
+            "rule": "🎯 КОНСТРУКТОР ДОСУГА: IR, SALIR, HACER (Конспект стр. 3)\n1. Пойти на концерт (un concierto) ➔ [...] un concierto ➔ ...?\n2. Пойти тусить ночью (noche) ➔ [...] noche ➔ ...?\n3. Проходить курс театра (un curso de teatro) ➔ [...] un curso de teatro ➔ ...?\n4. Выйти потанцевать в клуб (bailar) ➔ [...] bailar ➔ ...?\n5. Делать фоточки / фотографировать (fotos) ➔ [...] fotos ➔ ...?",
+            "cheat": "1. ir a un concierto | 2. salir de noche | 3. hacer un curso de teatro | 4. salir a bailar | 5. hacer fotos",
+            "phrase": "1. Ir a un concierto.\n2. Salir de noche.\n3. Hacer un curso de teatro.\n4. Salir a bailar.\n5. Hacer fotos.",
+            "phrase_tr": "1. 🗣️ [ир а ун консьэ́рто]\n   🇷🇺 Пойти на концерт (ir a + место/событие).\n2. 🗣️ [сали́р дэ но́чэ]\n   🇷🇺 Пойти тусить ночью (salir de + формат).\n3. 🗣️ [асэ́р ун ку́рсо дэ тэа́тро]\n   🇷🇺 Проходить курс театра (hacer un curso).\n4. 🗣️ [сали́р а байла́р]\n   🇷🇺 Выйти потанцевать (salir a + глагол).\n5. 🗣️ [асэ́р фо́тос]\n   🇷🇺 Фотографировать / делать фото (hacer fotos).",
+            "extra": "💡 Сводка конструктора:\n• IR A + un concierto / un museo / una exposición / el teatro.\n• SALIR DE + noche / compras. SALIR A + cenar / bailar.\n• HACER + un curso / ejercicios de gramática / fotos / un intercambio.",
             "in_stack": false
           }
         ],
@@ -5993,6 +6193,150 @@
             "phrase_tr": "🗣️ [кье́ро паса́р лас бакасьо́нэс эн коло́мбья]\n🇷🇺 Хочу провести отпуск в Колумбии.",
             "extra": "Женский род во множественном числе: las vacaciones. Связка: pasar las vacaciones (проводить отпуск).",
             "in_stack": false
+          },
+          {
+            "word": "el periódico",
+            "translation": "Газета",
+            "pron": "peˈɾjoðiko",
+            "phrase": "Leo el periódico por la mañana.",
+            "phrase_tr": "🗣️ [ле́о эль пэрьо́дико пор ла манья́на]\n🇷🇺 Читаю газету утром.",
+            "extra": "Мужской род: el periódico, los periódicos.",
+            "in_stack": false
+          },
+          {
+            "word": "la revista",
+            "translation": "Журнал",
+            "pron": "reˈβista",
+            "phrase": "Ella lee una revista de moda.",
+            "phrase_tr": "🗣️ [э́лья ле́э у́на рэби́ста дэ мо́да]\n🇷🇺 Она читает модный журнал.",
+            "extra": "Женский род: la revista.",
+            "in_stack": false
+          },
+          {
+            "word": "el diario",
+            "translation": "Дневник / Ежедневник",
+            "pron": "ˈdjaɾjo",
+            "phrase": "Escribo en mi diario cada noche.",
+            "phrase_tr": "🗣️ [эскри́бо эн ми дья́рьо ка́да но́чэ]\n🇷🇺 Пишу в свой дневник каждый вечер.",
+            "extra": "Мужской род: el diario.",
+            "in_stack": false
+          },
+          {
+            "word": "el pódcast",
+            "translation": "Подкаст",
+            "pron": "ˈpodkast",
+            "phrase": "Escucho un pódcast en español.",
+            "phrase_tr": "🗣️ [эску́чо ун по́дкаст эн эспаньо́ль]\n🇷🇺 Слушаю подкаст на испанском.",
+            "extra": "Мужской род: el pódcast, los pódcasts.",
+            "in_stack": false
+          },
+          {
+            "word": "el nativo / la nativa",
+            "translation": "Носитель языка",
+            "pron": "naˈtiβo",
+            "phrase": "Quiero hablar con nativos.",
+            "phrase_tr": "🗣️ [кье́ро абла́р кон нати́бос]\n🇷🇺 Хочу говорить с носителями языка.",
+            "extra": "Мужской род: el nativo, женский род: la nativa.",
+            "in_stack": false
+          },
+          {
+            "word": "el hispanohablante",
+            "translation": "Испаноязычный человек",
+            "pron": "ispanoaˈβlante",
+            "phrase": "Hay muchos hispanohablantes en el mundo.",
+            "phrase_tr": "🗣️ [ай му́чос испаноабла́нтэс эн эль му́ндо]\n🇷🇺 В мире много испаноязычных людей.",
+            "extra": "Окончание на -e (хамелеон): el hispanohablante / la hispanohablante.",
+            "in_stack": false
+          },
+          {
+            "word": "el videojuego",
+            "translation": "Видеоигра",
+            "pron": "biðeoxˈweɣo",
+            "phrase": "Juego a videojuegos con mis amigos.",
+            "phrase_tr": "🗣️ [хуэ́го а бидэохуэ́гос кон мис ами́гос]\n🇷🇺 Играю в видеоигры с друзьями.",
+            "extra": "Мужской род: el videojuego, los videojuegos.",
+            "in_stack": false
+          },
+          {
+            "word": "el fútbol",
+            "translation": "Футбол",
+            "pron": "ˈfutβol",
+            "phrase": "Nos gusta jugar al fútbol.",
+            "phrase_tr": "🗣️ [нос гу́ста хуга́р аль фу́тболь]\n🇷🇺 Нам нравится играть в футбол.",
+            "extra": "Мужской род: el fútbol. Связка: jugar al fútbol.",
+            "in_stack": false
+          },
+          {
+            "word": "el tenis",
+            "translation": "Теннис",
+            "pron": "ˈtenis",
+            "phrase": "Juego al tenis los fines de semana.",
+            "phrase_tr": "🗣️ [хуэ́го аль тэ́нис лос фи́нэс дэ сэма́на]\n🇷🇺 Играю в теннис по выходным.",
+            "extra": "Мужской род: el tenis. Связка: jugar al tenis.",
+            "in_stack": false
+          },
+          {
+            "word": "bailar",
+            "translation": "Танцевать",
+            "pron": "bajˈlaɾ",
+            "phrase": "Quiero aprender a bailar salsa.",
+            "phrase_tr": "🗣️ [кье́ро апрэндэ́р а байла́р са́льса]\n🇷🇺 Хочу научиться танцевать сальсу.",
+            "extra": "Глагол 1-го спряжения (-AR): bailo, bailas, baila, bailamos.",
+            "in_stack": false
+          },
+          {
+            "word": "tocar",
+            "translation": "Играть (на инструменте) / Трогать",
+            "pron": "toˈkaɾ",
+            "phrase": "Aprendo a tocar la guitarra.",
+            "phrase_tr": "🗣️ [апрэ́ндо а тока́р ла гита́рра]\n🇷🇺 Учусь играть на гитаре.",
+            "extra": "Глагол 1-го спряжения (-AR): tocar la guitarra (играть на гитаре), tocar el piano (на пианино).",
+            "in_stack": false
+          },
+          {
+            "word": "el concierto",
+            "translation": "Концерт",
+            "pron": "konˈθjeɾto",
+            "phrase": "Vamos a un concierto este viernes.",
+            "phrase_tr": "🗣️ [ба́мос а ун консьэ́рто э́стэ бье́рнэс]\n🇷🇺 Мы идем на концерт в эту пятницу.",
+            "extra": "Мужской род: el concierto.",
+            "in_stack": false
+          },
+          {
+            "word": "el teatro",
+            "translation": "Театр",
+            "pron": "teˈatɾo",
+            "phrase": "Queremos ir al teatro.",
+            "phrase_tr": "🗣️ [кэрэ́мос ир аль тэа́тро]\n🇷🇺 Мы хотим пойти в театр.",
+            "extra": "Мужской род: el teatro. Связка: ir al teatro.",
+            "in_stack": false
+          },
+          {
+            "word": "el museo",
+            "translation": "Музей",
+            "pron": "muˈseo",
+            "phrase": "Visito un museo de arte.",
+            "phrase_tr": "🗣️ [биси́то ун мусэ́о дэ а́ртэ]\n🇷🇺 Посещаю художественный музей.",
+            "extra": "Мужской род: el museo.",
+            "in_stack": false
+          },
+          {
+            "word": "la exposición",
+            "translation": "Выставка",
+            "pron": "eksposiˈθjon",
+            "phrase": "Hay una exposición de pintura.",
+            "phrase_tr": "🗣️ [ай у́на экспосисьо́н дэ пинту́ра]\n🇷🇺 Проходит выставка живописи.",
+            "extra": "Женский род (-ión): la exposición, las exposiciones.",
+            "in_stack": false
+          },
+          {
+            "word": "la foto / las fotos",
+            "translation": "Фотография / Фотографии",
+            "pron": "ˈfoto",
+            "phrase": "Hago muchas fotos en mis viajes.",
+            "phrase_tr": "🗣️ [а́го му́час фо́тос эн мис бья́хэс]\n🇷🇺 Делаю много фотографий в поездках.",
+            "extra": "Женский род (сокращение от la fotografía): la foto, las fotos.",
+            "in_stack": false
           }
         ],
         "vocab_rev_pool": [
@@ -8455,6 +8799,150 @@
             "phrase_tr": "🗣️ [кье́ро паса́р лас бакасьо́нэс эн коло́мбья]\n🇷🇺 Хочу провести отпуск в Колумбии.",
             "extra": "Женский род во множественном числе: las vacaciones. Связка: pasar las vacaciones (проводить отпуск).",
             "in_stack": false
+          },
+          {
+            "word": "el periódico",
+            "translation": "Газета",
+            "pron": "peˈɾjoðiko",
+            "phrase": "Leo el periódico por la mañana.",
+            "phrase_tr": "🗣️ [ле́о эль пэрьо́дико пор ла манья́на]\n🇷🇺 Читаю газету утром.",
+            "extra": "Мужской род: el periódico, los periódicos.",
+            "in_stack": false
+          },
+          {
+            "word": "la revista",
+            "translation": "Журнал",
+            "pron": "reˈβista",
+            "phrase": "Ella lee una revista de moda.",
+            "phrase_tr": "🗣️ [э́лья ле́э у́на рэби́ста дэ мо́да]\n🇷🇺 Она читает модный журнал.",
+            "extra": "Женский род: la revista.",
+            "in_stack": false
+          },
+          {
+            "word": "el diario",
+            "translation": "Дневник / Ежедневник",
+            "pron": "ˈdjaɾjo",
+            "phrase": "Escribo en mi diario cada noche.",
+            "phrase_tr": "🗣️ [эскри́бо эн ми дья́рьо ка́да но́чэ]\n🇷🇺 Пишу в свой дневник каждый вечер.",
+            "extra": "Мужской род: el diario.",
+            "in_stack": false
+          },
+          {
+            "word": "el pódcast",
+            "translation": "Подкаст",
+            "pron": "ˈpodkast",
+            "phrase": "Escucho un pódcast en español.",
+            "phrase_tr": "🗣️ [эску́чо ун по́дкаст эн эспаньо́ль]\n🇷🇺 Слушаю подкаст на испанском.",
+            "extra": "Мужской род: el pódcast, los pódcasts.",
+            "in_stack": false
+          },
+          {
+            "word": "el nativo / la nativa",
+            "translation": "Носитель языка",
+            "pron": "naˈtiβo",
+            "phrase": "Quiero hablar con nativos.",
+            "phrase_tr": "🗣️ [кье́ро абла́р кон нати́бос]\n🇷🇺 Хочу говорить с носителями языка.",
+            "extra": "Мужской род: el nativo, женский род: la nativa.",
+            "in_stack": false
+          },
+          {
+            "word": "el hispanohablante",
+            "translation": "Испаноязычный человек",
+            "pron": "ispanoaˈβlante",
+            "phrase": "Hay muchos hispanohablantes en el mundo.",
+            "phrase_tr": "🗣️ [ай му́чос испаноабла́нтэс эн эль му́ндо]\n🇷🇺 В мире много испаноязычных людей.",
+            "extra": "Окончание на -e (хамелеон): el hispanohablante / la hispanohablante.",
+            "in_stack": false
+          },
+          {
+            "word": "el videojuego",
+            "translation": "Видеоигра",
+            "pron": "biðeoxˈweɣo",
+            "phrase": "Juego a videojuegos con mis amigos.",
+            "phrase_tr": "🗣️ [хуэ́го а бидэохуэ́гос кон мис ами́гос]\n🇷🇺 Играю в видеоигры с друзьями.",
+            "extra": "Мужской род: el videojuego, los videojuegos.",
+            "in_stack": false
+          },
+          {
+            "word": "el fútbol",
+            "translation": "Футбол",
+            "pron": "ˈfutβol",
+            "phrase": "Nos gusta jugar al fútbol.",
+            "phrase_tr": "🗣️ [нос гу́ста хуга́р аль фу́тболь]\n🇷🇺 Нам нравится играть в футбол.",
+            "extra": "Мужской род: el fútbol. Связка: jugar al fútbol.",
+            "in_stack": false
+          },
+          {
+            "word": "el tenis",
+            "translation": "Теннис",
+            "pron": "ˈtenis",
+            "phrase": "Juego al tenis los fines de semana.",
+            "phrase_tr": "🗣️ [хуэ́го аль тэ́нис лос фи́нэс дэ сэма́на]\n🇷🇺 Играю в теннис по выходным.",
+            "extra": "Мужской род: el tenis. Связка: jugar al tenis.",
+            "in_stack": false
+          },
+          {
+            "word": "bailar",
+            "translation": "Танцевать",
+            "pron": "bajˈlaɾ",
+            "phrase": "Quiero aprender a bailar salsa.",
+            "phrase_tr": "🗣️ [кье́ро апрэндэ́р а байла́р са́льса]\n🇷🇺 Хочу научиться танцевать сальсу.",
+            "extra": "Глагол 1-го спряжения (-AR): bailo, bailas, baila, bailamos.",
+            "in_stack": false
+          },
+          {
+            "word": "tocar",
+            "translation": "Играть (на инструменте) / Трогать",
+            "pron": "toˈkaɾ",
+            "phrase": "Aprendo a tocar la guitarra.",
+            "phrase_tr": "🗣️ [апрэ́ндо а тока́р ла гита́рра]\n🇷🇺 Учусь играть на гитаре.",
+            "extra": "Глагол 1-го спряжения (-AR): tocar la guitarra (играть на гитаре), tocar el piano (на пианино).",
+            "in_stack": false
+          },
+          {
+            "word": "el concierto",
+            "translation": "Концерт",
+            "pron": "konˈθjeɾto",
+            "phrase": "Vamos a un concierto este viernes.",
+            "phrase_tr": "🗣️ [ба́мос а ун консьэ́рто э́стэ бье́рнэс]\n🇷🇺 Мы идем на концерт в эту пятницу.",
+            "extra": "Мужской род: el concierto.",
+            "in_stack": false
+          },
+          {
+            "word": "el teatro",
+            "translation": "Театр",
+            "pron": "teˈatɾo",
+            "phrase": "Queremos ir al teatro.",
+            "phrase_tr": "🗣️ [кэрэ́мос ир аль тэа́тро]\n🇷🇺 Мы хотим пойти в театр.",
+            "extra": "Мужской род: el teatro. Связка: ir al teatro.",
+            "in_stack": false
+          },
+          {
+            "word": "el museo",
+            "translation": "Музей",
+            "pron": "muˈseo",
+            "phrase": "Visito un museo de arte.",
+            "phrase_tr": "🗣️ [биси́то ун мусэ́о дэ а́ртэ]\n🇷🇺 Посещаю художественный музей.",
+            "extra": "Мужской род: el museo.",
+            "in_stack": false
+          },
+          {
+            "word": "la exposición",
+            "translation": "Выставка",
+            "pron": "eksposiˈθjon",
+            "phrase": "Hay una exposición de pintura.",
+            "phrase_tr": "🗣️ [ай у́на экспосисьо́н дэ пинту́ра]\n🇷🇺 Проходит выставка живописи.",
+            "extra": "Женский род (-ión): la exposición, las exposiciones.",
+            "in_stack": false
+          },
+          {
+            "word": "la foto / las fotos",
+            "translation": "Фотография / Фотографии",
+            "pron": "ˈfoto",
+            "phrase": "Hago muchas fotos en mis viajes.",
+            "phrase_tr": "🗣️ [а́го му́час фо́тос эн мис бья́хэс]\n🇷🇺 Делаю много фотографий в поездках.",
+            "extra": "Женский род (сокращение от la fotografía): la foto, las fotos.",
+            "in_stack": false
           }
         ],
         "grammar_pool": [
@@ -10241,6 +10729,62 @@
             "phrase": "1. Tom estudia español para chatear con sus amigos.\n2. Sam estudia español porque su novio es colombiano.\n3. Cris estudia español por su trabajo.\n4. Vanessa estudia español porque quiere vivir en Costa Rica.",
             "phrase_tr": "1. 🗣️ [па́ра чатэа́р кон сус ами́гос]\n   🇷🇺 Чтобы переписываться с друзьями.\n2. 🗣️ [по́ркэ су но́бьо эс коломбья́но]\n   🇷🇺 Потому что её парень — колумбиец.\n3. 🗣️ [пор су траба́хо]\n   🇷🇺 Из-за / ради своей работы.\n4. 🗣️ [по́ркэ кье́рэ биби́р эн ко́ста ри́ка]\n   🇷🇺 Потому что хочет жить в Коста-Рике.",
             "extra": "Реальное задание №9 из учебника Aula Internacional 1: Tom ➔ para (chatear), Sam ➔ porque (es), Cris ➔ por (su trabajo), Vanessa ➔ porque (quiere vivir).",
+            "in_stack": false
+          },
+          {
+            "rule": "🎯 ЗРЕНИЕ И СЛУХ: VER VS ESCUCHAR (Конспект стр. 4)\n1. Смотреть сериал (una serie) ➔ [глагол] ...?\n2. Слушать подкаст (un pódcast) ➔ [глагол] ...?\n3. Смотреть фильм (una película) ➔ [глагол] ...?\n4. Слушать музыку (música) ➔ [глагол] ...?",
+            "cheat": "1. Ver | 2. Escuchar | 3. Ver | 4. Escuchar",
+            "phrase": "1. Ver una serie.\n2. Escuchar un pódcast.\n3. Ver una película.\n4. Escuchar música.",
+            "phrase_tr": "1. 🗣️ [бэр у́на сэ́рье]\n   🇷🇺 Смотреть сериал.\n2. 🗣️ [эскуча́р ун по́дкаст]\n   🇷🇺 Слушать подкаст.\n3. 🗣️ [бэр у́на пэли́кула]\n   🇷🇺 Смотреть фильм.\n4. 🗣️ [эскуча́р му́сика]\n   🇷🇺 Слушать музыку.",
+            "extra": "💡 Модель органов чувств:\n• VER (глаза) ➔ la televisión, una serie, una película.\n• ESCUCHAR (уши) ➔ música, la radio, un pódcast.",
+            "in_stack": false
+          },
+          {
+            "rule": "🎯 ЧТЕНИЕ И ПИСЬМО: LEER VS ESCRIBIR (Конспект стр. 4)\n1. Читать газету (el periódico) ➔ [глагол] ...?\n2. Писать сообщение (un mensaje) ➔ [глагол] ...?\n3. Читать журнал (una revista) ➔ [глагол] ...?\n4. Вести / писать дневник (un diario) ➔ [глагол] ...?",
+            "cheat": "1. Leer | 2. Escribir | 3. Leer | 4. Escribir",
+            "phrase": "1. Leer el periódico.\n2. Escribir un mensaje.\n3. Leer una revista.\n4. Escribir un diario.",
+            "phrase_tr": "1. 🗣️ [леэ́р эль пэрьо́дико]\n   🇷🇺 Читать газету.\n2. 🗣️ [эскриби́р ун мэнса́хэ]\n   🇷🇺 Писать сообщение.\n3. 🗣️ [леэ́р у́на рэби́ста]\n   🇷🇺 Читать журнал.\n4. 🗣️ [эскриби́р ун дья́рьо]\n   🇷🇺 Вести / писать дневник.",
+            "extra": "💡 Текстовые связки:\n• LEER (читать) ➔ el periódico (газета), una revista (журнал), un libro (книга).\n• ESCRIBIR (писать) ➔ un mensaje (сообщение), un texto (текст), un diario (дневник).",
+            "in_stack": false
+          },
+          {
+            "rule": "🎯 ОБЩЕНИЕ: ЯЗЫК VS СОБЕСЕДНИК (HABLAR VS HABLAR CON)\n1. Говорить по-испански ➔ hablar [...] español ➔ ...?\n2. Разговаривать с носителями языка ➔ hablar [...] nativos ➔ ...?\n3. Говорить на иностранном языке ➔ hablar [...] un idioma ➔ ...?\n4. Разговаривать с испаноязычными ➔ hablar [...] hispanohablantes ➔ ...?",
+            "cheat": "1. hablar español | 2. hablar con nativos | 3. hablar un idioma | 4. hablar con hispanohablantes",
+            "phrase": "1. Hablar español.\n2. Hablar con nativos.\n3. Hablar un idioma.\n4. Hablar con hispanohablantes.",
+            "phrase_tr": "1. 🗣️ [абла́р эспаньо́ль]\n   🇷🇺 Говорить по-испански (на языке — предлог не нужен).\n2. 🗣️ [абла́р кон нати́бос]\n   🇷🇺 Разговаривать с носителями языка (с людьми — предлог CON).\n3. 🗣️ [абла́р ун идьо́ма]\n   🇷🇺 Говорить на иностранном языке.\n4. 🗣️ [абла́р кон испаноабла́нтэс]\n   🇷🇺 Разговаривать с испаноязычными собеседниками.",
+            "extra": "💡 Правило компаньона:\n• HABLAR + язык (что?): hablar español, hablar un idioma.\n• HABLAR CON + собеседник (с кем?): hablar con nativos, hablar con hispanohablantes.",
+            "in_stack": false
+          },
+          {
+            "rule": "🎯 ПОСЕЩЕНИЯ: МЕСТА VS ЛЮДИ (VISITAR VS VISITAR A)\n1. Посещать сайты / веб-страницы (páginas web) ➔ visitar [...] páginas web ➔ ...?\n2. Навестить семью (la familia) ➔ visitar [...] la familia ➔ ...?\n3. Посещать исторические места (lugares históricos) ➔ visitar [...] lugares históricos ➔ ...?\n4. Навестить друзей (los amigos) ➔ visitar [...] los amigos ➔ ...?",
+            "cheat": "1. visitar páginas web | 2. visitar a la familia | 3. visitar lugares históricos | 4. visitar a los amigos",
+            "phrase": "1. Visitar páginas web.\n2. Visitar a la familia.\n3. Visitar lugares históricos.\n4. Visitar a los amigos.",
+            "phrase_tr": "1. 🗣️ [бисита́р па́хинас уэ́б]\n   🇷🇺 Посещать сайты (неодушевленное — предлог не нужен).\n2. 🗣️ [бисита́р а ла фами́лья]\n   🇷🇺 Навестить семью (живые люди — предлог А!).\n3. 🗣️ [бисита́р луга́рэс исто́рикос]\n   🇷🇺 Посещать исторические места.\n4. 🗣️ [бисита́р а лос ами́гос]\n   🇷🇺 Навестить друзей (живые люди — предлог А!).",
+            "extra": "💡 Закон одушевленности: когда объект — живые люди (семья, друзья), перед ними ОБЯЗАТЕЛЕН личный предлог A: visitar A la familia, visitar A los amigos!",
+            "in_stack": false
+          },
+          {
+            "rule": "🎯 ИГРЫ И СПОРТ: ПРЕДЛОГ A И СЛИЯНИЕ AL (JUGAR A)\n1. Играть в видеоигры (videojuegos) ➔ jugar [...] videojuegos ➔ ...?\n2. Играть в футбол (el fútbol) ➔ jugar [...] fútbol ➔ ...?\n3. Играть в теннис (el tenis) ➔ jugar [...] tenis ➔ ...?",
+            "cheat": "1. jugar a videojuegos | 2. jugar al fútbol | 3. jugar al tenis",
+            "phrase": "1. Jugar a videojuegos.\n2. Jugar al fútbol.\n3. Jugar al tenis.",
+            "phrase_tr": "1. 🗣️ [хуга́р а бидэохуэ́гос]\n   🇷🇺 Играть в видеоигры (предлог A обязательно).\n2. 🗣️ [хуга́р аль фу́тболь]\n   🇷🇺 Играть в футбол (a + el = al).\n3. 🗣️ [хуга́р аль тэ́нис]\n   🇷🇺 Играть в теннис (a + el = al).",
+            "extra": "💡 Правило игры: глагол JUGAR всегда требует предлог A (играть ВО что-то). Если спорт мужского рода с артиклем el, срабатывает магнит: a + el = AL (al fútbol, al tenis).",
+            "in_stack": false
+          },
+          {
+            "rule": "🎯 УЧЁБА: ПРЕДМЕТ VS ДЕЙСТВИЕ (APRENDER VS APRENDER A)\n1. Учить испанский язык (español / предмет) ➔ aprender [...] español ➔ ...?\n2. Учиться танцевать (bailar / действие) ➔ aprender [...] bailar ➔ ...?\n3. Учить иностранные языки (idiomas / предмет) ➔ aprender [...] idiomas ➔ ...?\n4. Учиться играть на гитаре (tocar la guitarra / действие) ➔ aprender [...] tocar la guitarra ➔ ...?",
+            "cheat": "1. aprender español | 2. aprender a bailar | 3. aprender idiomas | 4. aprender a tocar la guitarra",
+            "phrase": "1. Aprender español.\n2. Aprender a bailar.\n3. Aprender idiomas.\n4. Aprender a tocar la guitarra.",
+            "phrase_tr": "1. 🗣️ [апрэндэ́р эспаньо́ль]\n   🇷🇺 Учить испанский язык (предмет — предлог не нужен).\n2. 🗣️ [апрэндэ́р а байла́р]\n   🇷🇺 Учиться танцевать (действие/навык — предлог A!).\n3. 🗣️ [апрэндэ́р идьо́мас]\n   🇷🇺 Учить иностранные языки.\n4. 🗣️ [апрэндэ́р а тока́р ла гита́рра]\n   🇷🇺 Учиться играть на гитаре (действие/навык — предлог A!).",
+            "extra": "💡 Тонкость APRENDER:\n• APRENDER + существительное (учить ЧТО): aprender español, aprender un idioma.\n• APRENDER A + инфинитив (учиться ДЕЛАТЬ что-то): aprender a bailar, aprender a tocar la guitarra.",
+            "in_stack": false
+          },
+          {
+            "rule": "🎯 КОНСТРУКТОР ДОСУГА: IR, SALIR, HACER (Конспект стр. 3)\n1. Пойти на концерт (un concierto) ➔ [...] un concierto ➔ ...?\n2. Пойти тусить ночью (noche) ➔ [...] noche ➔ ...?\n3. Проходить курс театра (un curso de teatro) ➔ [...] un curso de teatro ➔ ...?\n4. Выйти потанцевать в клуб (bailar) ➔ [...] bailar ➔ ...?\n5. Делать фоточки / фотографировать (fotos) ➔ [...] fotos ➔ ...?",
+            "cheat": "1. ir a un concierto | 2. salir de noche | 3. hacer un curso de teatro | 4. salir a bailar | 5. hacer fotos",
+            "phrase": "1. Ir a un concierto.\n2. Salir de noche.\n3. Hacer un curso de teatro.\n4. Salir a bailar.\n5. Hacer fotos.",
+            "phrase_tr": "1. 🗣️ [ир а ун консьэ́рто]\n   🇷🇺 Пойти на концерт (ir a + место/событие).\n2. 🗣️ [сали́р дэ но́чэ]\n   🇷🇺 Пойти тусить ночью (salir de + формат).\n3. 🗣️ [асэ́р ун ку́рсо дэ тэа́тро]\n   🇷🇺 Проходить курс театра (hacer un curso).\n4. 🗣️ [сали́р а байла́р]\n   🇷🇺 Выйти потанцевать (salir a + глагол).\n5. 🗣️ [асэ́р фо́тос]\n   🇷🇺 Фотографировать / делать фото (hacer fotos).",
+            "extra": "💡 Сводка конструктора:\n• IR A + un concierto / un museo / una exposición / el teatro.\n• SALIR DE + noche / compras. SALIR A + cenar / bailar.\n• HACER + un curso / ejercicios de gramática / fotos / un intercambio.",
             "in_stack": false
           }
         ]
