@@ -2324,6 +2324,78 @@
             "phrase_tr": "🗣️ [йо прэпа́ро ла сэ́на па́ра ла фами́лья]\n🇱🇻 Es gatavoju vakariņas ģimenei.\n🇷🇺 Я готовлю ужин для семьи.",
             "extra": "Глагол 1-го спряжения (-AR): preparo, preparas, prepara, preparamos. Слайд 3.",
             "in_stack": false
+          },
+          {
+            "word": "el parque",
+            "translation": "Парк · Parks",
+            "pron": "ˈpaɾke",
+            "phrase": "Vamos al parque por la tarde.",
+            "phrase_tr": "🗣️ [ба́мос аль па́ркэ пор ла та́рдэ]\n🇱🇻 Pēcpusdienā mēs ejam uz parku.\n🇷🇺 Во второй половине дня мы идем в парк.",
+            "extra": "Мужской род: el parque. С предлогом a: ir al parque (a + el = al).",
+            "in_stack": false
+          },
+          {
+            "word": "la biblioteca",
+            "translation": "Библиотека · Bibliotēka",
+            "pron": "biβljoˈteka",
+            "phrase": "Estudio en la biblioteca de la universidad.",
+            "phrase_tr": "🗣️ [эсту́дьо эн ла библиотэ́ка дэ ла унибэрсида́д]\n🇱🇻 Es mācos universitātes bibliotēkā.\n🇷🇺 Я занимаюсь в библиотеке университета.",
+            "extra": "Женский род: la biblioteca. С предлогом a слияния нет: ir a la biblioteca.",
+            "in_stack": false
+          },
+          {
+            "word": "las compras",
+            "translation": "Покупки / Шопинг · Iepirkšanās",
+            "pron": "ˈkompɾas",
+            "phrase": "Los sábados voy de compras.",
+            "phrase_tr": "🗣️ [лос са́бадос бой дэ ко́мпрас]\n🇱🇻 Sestdienās es dodos iepirkties.\n🇷🇺 По субботам я хожу на шопинг / за покупками.",
+            "extra": "Множественное число: las compras. Устойчивая связка: ir de compras / salir de compras.",
+            "in_stack": false
+          },
+          {
+            "word": "las copas",
+            "translation": "Бокалы / Выпивка в баре · Dzērieni, iedzeršana bārā",
+            "pron": "ˈkopas",
+            "phrase": "Los viernes salimos de copas con amigos.",
+            "phrase_tr": "🗣️ [лос бье́рнэс сали́мос дэ ко́пас кон ами́гос]\n🇱🇻 Piektdienās mēs ar draugiem ejam iedzert.\n🇷🇺 По пятницам мы идем выпить с друзьями.",
+            "extra": "Женский род мн. число: las copas. Устойчивая связка: ir de copas (идти выпить по барам).",
+            "in_stack": false
+          },
+          {
+            "word": "las tapas",
+            "translation": "Тапас (испанские закуски в барах) · Uzkodas pie dzērieniem",
+            "pron": "ˈtapas",
+            "phrase": "En España es popular ir de tapas.",
+            "phrase_tr": "🗣️ [эн эспа́нья эс попула́р ир дэ та́пас]\n🇱🇻 Spānijā ir populāri iet pēc uzkodām pa bāriem.\n🇷🇺 В Испании популярно ходить по барам за закусками (ir de tapas).",
+            "extra": "Традиционная культура Испании: ir de tapas — переходить из бара в бар, пробуя разные закуски.",
+            "in_stack": false
+          },
+          {
+            "word": "la excursión",
+            "translation": "Экскурсия / Поездка · Ekskursija",
+            "pron": "ekskuɾˈsjon",
+            "phrase": "El domingo vamos de excursión a Sigulda.",
+            "phrase_tr": "🗣️ [эль доми́нго ба́мос дэ экскурсьо́н а си́гулда]\n🇱🇻 Svētdien mēs dodamies ekskursijā uz Siguldu.\n🇷🇺 В воскресенье мы едем на экскурсию в Сигулду.",
+            "extra": "Женский род на -ión: la excursión. Связка: ir de excursión.",
+            "in_stack": false
+          },
+          {
+            "word": "salir",
+            "translation": "Выходить / Отправляться гулять · Iziet, doties ārā",
+            "pron": "saˈliɾ",
+            "phrase": "¿A qué hora sales? Salgo a cenar.",
+            "phrase_tr": "🗣️ [а кэ о́ра са́лэс? са́льго а сэна́р]\n🇱🇻 Cikos tu izej? Dodos vakariņot.\n🇷🇺 В котором часу ты выходишь? Я выхожу поужинать.",
+            "extra": "Глагол 3-го спряжения (-IR) с формой yo salgo (хвост -go): yo salgo, tú sales, él sale, salimos, salís, salen.",
+            "in_stack": false
+          },
+          {
+            "word": "la noche",
+            "translation": "Ночь / Вечер · Nakts, vakars",
+            "pron": "ˈnotʃe",
+            "phrase": "Quiero salir de noche con mis amigos.",
+            "phrase_tr": "🗣️ [кье́ро сали́р дэ но́чэ кон мис ами́гос]\n🇱🇻 Gribu ar draugiem doties nakts izklaidēs.\n🇷🇺 Хочу пойти тусить ночью с друзьями.",
+            "extra": "Женский род: la noche. Связка ночной жизни: salir de noche.",
+            "in_stack": false
           }
         ],
         "grammar_base": [
@@ -3280,6 +3352,54 @@
             "phrase": "1. Te quiero.\n2. ¿Me quieres?\n3. Lo quiero.\n4. La quiero.\n5. Os queremos.",
             "phrase_tr": "1. 🗣️ [тэ кье́ро]\n   🇱🇻 Es tevi mīlu. • 🇷🇺 Я тебя люблю.\n2. 🗣️ [мэ кье́рэс?]\n   🇱🇻 Vai tu mani mīli? • 🇷🇺 Ты меня любишь?\n3. 🗣️ [ло кье́ро]\n   🇱🇻 Es viņu mīlu. • 🇷🇺 Я его люблю (или хочу это).\n4. 🗣️ [ла кье́ро]\n   🇱🇻 Es viņu mīlu. • 🇷🇺 Я её люблю (или хочу её).\n5. 🗣️ [ос кэрэ́мос]\n   🇱🇻 Mēs jūs mīlam. • 🇷🇺 Мы вас любим.",
             "extra": "Позиция стрелы (прямого дополнения): местоимения-мишени me (меня), te (тебя), lo (его), la (её) ставятся СТРОГО ПЕРЕД личной формой глагола. Никакого «Te me quieres» — мишень ровно одна!",
+            "in_stack": false
+          },
+          {
+            "rule": "🎯 ГЛАГОЛ QUERER: БОТИНОК С ЧЕРЕДОВАНИЕМ E ➔ IE (Слайд 4)\n1. Я хочу отдохнуть (yo / descansar) ➔ ...?\n2. Что ты хочешь делать сегодня? (tú / ¿qué / hacer / hoy?) ➔ ...?\n3. Марко хочет поехать в Юрмалу (Marco / ir a Jurmala) ➔ ...?\n4. Мы хотим поужинать (nosotros / cenar) ➔ ...?\n5. Вы хотите пойти в кино? (vosotros / ir al cine) ➔ ...?\n6. Они хотят путешествовать (ellos / viajar) ➔ ...?",
+            "cheat": "1. quiero | 2. quieres | 3. quiere | 4. queremos | 5. queréis | 6. quieren",
+            "phrase": "1. Quiero descansar.\n2. ¿Qué quieres hacer hoy?\n3. Marco quiere ir a Jurmala.\n4. Queremos cenar.\n5. ¿Queréis ir al cine?\n6. Quieren viajar.",
+            "phrase_tr": "1. 🗣️ [кье́ро дэсканса́р]\n   🇱🇻 Gribu atpūsties. • 🇷🇺 Хочу отдохнуть.\n2. 🗣️ [кэ кье́рэс асэ́р ой?]\n   🇱🇻 Ko tu šodien gribi darīt? • 🇷🇺 Что ты хочешь делать сегодня?\n3. 🗣️ [ма́рко кье́рэ ир а ю́рмала]\n   🇱🇻 Marko grib braukt uz Jūrmalu. • 🇷🇺 Марко хочет поехать в Юрмалу.\n4. 🗣️ [кэрэ́мос сэна́р]\n   🇱🇻 Mēs gribam vakariņot. • 🇷🇺 Мы хотим поужинать.\n5. 🗣️ [кэрэ́йс ир аль си́нэ?]\n   🇱🇻 Vai gribat iet uz kino? • 🇷🇺 Хотите пойти в кино?\n6. 🗣️ [кье́рэн бьяха́р]\n   🇱🇻 Viņi grib ceļot. • 🇷🇺 Они хотят путешествовать.",
+            "extra": "Глагол-ботинок QUERER (gribēt): буква e под ударением переходит в ie (quiero, quieres, quiere, quieren). Формы nosotros (queremos) и vosotros (queréis) вне ботинка — без изменений.",
+            "in_stack": false
+          },
+          {
+            "rule": "🎯 СЛИЯНИЕ НАПРАВЛЕНИЯ: A + EL = AL (Слайд 7 Альберто)\n1. Пойти в кино (el cine) ➔ ir [...] cine ➔ ...?\n2. Пойти в парк (el parque) ➔ ir [...] parque ➔ ...?\n3. Пойти в библиотеку (la biblioteca) ➔ ir [...] biblioteca ➔ ...?\n4. Пойти в школу (la escuela) ➔ ir [...] escuela ➔ ...?",
+            "cheat": "1. al | 2. al | 3. a la | 4. a la",
+            "phrase": "1. Ir al cine.\n2. Ir al parque.\n3. Ir a la biblioteca.\n4. Ir a la escuela.",
+            "phrase_tr": "1. 🗣️ [ир аль си́нэ]\n   🇱🇻 Iet uz kino. • 🇷🇺 Пойти в кино (a + el = al).\n2. 🗣️ [ир аль па́ркэ]\n   🇱🇻 Iet uz parku. • 🇷🇺 Пойти в парк (a + el = al).\n3. 🗣️ [ир а ла библиотэ́ка]\n   🇱🇻 Iet uz bibliotēku. • 🇷🇺 Пойти в библиотеку (a la без слияния).\n4. 🗣️ [ир а ла эскуэ́ла]\n   🇱🇻 Iet uz skolu. • 🇷🇺 Пойти в школу (a la без слияния).",
+            "extra": "Железный закон слияния: предлог a + артикль мужского рода el ВСЕГДА сливаются в AL (ir al cine, ir al parque). С женским родом слияния НЕТ: a la biblioteca.",
+            "in_stack": false
+          },
+          {
+            "rule": "🎯 АКТИВНОСТИ И ДВИЖУХА: IR DE + СУЩЕСТВИТЕЛЬНОЕ (Слайд 8 Альберто)\n1. Пойти на шопинг / за покупками (compras) ➔ ir [...] ...?\n2. Пойти выпить в бары (copas) ➔ ir [...] ...?\n3. Пойти по барам за закусками (tapas) ➔ ir [...] ...?\n4. Поехать на экскурсию (excursión) ➔ ir [...] ...?",
+            "cheat": "1. de compras | 2. de copas | 3. de tapas | 4. de excursión",
+            "phrase": "1. Ir de compras.\n2. Ir de copas.\n3. Ir de tapas.\n4. Ir de excursión.",
+            "phrase_tr": "1. 🗣️ [ир дэ ко́мпрас]\n   🇱🇻 Iepirkties (shopping). • 🇷🇺 Пойти на шопинг / за покупками.\n2. 🗣️ [ир дэ ко́пас]\n   🇱🇻 Doties iedzert bāros. • 🇷🇺 Пойти выпить в бары.\n3. 🗣️ [ир дэ та́пас]\n   🇱🇻 Iet pa bāriem pēc uzkodām. • 🇷🇺 Пойти по барам за тапас.\n4. 🗣️ [ир дэ экскурсьо́н]\n   🇱🇻 Doties ekskursijā. • 🇷🇺 Поехать на экскурсию.",
+            "extra": "Связка процесса: IR DE + существительное обозначает коллективное времяпрепровождение (ir de compras, ir de copas, ir de tapas, ir de excursión).",
+            "in_stack": false
+          },
+          {
+            "rule": "🎯 ВЫХОД В ГОРОД: SALIR A (+ инф.) VS SALIR DE (+ сущ.) (Слайд 8)\n1. Выйти поужинать в ресторан (cenar) ➔ salir [...] ...?\n2. Выйти погулять / пройтись (pasear) ➔ salir [...] ...?\n3. Выйти на шопинг (compras) ➔ salir [...] ...?\n4. Пойти тусить ночью / ночная жизнь (noche) ➔ salir [...] ...?",
+            "cheat": "1. a cenar | 2. a pasear | 3. de compras | 4. de noche",
+            "phrase": "1. Salir a cenar.\n2. Salir a pasear.\n3. Salir de compras.\n4. Salir de noche.",
+            "phrase_tr": "1. 🗣️ [сали́р а сэна́р]\n   🇱🇻 Doties vakariņot. • 🇷🇺 Выйти поужинать (salir a + глагол).\n2. 🗣️ [сали́р а пасэа́р]\n   🇱🇻 Doties pastaigāties. • 🇷🇺 Выйти погулять (salir a + глагол).\n3. 🗣️ [сали́р дэ ко́мпрас]\n   🇱🇻 Doties iepirkties. • 🇷🇺 Выйти за покупками (salir de + сущ.).\n4. 🗣️ [сали́р дэ но́чэ]\n   🇱🇻 Izklaidēties naktī. • 🇷🇺 Пойти тусить ночью (salir de + сущ.).",
+            "extra": "Формула глагола SALIR (выходить): если выходим СДЕЛАТЬ что-то ➔ salir A + глагол (salir a cenar). Если выходим на ПРОЦЕСС ➔ salir DE + сущ. (salir de compras, salir de noche).",
+            "in_stack": false
+          },
+          {
+            "rule": "🎯 СУПЕР-СВЯЗКА ПЛАНОВ: QUERER + IR / SALIR (Слайды 4 & 8 Альберто)\n1. «Я хочу пойти в кино» (кино = el cine) ➔ ...?\n2. «Мы хотим пойти выпить в бар» (выпить = copas) ➔ ...?\n3. «Ты хочешь выйти поужинать сегодня?» (выйти поужинать = salir a cenar, сегодня = hoy) ➔ ...?\n4. «Они хотят пойти тусить ночью» (ночная жизнь = noche) ➔ ...?",
+            "cheat": "1. Quiero ir al cine. | 2. Queremos ir de copas. | 3. ¿Quieres salir a cenar hoy? | 4. Quieren salir de noche.",
+            "phrase": "1. Quiero ir al cine.\n2. Queremos ir de copas.\n3. ¿Quieres salir a cenar hoy?\n4. Quieren salir de noche.",
+            "phrase_tr": "1. 🗣️ [кье́ро ир аль си́нэ]\n   🇱🇻 Gribu iet uz kino. • 🇷🇺 Я хочу пойти в кино.\n2. 🗣️ [кэрэ́мос ир дэ ко́пас]\n   🇱🇻 Mēs gribam iet iedzert. • 🇷🇺 Мы хотим пойти выпить в бар.\n3. 🗣️ [кье́рэс сали́р а сэна́р ой?]\n   🇱🇻 Vai tu šodien gribi doties vakariņot? • 🇷🇺 Хочешь выйти поужинать сегодня?\n4. 🗣️ [кье́рэн сали́р дэ но́чэ]\n   🇱🇻 Viņi grib doties nakts izklaidēs. • 🇷🇺 Они хотят пойти тусить ночью.",
+            "extra": "Сборка реального разговора: глагол QUERER спрягается под человека (quiero, quieres, queremos, quieren), а связка (ir al cine, ir de copas, salir a cenar, salir de noche) присоединяется в инфинитиве!",
+            "in_stack": false
+          },
+          {
+            "rule": "🎯 СТРЕЛЫ ЧУВСТВ: ME / TE / LO / LA + QUERER (Слайд 4 & Мишени)\n1. «Я тебя люблю» (тебя = te) ➔ [...] ...?\n2. «Ты меня любишь?» (меня = me) ➔ [...] ...?\n3. «Я его люблю» (его = lo) ➔ [...] ...?\n4. «Я её люблю» (её = la) ➔ [...] ...?\n5. «Мы вас любим» (вас = os) ➔ [...] ...?",
+            "cheat": "1. Te quiero | 2. ¿Me quieres? | 3. Lo quiero | 4. La quiero | 5. Os queremos",
+            "phrase": "1. Te quiero.\n2. ¿Me quieres?\n3. Lo quiero.\n4. La quiero.\n5. Os queremos.",
+            "phrase_tr": "1. 🗣️ [тэ кье́ро]\n   🇱🇻 Es tevi mīlu. • 🇷🇺 Я тебя люблю.\n2. 🗣️ [мэ кье́рэс?]\n   🇱🇻 Vai tu mani mīli? • 🇷🇺 Ты меня любишь?\n3. 🗣️ [ло кье́ро]\n   🇱🇻 Es viņu mīlu. • 🇷🇺 Я его люблю.\n4. 🗣️ [ла кье́ро]\n   🇱🇻 Es viņu mīlu. • 🇷🇺 Я её люблю.\n5. 🗣️ [ос кэрэ́мос]\n   🇱🇻 Mēs jūs mīlam. • 🇷🇺 Мы вас любим.",
+            "extra": "Местоимение-мишень (кого?) ставится СТРОГО ПЕРЕД глаголом: Te quiero, ¿Me quieres? Личное местоимение yo/tú опускается.",
             "in_stack": false
           }
         ],
@@ -5625,6 +5745,78 @@
             "phrase_tr": "🗣️ [йо прэпа́ро ла сэ́на па́ра ла фами́лья]\n🇱🇻 Es gatavoju vakariņas ģimenei.\n🇷🇺 Я готовлю ужин для семьи.",
             "extra": "Глагол 1-го спряжения (-AR): preparo, preparas, prepara, preparamos. Слайд 3.",
             "in_stack": false
+          },
+          {
+            "word": "el parque",
+            "translation": "Парк · Parks",
+            "pron": "ˈpaɾke",
+            "phrase": "Vamos al parque por la tarde.",
+            "phrase_tr": "🗣️ [ба́мос аль па́ркэ пор ла та́рдэ]\n🇱🇻 Pēcpusdienā mēs ejam uz parku.\n🇷🇺 Во второй половине дня мы идем в парк.",
+            "extra": "Мужской род: el parque. С предлогом a: ir al parque (a + el = al).",
+            "in_stack": false
+          },
+          {
+            "word": "la biblioteca",
+            "translation": "Библиотека · Bibliotēka",
+            "pron": "biβljoˈteka",
+            "phrase": "Estudio en la biblioteca de la universidad.",
+            "phrase_tr": "🗣️ [эсту́дьо эн ла библиотэ́ка дэ ла унибэрсида́д]\n🇱🇻 Es mācos universitātes bibliotēkā.\n🇷🇺 Я занимаюсь в библиотеке университета.",
+            "extra": "Женский род: la biblioteca. С предлогом a слияния нет: ir a la biblioteca.",
+            "in_stack": false
+          },
+          {
+            "word": "las compras",
+            "translation": "Покупки / Шопинг · Iepirkšanās",
+            "pron": "ˈkompɾas",
+            "phrase": "Los sábados voy de compras.",
+            "phrase_tr": "🗣️ [лос са́бадос бой дэ ко́мпрас]\n🇱🇻 Sestdienās es dodos iepirkties.\n🇷🇺 По субботам я хожу на шопинг / за покупками.",
+            "extra": "Множественное число: las compras. Устойчивая связка: ir de compras / salir de compras.",
+            "in_stack": false
+          },
+          {
+            "word": "las copas",
+            "translation": "Бокалы / Выпивка в баре · Dzērieni, iedzeršana bārā",
+            "pron": "ˈkopas",
+            "phrase": "Los viernes salimos de copas con amigos.",
+            "phrase_tr": "🗣️ [лос бье́рнэс сали́мос дэ ко́пас кон ами́гос]\n🇱🇻 Piektdienās mēs ar draugiem ejam iedzert.\n🇷🇺 По пятницам мы идем выпить с друзьями.",
+            "extra": "Женский род мн. число: las copas. Устойчивая связка: ir de copas (идти выпить по барам).",
+            "in_stack": false
+          },
+          {
+            "word": "las tapas",
+            "translation": "Тапас (испанские закуски в барах) · Uzkodas pie dzērieniem",
+            "pron": "ˈtapas",
+            "phrase": "En España es popular ir de tapas.",
+            "phrase_tr": "🗣️ [эн эспа́нья эс попула́р ир дэ та́пас]\n🇱🇻 Spānijā ir populāri iet pēc uzkodām pa bāriem.\n🇷🇺 В Испании популярно ходить по барам за закусками (ir de tapas).",
+            "extra": "Традиционная культура Испании: ir de tapas — переходить из бара в бар, пробуя разные закуски.",
+            "in_stack": false
+          },
+          {
+            "word": "la excursión",
+            "translation": "Экскурсия / Поездка · Ekskursija",
+            "pron": "ekskuɾˈsjon",
+            "phrase": "El domingo vamos de excursión a Sigulda.",
+            "phrase_tr": "🗣️ [эль доми́нго ба́мос дэ экскурсьо́н а си́гулда]\n🇱🇻 Svētdien mēs dodamies ekskursijā uz Siguldu.\n🇷🇺 В воскресенье мы едем на экскурсию в Сигулду.",
+            "extra": "Женский род на -ión: la excursión. Связка: ir de excursión.",
+            "in_stack": false
+          },
+          {
+            "word": "salir",
+            "translation": "Выходить / Отправляться гулять · Iziet, doties ārā",
+            "pron": "saˈliɾ",
+            "phrase": "¿A qué hora sales? Salgo a cenar.",
+            "phrase_tr": "🗣️ [а кэ о́ра са́лэс? са́льго а сэна́р]\n🇱🇻 Cikos tu izej? Dodos vakariņot.\n🇷🇺 В котором часу ты выходишь? Я выхожу поужинать.",
+            "extra": "Глагол 3-го спряжения (-IR) с формой yo salgo (хвост -go): yo salgo, tú sales, él sale, salimos, salís, salen.",
+            "in_stack": false
+          },
+          {
+            "word": "la noche",
+            "translation": "Ночь / Вечер · Nakts, vakars",
+            "pron": "ˈnotʃe",
+            "phrase": "Quiero salir de noche con mis amigos.",
+            "phrase_tr": "🗣️ [кье́ро сали́р дэ но́чэ кон мис ами́гос]\n🇱🇻 Gribu ar draugiem doties nakts izklaidēs.\n🇷🇺 Хочу пойти тусить ночью с друзьями.",
+            "extra": "Женский род: la noche. Связка ночной жизни: salir de noche.",
+            "in_stack": false
           }
         ],
         "vocab_rev_pool": [
@@ -7943,6 +8135,78 @@
             "phrase_tr": "🗣️ [йо прэпа́ро ла сэ́на па́ра ла фами́лья]\n🇱🇻 Es gatavoju vakariņas ģimenei.\n🇷🇺 Я готовлю ужин для семьи.",
             "extra": "Глагол 1-го спряжения (-AR): preparo, preparas, prepara, preparamos. Слайд 3.",
             "in_stack": false
+          },
+          {
+            "word": "el parque",
+            "translation": "Парк · Parks",
+            "pron": "ˈpaɾke",
+            "phrase": "Vamos al parque por la tarde.",
+            "phrase_tr": "🗣️ [ба́мос аль па́ркэ пор ла та́рдэ]\n🇱🇻 Pēcpusdienā mēs ejam uz parku.\n🇷🇺 Во второй половине дня мы идем в парк.",
+            "extra": "Мужской род: el parque. С предлогом a: ir al parque (a + el = al).",
+            "in_stack": false
+          },
+          {
+            "word": "la biblioteca",
+            "translation": "Библиотека · Bibliotēka",
+            "pron": "biβljoˈteka",
+            "phrase": "Estudio en la biblioteca de la universidad.",
+            "phrase_tr": "🗣️ [эсту́дьо эн ла библиотэ́ка дэ ла унибэрсида́д]\n🇱🇻 Es mācos universitātes bibliotēkā.\n🇷🇺 Я занимаюсь в библиотеке университета.",
+            "extra": "Женский род: la biblioteca. С предлогом a слияния нет: ir a la biblioteca.",
+            "in_stack": false
+          },
+          {
+            "word": "las compras",
+            "translation": "Покупки / Шопинг · Iepirkšanās",
+            "pron": "ˈkompɾas",
+            "phrase": "Los sábados voy de compras.",
+            "phrase_tr": "🗣️ [лос са́бадос бой дэ ко́мпрас]\n🇱🇻 Sestdienās es dodos iepirkties.\n🇷🇺 По субботам я хожу на шопинг / за покупками.",
+            "extra": "Множественное число: las compras. Устойчивая связка: ir de compras / salir de compras.",
+            "in_stack": false
+          },
+          {
+            "word": "las copas",
+            "translation": "Бокалы / Выпивка в баре · Dzērieni, iedzeršana bārā",
+            "pron": "ˈkopas",
+            "phrase": "Los viernes salimos de copas con amigos.",
+            "phrase_tr": "🗣️ [лос бье́рнэс сали́мос дэ ко́пас кон ами́гос]\n🇱🇻 Piektdienās mēs ar draugiem ejam iedzert.\n🇷🇺 По пятницам мы идем выпить с друзьями.",
+            "extra": "Женский род мн. число: las copas. Устойчивая связка: ir de copas (идти выпить по барам).",
+            "in_stack": false
+          },
+          {
+            "word": "las tapas",
+            "translation": "Тапас (испанские закуски в барах) · Uzkodas pie dzērieniem",
+            "pron": "ˈtapas",
+            "phrase": "En España es popular ir de tapas.",
+            "phrase_tr": "🗣️ [эн эспа́нья эс попула́р ир дэ та́пас]\n🇱🇻 Spānijā ir populāri iet pēc uzkodām pa bāriem.\n🇷🇺 В Испании популярно ходить по барам за закусками (ir de tapas).",
+            "extra": "Традиционная культура Испании: ir de tapas — переходить из бара в бар, пробуя разные закуски.",
+            "in_stack": false
+          },
+          {
+            "word": "la excursión",
+            "translation": "Экскурсия / Поездка · Ekskursija",
+            "pron": "ekskuɾˈsjon",
+            "phrase": "El domingo vamos de excursión a Sigulda.",
+            "phrase_tr": "🗣️ [эль доми́нго ба́мос дэ экскурсьо́н а си́гулда]\n🇱🇻 Svētdien mēs dodamies ekskursijā uz Siguldu.\n🇷🇺 В воскресенье мы едем на экскурсию в Сигулду.",
+            "extra": "Женский род на -ión: la excursión. Связка: ir de excursión.",
+            "in_stack": false
+          },
+          {
+            "word": "salir",
+            "translation": "Выходить / Отправляться гулять · Iziet, doties ārā",
+            "pron": "saˈliɾ",
+            "phrase": "¿A qué hora sales? Salgo a cenar.",
+            "phrase_tr": "🗣️ [а кэ о́ра са́лэс? са́льго а сэна́р]\n🇱🇻 Cikos tu izej? Dodos vakariņot.\n🇷🇺 В котором часу ты выходишь? Я выхожу поужинать.",
+            "extra": "Глагол 3-го спряжения (-IR) с формой yo salgo (хвост -go): yo salgo, tú sales, él sale, salimos, salís, salen.",
+            "in_stack": false
+          },
+          {
+            "word": "la noche",
+            "translation": "Ночь / Вечер · Nakts, vakars",
+            "pron": "ˈnotʃe",
+            "phrase": "Quiero salir de noche con mis amigos.",
+            "phrase_tr": "🗣️ [кье́ро сали́р дэ но́чэ кон мис ами́гос]\n🇱🇻 Gribu ar draugiem doties nakts izklaidēs.\n🇷🇺 Хочу пойти тусить ночью с друзьями.",
+            "extra": "Женский род: la noche. Связка ночной жизни: salir de noche.",
+            "in_stack": false
           }
         ],
         "grammar_pool": [
@@ -9649,6 +9913,54 @@
             "phrase": "1. Te quiero.\n2. ¿Me quieres?\n3. Lo quiero.\n4. La quiero.\n5. Os queremos.",
             "phrase_tr": "1. 🗣️ [тэ кье́ро]\n   🇱🇻 Es tevi mīlu. • 🇷🇺 Я тебя люблю.\n2. 🗣️ [мэ кье́рэс?]\n   🇱🇻 Vai tu mani mīli? • 🇷🇺 Ты меня любишь?\n3. 🗣️ [ло кье́ро]\n   🇱🇻 Es viņu mīlu. • 🇷🇺 Я его люблю (или хочу это).\n4. 🗣️ [ла кье́ро]\n   🇱🇻 Es viņu mīlu. • 🇷🇺 Я её люблю (или хочу её).\n5. 🗣️ [ос кэрэ́мос]\n   🇱🇻 Mēs jūs mīlam. • 🇷🇺 Мы вас любим.",
             "extra": "Позиция стрелы (прямого дополнения): местоимения-мишени me (меня), te (тебя), lo (его), la (её) ставятся СТРОГО ПЕРЕД личной формой глагола. Никакого «Te me quieres» — мишень ровно одна!",
+            "in_stack": false
+          },
+          {
+            "rule": "🎯 ГЛАГОЛ QUERER: БОТИНОК С ЧЕРЕДОВАНИЕМ E ➔ IE (Слайд 4)\n1. Я хочу отдохнуть (yo / descansar) ➔ ...?\n2. Что ты хочешь делать сегодня? (tú / ¿qué / hacer / hoy?) ➔ ...?\n3. Марко хочет поехать в Юрмалу (Marco / ir a Jurmala) ➔ ...?\n4. Мы хотим поужинать (nosotros / cenar) ➔ ...?\n5. Вы хотите пойти в кино? (vosotros / ir al cine) ➔ ...?\n6. Они хотят путешествовать (ellos / viajar) ➔ ...?",
+            "cheat": "1. quiero | 2. quieres | 3. quiere | 4. queremos | 5. queréis | 6. quieren",
+            "phrase": "1. Quiero descansar.\n2. ¿Qué quieres hacer hoy?\n3. Marco quiere ir a Jurmala.\n4. Queremos cenar.\n5. ¿Queréis ir al cine?\n6. Quieren viajar.",
+            "phrase_tr": "1. 🗣️ [кье́ро дэсканса́р]\n   🇱🇻 Gribu atpūsties. • 🇷🇺 Хочу отдохнуть.\n2. 🗣️ [кэ кье́рэс асэ́р ой?]\n   🇱🇻 Ko tu šodien gribi darīt? • 🇷🇺 Что ты хочешь делать сегодня?\n3. 🗣️ [ма́рко кье́рэ ир а ю́рмала]\n   🇱🇻 Marko grib braukt uz Jūrmalu. • 🇷🇺 Марко хочет поехать в Юрмалу.\n4. 🗣️ [кэрэ́мос сэна́р]\n   🇱🇻 Mēs gribam vakariņot. • 🇷🇺 Мы хотим поужинать.\n5. 🗣️ [кэрэ́йс ир аль си́нэ?]\n   🇱🇻 Vai gribat iet uz kino? • 🇷🇺 Хотите пойти в кино?\n6. 🗣️ [кье́рэн бьяха́р]\n   🇱🇻 Viņi grib ceļot. • 🇷🇺 Они хотят путешествовать.",
+            "extra": "Глагол-ботинок QUERER (gribēt): буква e под ударением переходит в ie (quiero, quieres, quiere, quieren). Формы nosotros (queremos) и vosotros (queréis) вне ботинка — без изменений.",
+            "in_stack": false
+          },
+          {
+            "rule": "🎯 СЛИЯНИЕ НАПРАВЛЕНИЯ: A + EL = AL (Слайд 7 Альберто)\n1. Пойти в кино (el cine) ➔ ir [...] cine ➔ ...?\n2. Пойти в парк (el parque) ➔ ir [...] parque ➔ ...?\n3. Пойти в библиотеку (la biblioteca) ➔ ir [...] biblioteca ➔ ...?\n4. Пойти в школу (la escuela) ➔ ir [...] escuela ➔ ...?",
+            "cheat": "1. al | 2. al | 3. a la | 4. a la",
+            "phrase": "1. Ir al cine.\n2. Ir al parque.\n3. Ir a la biblioteca.\n4. Ir a la escuela.",
+            "phrase_tr": "1. 🗣️ [ир аль си́нэ]\n   🇱🇻 Iet uz kino. • 🇷🇺 Пойти в кино (a + el = al).\n2. 🗣️ [ир аль па́ркэ]\n   🇱🇻 Iet uz parku. • 🇷🇺 Пойти в парк (a + el = al).\n3. 🗣️ [ир а ла библиотэ́ка]\n   🇱🇻 Iet uz bibliotēku. • 🇷🇺 Пойти в библиотеку (a la без слияния).\n4. 🗣️ [ир а ла эскуэ́ла]\n   🇱🇻 Iet uz skolu. • 🇷🇺 Пойти в школу (a la без слияния).",
+            "extra": "Железный закон слияния: предлог a + артикль мужского рода el ВСЕГДА сливаются в AL (ir al cine, ir al parque). С женским родом слияния НЕТ: a la biblioteca.",
+            "in_stack": false
+          },
+          {
+            "rule": "🎯 АКТИВНОСТИ И ДВИЖУХА: IR DE + СУЩЕСТВИТЕЛЬНОЕ (Слайд 8 Альберто)\n1. Пойти на шопинг / за покупками (compras) ➔ ir [...] ...?\n2. Пойти выпить в бары (copas) ➔ ir [...] ...?\n3. Пойти по барам за закусками (tapas) ➔ ir [...] ...?\n4. Поехать на экскурсию (excursión) ➔ ir [...] ...?",
+            "cheat": "1. de compras | 2. de copas | 3. de tapas | 4. de excursión",
+            "phrase": "1. Ir de compras.\n2. Ir de copas.\n3. Ir de tapas.\n4. Ir de excursión.",
+            "phrase_tr": "1. 🗣️ [ир дэ ко́мпрас]\n   🇱🇻 Iepirkties (shopping). • 🇷🇺 Пойти на шопинг / за покупками.\n2. 🗣️ [ир дэ ко́пас]\n   🇱🇻 Doties iedzert bāros. • 🇷🇺 Пойти выпить в бары.\n3. 🗣️ [ир дэ та́пас]\n   🇱🇻 Iet pa bāriem pēc uzkodām. • 🇷🇺 Пойти по барам за тапас.\n4. 🗣️ [ир дэ экскурсьо́н]\n   🇱🇻 Doties ekskursijā. • 🇷🇺 Поехать на экскурсию.",
+            "extra": "Связка процесса: IR DE + существительное обозначает коллективное времяпрепровождение (ir de compras, ir de copas, ir de tapas, ir de excursión).",
+            "in_stack": false
+          },
+          {
+            "rule": "🎯 ВЫХОД В ГОРОД: SALIR A (+ инф.) VS SALIR DE (+ сущ.) (Слайд 8)\n1. Выйти поужинать в ресторан (cenar) ➔ salir [...] ...?\n2. Выйти погулять / пройтись (pasear) ➔ salir [...] ...?\n3. Выйти на шопинг (compras) ➔ salir [...] ...?\n4. Пойти тусить ночью / ночная жизнь (noche) ➔ salir [...] ...?",
+            "cheat": "1. a cenar | 2. a pasear | 3. de compras | 4. de noche",
+            "phrase": "1. Salir a cenar.\n2. Salir a pasear.\n3. Salir de compras.\n4. Salir de noche.",
+            "phrase_tr": "1. 🗣️ [сали́р а сэна́р]\n   🇱🇻 Doties vakariņot. • 🇷🇺 Выйти поужинать (salir a + глагол).\n2. 🗣️ [сали́р а пасэа́р]\n   🇱🇻 Doties pastaigāties. • 🇷🇺 Выйти погулять (salir a + глагол).\n3. 🗣️ [сали́р дэ ко́мпрас]\n   🇱🇻 Doties iepirkties. • 🇷🇺 Выйти за покупками (salir de + сущ.).\n4. 🗣️ [сали́р дэ но́чэ]\n   🇱🇻 Izklaidēties naktī. • 🇷🇺 Пойти тусить ночью (salir de + сущ.).",
+            "extra": "Формула глагола SALIR (выходить): если выходим СДЕЛАТЬ что-то ➔ salir A + глагол (salir a cenar). Если выходим на ПРОЦЕСС ➔ salir DE + сущ. (salir de compras, salir de noche).",
+            "in_stack": false
+          },
+          {
+            "rule": "🎯 СУПЕР-СВЯЗКА ПЛАНОВ: QUERER + IR / SALIR (Слайды 4 & 8 Альберто)\n1. «Я хочу пойти в кино» (кино = el cine) ➔ ...?\n2. «Мы хотим пойти выпить в бар» (выпить = copas) ➔ ...?\n3. «Ты хочешь выйти поужинать сегодня?» (выйти поужинать = salir a cenar, сегодня = hoy) ➔ ...?\n4. «Они хотят пойти тусить ночью» (ночная жизнь = noche) ➔ ...?",
+            "cheat": "1. Quiero ir al cine. | 2. Queremos ir de copas. | 3. ¿Quieres salir a cenar hoy? | 4. Quieren salir de noche.",
+            "phrase": "1. Quiero ir al cine.\n2. Queremos ir de copas.\n3. ¿Quieres salir a cenar hoy?\n4. Quieren salir de noche.",
+            "phrase_tr": "1. 🗣️ [кье́ро ир аль си́нэ]\n   🇱🇻 Gribu iet uz kino. • 🇷🇺 Я хочу пойти в кино.\n2. 🗣️ [кэрэ́мос ир дэ ко́пас]\n   🇱🇻 Mēs gribam iet iedzert. • 🇷🇺 Мы хотим пойти выпить в бар.\n3. 🗣️ [кье́рэс сали́р а сэна́р ой?]\n   🇱🇻 Vai tu šodien gribi doties vakariņot? • 🇷🇺 Хочешь выйти поужинать сегодня?\n4. 🗣️ [кье́рэн сали́р дэ но́чэ]\n   🇱🇻 Viņi grib doties nakts izklaidēs. • 🇷🇺 Они хотят пойти тусить ночью.",
+            "extra": "Сборка реального разговора: глагол QUERER спрягается под человека (quiero, quieres, queremos, quieren), а связка (ir al cine, ir de copas, salir a cenar, salir de noche) присоединяется в инфинитиве!",
+            "in_stack": false
+          },
+          {
+            "rule": "🎯 СТРЕЛЫ ЧУВСТВ: ME / TE / LO / LA + QUERER (Слайд 4 & Мишени)\n1. «Я тебя люблю» (тебя = te) ➔ [...] ...?\n2. «Ты меня любишь?» (меня = me) ➔ [...] ...?\n3. «Я его люблю» (его = lo) ➔ [...] ...?\n4. «Я её люблю» (её = la) ➔ [...] ...?\n5. «Мы вас любим» (вас = os) ➔ [...] ...?",
+            "cheat": "1. Te quiero | 2. ¿Me quieres? | 3. Lo quiero | 4. La quiero | 5. Os queremos",
+            "phrase": "1. Te quiero.\n2. ¿Me quieres?\n3. Lo quiero.\n4. La quiero.\n5. Os queremos.",
+            "phrase_tr": "1. 🗣️ [тэ кье́ро]\n   🇱🇻 Es tevi mīlu. • 🇷🇺 Я тебя люблю.\n2. 🗣️ [мэ кье́рэс?]\n   🇱🇻 Vai tu mani mīli? • 🇷🇺 Ты меня любишь?\n3. 🗣️ [ло кье́ро]\n   🇱🇻 Es viņu mīlu. • 🇷🇺 Я его люблю.\n4. 🗣️ [ла кье́ро]\n   🇱🇻 Es viņu mīlu. • 🇷🇺 Я её люблю.\n5. 🗣️ [ос кэрэ́мос]\n   🇱🇻 Mēs jūs mīlam. • 🇷🇺 Мы вас любим.",
+            "extra": "Местоимение-мишень (кого?) ставится СТРОГО ПЕРЕД глаголом: Te quiero, ¿Me quieres? Личное местоимение yo/tú опускается.",
             "in_stack": false
           }
         ]
