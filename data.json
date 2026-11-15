@@ -2620,7 +2620,7 @@
             "phrase": "Voy al cine con mis amigos.",
             "phrase_tr": "Я иду в кино с друзьями.",
             "extra": "Неправильный глагол (voy, vas, va, vamos, vais, van). Базовый глагол движения",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "pasar",
@@ -2629,7 +2629,7 @@
             "phrase": "Quiero pasar las vacaciones en España.",
             "phrase_tr": "Я хочу провести отпуск в Испании.",
             "extra": "Правильный глагол на -ar (paso, pasas, pasa...)",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "visitar",
@@ -2638,7 +2638,7 @@
             "phrase": "Los domingos visito a mis amigos.",
             "phrase_tr": "По воскресеньям я навещаю друзей.",
             "extra": "Правильный глагол на -ar. С одушевленными лицами требует предлог 'a' (visitar a la familia)",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "practicar",
@@ -2647,7 +2647,7 @@
             "phrase": "Estudio mucho para practicar la pronunciación.",
             "phrase_tr": "Я много занимаюсь, чтобы тренировать произношение.",
             "extra": "Правильный глагол на -ar",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "jugar",
@@ -2656,7 +2656,7 @@
             "phrase": "Por las tardes juego al tenis con Melania.",
             "phrase_tr": "По вечерам я играю в теннис с Меланией.",
             "extra": "Глагол с отклонением u ➔ ue (juego, juegas, juega...). Спортивные игры требуют предлог 'a' (jugar al...)",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "el español",
@@ -2665,7 +2665,7 @@
             "phrase": "¿Por qué estudias español? Estudio español por mi trabajo.",
             "phrase_tr": "Почему ты учишь испанский язык? Я учу испанский из-за работы.",
             "extra": "Существительное мужского рода (el). Все названия языков в испанском мужского рода",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "el inglés",
@@ -2674,7 +2674,7 @@
             "phrase": "Hablo inglés y estudio español.",
             "phrase_tr": "Я говорю по-английски и учу испанский.",
             "extra": "Существительное мужского рода (el)",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "el francés",
@@ -2683,7 +2683,7 @@
             "phrase": "Mi compañera de clase aprende francés.",
             "phrase_tr": "Моя одногруппница учит французский язык.",
             "extra": "Существительное мужского рода (el)",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "el alemán",
@@ -2692,7 +2692,7 @@
             "phrase": "El alemán es un idioma muy estructurado.",
             "phrase_tr": "Немецкий язык — очень структурированный язык.",
             "extra": "Существительное мужского рода (el)",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "el chino",
@@ -2701,7 +2701,7 @@
             "phrase": "El chino tiene muchos caracteres.",
             "phrase_tr": "В китайском языке много иероглифов.",
             "extra": "Существительное мужского рода (el)",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "el ruso",
@@ -2710,7 +2710,7 @@
             "phrase": "El ruso es mi idioma nativo.",
             "phrase_tr": "Русский язык — мой родной язык.",
             "extra": "Существительное мужского рода (el)",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "el árabe",
@@ -2719,7 +2719,7 @@
             "phrase": "Estudio árabe en la facultad.",
             "phrase_tr": "Я изучаю арабский язык на факультете.",
             "extra": "Существительное мужского рода (el)",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "el italiano",
@@ -2728,7 +2728,7 @@
             "phrase": "El italiano es muy melódico.",
             "phrase_tr": "Итальянский язык очень мелодичный.",
             "extra": "Существительное мужского рода (el)",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "el letón",
@@ -2737,7 +2737,7 @@
             "phrase": "En Letonia la gente habla letón.",
             "phrase_tr": "В Латвии люди говорят на латышском языке.",
             "extra": "Существительное мужского рода (el)",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "la televisión",
@@ -2746,7 +2746,7 @@
             "phrase": "Por la noche me gusta ver la televisión.",
             "phrase_tr": "Вечером мне нравится смотреть телевизор.",
             "extra": "Существительное женского рода (la), суффикс -ión",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "la radio",
@@ -2755,7 +2755,7 @@
             "phrase": "Escucho la radio en el coche.",
             "phrase_tr": "Я слушаю радио в машине.",
             "extra": "Существительное женского рода (la) — исключение на -o!",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "el texto",
@@ -2764,7 +2764,7 @@
             "phrase": "Escribo un texto breve en español.",
             "phrase_tr": "Я пишу короткий текст на испанском.",
             "extra": "Существительное мужского рода (el)",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "la página web",
@@ -2773,7 +2773,7 @@
             "phrase": "Visito páginas web en español para leer noticias.",
             "phrase_tr": "Я посещаю сайты на испанском, чтобы читать новости.",
             "extra": "Существительное женского рода (la). Мн. ч: las páginas web",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "la literatura",
@@ -2782,7 +2782,7 @@
             "phrase": "Me interesa mucho la literatura hispanoamericana.",
             "phrase_tr": "Меня очень интересует испаноамериканская литература.",
             "extra": "Существительное женского рода (la)",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "la historia",
@@ -2791,7 +2791,7 @@
             "phrase": "Leo libros sobre la historia de Madrid.",
             "phrase_tr": "Я читаю книги об истории Мадрида.",
             "extra": "Существительное женского рода (la). Буква H — немая",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "la pronunciación",
@@ -2800,7 +2800,7 @@
             "phrase": "Practico la pronunciación con mi profesor.",
             "phrase_tr": "Я тренирую произношение с преподавателем.",
             "extra": "Существительное женского рода (la), суффикс -ión",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "el ejercicio",
@@ -2809,7 +2809,7 @@
             "phrase": "Hago los ejercicios de gramática cada día.",
             "phrase_tr": "Я делаю упражнения по грамматике каждый день.",
             "extra": "Существительное мужского рода (el). Мн. ч: los ejercicios",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "el intercambio",
@@ -2818,7 +2818,7 @@
             "phrase": "Hago un intercambio con un nativo para hablar con fluidez.",
             "phrase_tr": "Я занимаюсь языковым обменом с носителем языка, чтобы говорить бегло.",
             "extra": "Существительное мужского рода (el). Формат разговорной практики",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "la familia",
@@ -2827,7 +2827,7 @@
             "phrase": "Los domingos visito a la familia.",
             "phrase_tr": "По воскресеньям я навещаю семью.",
             "extra": "Существительное женского рода (la)",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "el compañero / la compañera",
@@ -2836,7 +2836,7 @@
             "phrase": "Mi compañero Nikita quiere vivir en Suecia.",
             "phrase_tr": "Мой одногруппник Никита хочет жить в Швеции.",
             "extra": "Существительное с родовыми формами на -o / -a",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "el colega / la colega",
@@ -2845,7 +2845,7 @@
             "phrase": "Salgo con mis colegas después del trabajo.",
             "phrase_tr": "Я выбираюсь куда-нибудь с коллегами после работы.",
             "extra": "Окончание -a неизменно, род выражается артиклем (el/la colega)",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "hispanoamericano / hispanoamericana",
@@ -2854,7 +2854,7 @@
             "phrase": "Estudio en una universidad hispanoamericana.",
             "phrase_tr": "Я учусь в испаноамериканском университете.",
             "extra": "Прилагательное / существительное. Относится к испаноязычным странам Америки",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "el país",
@@ -2863,7 +2863,7 @@
             "phrase": "España es un país hermoso.",
             "phrase_tr": "Испания — прекрасная страна.",
             "extra": "Существительное мужского рода (el). Знак графического ударения í обязателен. Мн. ч: los países",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "el país hispanohablante",
@@ -2872,7 +2872,7 @@
             "phrase": "Quiero trabajar en un país hispanohablante.",
             "phrase_tr": "Я хочу работать в испаноязычной стране.",
             "extra": "Мужской род (el). Страна, где официальный язык — испанский",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "el pueblo",
@@ -2881,7 +2881,7 @@
             "phrase": "Paso las vacaciones en un pueblo cerca del mar.",
             "phrase_tr": "Я провожу отпуск в поселке у моря.",
             "extra": "Существительное мужского рода (el). Мн. ч: los pueblos",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "el lugar",
@@ -2890,7 +2890,7 @@
             "phrase": "Es un lugar perfecto para descansar.",
             "phrase_tr": "Это идеальное место для отдыха.",
             "extra": "Существительное мужского рода (el). Мн. ч: los lugares",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "el lugar histórico",
@@ -2899,7 +2899,7 @@
             "phrase": "Toledo es un lugar histórico muy famoso.",
             "phrase_tr": "Толедо — очень известное историческое место.",
             "extra": "Существительное мужского рода (el). Мн. ч: los lugares históricos",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "la naturaleza",
@@ -2908,7 +2908,7 @@
             "phrase": "Me gusta pasear y disfrutar de la naturaleza.",
             "phrase_tr": "Мне нравится гулять и наслаждаться природой.",
             "extra": "Существительное женского рода (la)",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "el arte",
@@ -2917,7 +2917,7 @@
             "phrase": "El Museo del Prado tiene obras de arte universales.",
             "phrase_tr": "В музее Прадо находятся всемирные произведения искусства.",
             "extra": "В единственном числе мужского рода (el arte), во множественном женского (las artes)",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "la comida",
@@ -2926,7 +2926,7 @@
             "phrase": "La comida española incluye tapas y paella.",
             "phrase_tr": "Испанская еда включает тапас и паэлью.",
             "extra": "Существительное женского рода (la)",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "la vida nocturna",
@@ -2935,7 +2935,7 @@
             "phrase": "Barcelona es conocida por su vibrante vida nocturna.",
             "phrase_tr": "Барселона известна своей оживленной ночной жизнью.",
             "extra": "Устойчивое сочетание женского рода (la)",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "el curso de teatro",
@@ -2944,7 +2944,7 @@
             "phrase": "Hago un curso de teatro para mejorar mi expresión oral.",
             "phrase_tr": "Я хожу на актерские курсы, чтобы улучшить устную речь.",
             "extra": "Мужской род (el)",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "la guitarra",
@@ -2953,7 +2953,7 @@
             "phrase": "Toco la guitarra en mis momentos libres.",
             "phrase_tr": "Я играю на гитаре в свободное время.",
             "extra": "Существительное женского рода (la). Двойная 'rr' читается раскатисто",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "el fin de semana",
@@ -2962,7 +2962,7 @@
             "phrase": "¿Qué queréis hacer este fin de semana?",
             "phrase_tr": "Что вы хотите делать в эти выходные?",
             "extra": "Мужской род (el). Мн. ч: los fines de semana",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "¿por qué?",
@@ -2971,7 +2971,7 @@
             "phrase": "¿Por qué quieres aprender español?",
             "phrase_tr": "Почему ты хочешь учить испанский?",
             "extra": "Вопросительное слово. Пишется раздельно и с графическим ударением на é",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "porque",
@@ -2980,7 +2980,7 @@
             "phrase": "Estudio porque quiero viajar por Latinoamérica.",
             "phrase_tr": "Я учусь, потому что хочу путешествовать по Латинской Америке.",
             "extra": "Причинный союз. Пишется слитно, без ударения. После него идет спрягаемый глагол",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "para",
@@ -2989,7 +2989,7 @@
             "phrase": "Estudio español para leer novelas en versión original.",
             "phrase_tr": "Я учу испанский, чтобы читать романы в оригинале.",
             "extra": "Предлог цели. Употребляется перед инфинитивом: para + infinitivo (para trabajar, para leer)",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "por",
@@ -2998,7 +2998,7 @@
             "phrase": "Aprendo idiomas por mi carrera.",
             "phrase_tr": "Я изучаю языки ради своей карьеры.",
             "extra": "Предлог причины. Употребляется перед существительным: por + sustantivo (por mi trabajo, por mi carrera)",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "ir al cine",
@@ -3007,7 +3007,7 @@
             "phrase": "Melania y yo queremos ir al cine hoy.",
             "phrase_tr": "Мы с Меланией хотим пойти в кино сегодня.",
             "extra": "Слияние предлога 'a' и артикля 'el': a + el = al",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "ir al teatro",
@@ -3016,7 +3016,7 @@
             "phrase": "El viernes vamos al teatro a ver una obra clásica.",
             "phrase_tr": "В пятницу мы идем в театр смотреть классическую пьесу.",
             "extra": "Слияние предлога: a + el = al",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "ir al parque",
@@ -3025,7 +3025,7 @@
             "phrase": "Voy al parque para descansar y respirar aire fresco.",
             "phrase_tr": "Я иду в парк, чтобы отдохнуть и подышать свежим воздухом.",
             "extra": "Слияние предлога: a + el = al",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "ir a un concierto",
@@ -3034,7 +3034,7 @@
             "phrase": "El sábado quiero ir a un concierto de guitarra.",
             "phrase_tr": "В субботу я хочу пойти на концерт гитарной музыки.",
             "extra": "Конструкция направления движения: ir a + неопределенный артикль",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "ir a un museo",
@@ -3043,7 +3043,7 @@
             "phrase": "Cuando viajo, siempre voy a un museo local.",
             "phrase_tr": "Когда я путешествую, я всегда хожу в местный музей.",
             "extra": "Конструкция направления движения: ir a + un museo",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "ir a una exposición",
@@ -3052,7 +3052,7 @@
             "phrase": "Mañana vamos a una exposición de pintura.",
             "phrase_tr": "Завтра мы идем на художественную выставку.",
             "extra": "Конструкция направления движения: ir a + una exposición",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "ir de compras",
@@ -3061,7 +3061,7 @@
             "phrase": "Los fines de semana voy de compras con mi familia.",
             "phrase_tr": "По выходным я хожу за покупками с семьей.",
             "extra": "Устойчивая модель: ir de + существительное цели действия",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "ir de copas",
@@ -3070,7 +3070,7 @@
             "phrase": "Los viernes por la noche salimos a ir de copas.",
             "phrase_tr": "По вечерам в пятницу мы выбираемся выпить по бокалу.",
             "extra": "Традиционный испанский досуг: вечерний поход по барам за бокалом вина/напитка",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "ir de tapas",
@@ -3079,7 +3079,7 @@
             "phrase": "En el centro histórico es muy popular ir de tapas.",
             "phrase_tr": "В историческом центре очень популярно ходить по тапас-барам.",
             "extra": "Культурное явление Испании: перемещаться из бара в бар, заказывая напиток и закуску (tapa)",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "ir de excursión",
@@ -3088,7 +3088,7 @@
             "phrase": "El domingo vamos de excursión a la naturaleza.",
             "phrase_tr": "В воскресенье мы отправляемся на экскурсию на природу.",
             "extra": "Устойчивая модель: ir de + excursión",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "salir a cenar",
@@ -3097,7 +3097,7 @@
             "phrase": "Hoy no cocinamos, salimos a cenar fuera.",
             "phrase_tr": "Сегодня мы не готовим, мы идем ужинать вне дома.",
             "extra": "Модель: salir a + глагол цели действия (выйти, чтобы поужинать)",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "salir a pasear",
@@ -3106,7 +3106,7 @@
             "phrase": "Por la tarde me gusta salir a pasear por el parque.",
             "phrase_tr": "Вечером мне нравится выйти прогуляться по парку.",
             "extra": "Модель: salir a + infinitivo",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "salir de compras",
@@ -3115,7 +3115,7 @@
             "phrase": "Mi hermana sale de compras todos los sábados.",
             "phrase_tr": "Моя сестра выбирается по магазинам каждую субботу.",
             "extra": "Модель: salir de + существительное цели",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "salir de noche",
@@ -3124,7 +3124,7 @@
             "phrase": "En Madrid mucha gente sale de noche los fines de semana.",
             "phrase_tr": "В Мадриде многие люди тусуются по ночам на выходных.",
             "extra": "Испанская идиома ночного досуга",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "salir con amigos",
@@ -3133,7 +3133,7 @@
             "phrase": "Los viernes por la tarde salgo con amigos.",
             "phrase_tr": "По вечерам в пятницу я гуляю с друзьями.",
             "extra": "Модель: salir con + лицо/группа",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "salir con colegas",
@@ -3142,7 +3142,7 @@
             "phrase": "Después de la oficina salgo con colegas a tomar un café.",
             "phrase_tr": "После работы я выбираюсь с коллегами выпить кофе.",
             "extra": "Модель: salir con + лицо/группа",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "hacer la cama",
@@ -3151,7 +3151,7 @@
             "phrase": "Por la mañana siempre hago la cama antes de salir.",
             "phrase_tr": "Утром я всегда заправляю постель перед выходом.",
             "extra": "Идиоматическое бытовое выражение с глаголом hacer (hago la cama = заправляю кровать)",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "hacer la cena",
@@ -3160,7 +3160,7 @@
             "phrase": "A las ocho hago la cena para la familia.",
             "phrase_tr": "В восемь часов я готовлю ужин для семьи.",
             "extra": "Разговорный синоним preparar la cena",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "hacer el desayuno",
@@ -3169,7 +3169,7 @@
             "phrase": "Hago el desayuno con café y tostadas.",
             "phrase_tr": "Я готовлю завтрак с кофе и тостами.",
             "extra": "Разговорное выражение с глаголом hacer",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "hacer una carta",
@@ -3178,7 +3178,7 @@
             "phrase": "Hago una carta para felicitar a mi amigo.",
             "phrase_tr": "Я пишу письмо, чтобы поздравить своего друга.",
             "extra": "Разговорное использование глагола hacer в значении redigir/escribir una carta",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "hacer fotos",
@@ -3187,7 +3187,7 @@
             "phrase": "En los viajes siempre me gusta hacer muchas fotos.",
             "phrase_tr": "В поездках мне всегда нравится делать много фотографий.",
             "extra": "Общеупотребительное выражение в Испании (в Латинской Америке чаще tomar fotos)",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "hacer un curso de teatro",
@@ -3196,7 +3196,7 @@
             "phrase": "Hago un curso de teatro los miércoles por la tarde.",
             "phrase_tr": "Я хожу на актерские курсы по средам вечером.",
             "extra": "Устойчивая связка: hacer un curso de...",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "hacer un intercambio",
@@ -3205,7 +3205,7 @@
             "phrase": "Hago un intercambio con un estudiante español.",
             "phrase_tr": "Я занимаюсь языковым обменом с испанским студентом.",
             "extra": "Устойчивая связка языковой практики",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "tocar la guitarra",
@@ -3214,7 +3214,7 @@
             "phrase": "Anne sabe tocar la guitarra muy bien.",
             "phrase_tr": "Анна умеет очень хорошо играть на гитаре.",
             "extra": "Внимание: для музыкальных инструментов всегда глагол tocar, НЕ jugar!",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "jugar a videojuegos",
@@ -3223,7 +3223,7 @@
             "phrase": "Los sábados juego a videojuegos online.",
             "phrase_tr": "По субботам я играю в видеоигры по сети.",
             "extra": "Глагол jugar всегда требует предлог 'a': jugar a + игра",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "jugar al fútbol",
@@ -3232,7 +3232,7 @@
             "phrase": "Mis amigos juegan al fútbol en el parque.",
             "phrase_tr": "Мои друзья играют в футбол в парке.",
             "extra": "Слияние предлога 'a' и артикля 'el': jugar a + el fútbol = jugar al fútbol",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "jugar al tenis",
@@ -3241,7 +3241,7 @@
             "phrase": "Quiero aprender a jugar al tenis este año.",
             "phrase_tr": "Я хочу научиться играть в теннис в этом году.",
             "extra": "Слияние предлога 'a' и артикля 'el': jugar a + el tenis = jugar al tenis",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "ver la televisión",
@@ -3250,7 +3250,7 @@
             "phrase": "Cenamos y después vemos la televisión.",
             "phrase_tr": "Мы ужинаем, а затем смотрим телевизор.",
             "extra": "Глагольная связка ver + прямой объект",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "ver una serie",
@@ -3259,7 +3259,7 @@
             "phrase": "Veo una serie española con subtítulos.",
             "phrase_tr": "Я смотрю испанский сериал с субтитрами.",
             "extra": "Глагольная связка ver + una serie",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "ver una película",
@@ -3268,7 +3268,7 @@
             "phrase": "El domingo queremos ver una película de acción.",
             "phrase_tr": "В воскресенье мы хотим посмотреть боевик.",
             "extra": "Глагольная связка ver + una película",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "escuchar música",
@@ -3277,7 +3277,7 @@
             "phrase": "Anne y Michael quieren escuchar música en la fiesta.",
             "phrase_tr": "Анна и Майкл хотят послушать музыку на вечеринке.",
             "extra": "Предлог не нужен: escuchar música (без предлога 'a')",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "escuchar la radio",
@@ -3286,7 +3286,7 @@
             "phrase": "Por las mañanas escucho la radio de noticias.",
             "phrase_tr": "По утрам я слушаю радио новостей.",
             "extra": "Глагольная связка escuchar + la radio",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "escuchar un pódcast",
@@ -3295,7 +3295,7 @@
             "phrase": "Escucho un pódcast en español mientras paseo.",
             "phrase_tr": "Я слушаю подкаст на испанском, пока гуляю.",
             "extra": "Глагольная связка escuchar + un pódcast",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "leer el periódico",
@@ -3304,7 +3304,7 @@
             "phrase": "Mi padre lee el periódico cada mañana.",
             "phrase_tr": "Мой отец читает газету каждое утро.",
             "extra": "Глагольная связка leer + el periódico",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "leer una revista",
@@ -3313,7 +3313,7 @@
             "phrase": "En el avión leo una revista de viajes.",
             "phrase_tr": "В самолете я читаю журнал о путешествиях.",
             "extra": "Глагольная связка leer + una revista",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "escribir un mensaje",
@@ -3322,7 +3322,7 @@
             "phrase": "Escribo un mensaje a mi compañero de piso.",
             "phrase_tr": "Я пишу сообщение соседу по комнате.",
             "extra": "Глагольная связка escribir + un mensaje",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "escribir un diario",
@@ -3331,7 +3331,7 @@
             "phrase": "Escribo un diario en español para no olvidar las palabras.",
             "phrase_tr": "Я веду дневник на испанском, чтобы не забывать слова.",
             "extra": "Глагольная связка escribir + un diario",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "hablar con nativos",
@@ -3340,7 +3340,7 @@
             "phrase": "Estudio gramática para hablar con nativos con soltura.",
             "phrase_tr": "Я учу грамматику, чтобы легко общаться с носителями языка.",
             "extra": "Предлог 'con' (с кем-то)",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "hablar con hispanohablantes",
@@ -3349,7 +3349,7 @@
             "phrase": "Quiero viajar a España para hablar con hispanohablantes.",
             "phrase_tr": "Я хочу поехать в Испанию, чтобы общаться с испаноязычными людьми.",
             "extra": "Устойчивая связка межкультурного общения",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "chatear con amigos",
@@ -3358,7 +3358,7 @@
             "phrase": "Tom estudia español para chatear con sus amigos.",
             "phrase_tr": "Том учит испанский, чтобы переписываться в чате со своими друзьями.",
             "extra": "Связка: chatear con + друзья",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "visitar páginas web",
@@ -3367,7 +3367,7 @@
             "phrase": "Visito páginas web españolas para practicar lectura.",
             "phrase_tr": "Я посещаю испанские сайты, чтобы практиковать чтение.",
             "extra": "Глагольная связка visitar + páginas web",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "visitar lugares históricos",
@@ -3376,7 +3376,7 @@
             "phrase": "En Madrid nos encanta visitar lugares históricos.",
             "phrase_tr": "В Мадриде мы обожаем посещать исторические места.",
             "extra": "Глагольная связка visitar + неодушевленное дополнение (без предлога 'a')",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "visitar a la familia",
@@ -3385,7 +3385,7 @@
             "phrase": "En Navidad voy al pueblo para visitar a la familia.",
             "phrase_tr": "На Рождество я еду в поселок, чтобы навестить семью.",
             "extra": "Предлог 'a' обязателен перед одушевленным дополнением (лицо/родные)",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "visitar a los amigos",
@@ -3394,7 +3394,7 @@
             "phrase": "El fin de semana salgo a visitar a los amigos.",
             "phrase_tr": "На выходных я иду навестить друзей.",
             "extra": "Предлог 'a' обязателен: visitar a + друзья",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "practicar la pronunciación",
@@ -3403,7 +3403,7 @@
             "phrase": "Repito las frases en voz alta para practicar la pronunciación.",
             "phrase_tr": "Я повторяю фразы вслух, чтобы тренировать произношение.",
             "extra": "Глагольная связка practicar + дополнение",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "aprender a bailar",
@@ -3412,7 +3412,7 @@
             "phrase": "Quiero aprender a bailar tango en Argentina.",
             "phrase_tr": "Я хочу научиться танцевать танго в Аргентине.",
             "extra": "Конструкция aprender a + инфинитив (учиться совершать действие)",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "aprender a tocar la guitarra",
@@ -3421,7 +3421,7 @@
             "phrase": "Mi hermano quiere aprender a tocar la guitarra clásica.",
             "phrase_tr": "Мой брат хочет научиться играть на классической гитаре.",
             "extra": "Конструкция aprender a + инфинитив",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "pasar las vacaciones",
@@ -3430,7 +3430,7 @@
             "phrase": "Anne y yo queremos pasar las vacaciones en Cuba.",
             "phrase_tr": "Мы с Анной хотим провести отпуск на Кубе.",
             "extra": "Устойчивое выражение",
-            "in_stack": false
+            "in_stack": true
           },
           {
             "word": "te quiero",
@@ -3439,7 +3439,7 @@
             "phrase": "Yo te quiero mucho, mi amor.",
             "phrase_tr": "Я тебя очень люблю, любовь моя.",
             "extra": "Форма выражения любви от глагола querer (yo te quiero = я тебя люблю)",
-            "in_stack": false
+            "in_stack": true
           }
         ],
         "grammar_base": [
@@ -4559,6 +4559,742 @@
             "phrase_ex": "No entiendo",
             "phrase_tr": "Я не понимаю",
             "extra": "Из стека недели"
+          },
+          {
+            "phrase": "ir",
+            "note": "идти, ехать, направляться",
+            "pron": "🗣️ [и́р]",
+            "phrase_ex": "Voy al cine con mis amigos.",
+            "phrase_tr": "Я иду в кино с друзьями.",
+            "extra": "Неправильный глагол (voy, vas, va, vamos, vais, van). Базовый глагол движения"
+          },
+          {
+            "phrase": "pasar",
+            "note": "проводить (время, отпуск); проходить",
+            "pron": "🗣️ [паса́р]",
+            "phrase_ex": "Quiero pasar las vacaciones en España.",
+            "phrase_tr": "Я хочу провести отпуск в Испании.",
+            "extra": "Правильный глагол на -ar (paso, pasas, pasa...)"
+          },
+          {
+            "phrase": "visitar",
+            "note": "посещать, навещать",
+            "pron": "🗣️ [бисита́р]",
+            "phrase_ex": "Los domingos visito a mis amigos.",
+            "phrase_tr": "По воскресеньям я навещаю друзей.",
+            "extra": "Правильный глагол на -ar. С одушевленными лицами требует предлог 'a' (visitar a la familia)"
+          },
+          {
+            "phrase": "practicar",
+            "note": "практиковать, тренировать, упражняться",
+            "pron": "🗣️ [практика́р]",
+            "phrase_ex": "Estudio mucho para practicar la pronunciación.",
+            "phrase_tr": "Я много занимаюсь, чтобы тренировать произношение.",
+            "extra": "Правильный глагол на -ar"
+          },
+          {
+            "phrase": "jugar",
+            "note": "играть (в игры, спорт)",
+            "pron": "🗣️ [хуга́р]",
+            "phrase_ex": "Por las tardes juego al tenis con Melania.",
+            "phrase_tr": "По вечерам я играю в теннис с Меланией.",
+            "extra": "Глагол с отклонением u ➔ ue (juego, juegas, juega...). Спортивные игры требуют предлог 'a' (jugar al...)"
+          },
+          {
+            "phrase": "el español",
+            "note": "испанский язык",
+            "pron": "🗣️ [эль эспаньо́ль]",
+            "phrase_ex": "¿Por qué estudias español? Estudio español por mi trabajo.",
+            "phrase_tr": "Почему ты учишь испанский язык? Я учу испанский из-за работы.",
+            "extra": "Существительное мужского рода (el). Все названия языков в испанском мужского рода"
+          },
+          {
+            "phrase": "el inglés",
+            "note": "английский язык",
+            "pron": "🗣️ [эль ингле́с]",
+            "phrase_ex": "Hablo inglés y estudio español.",
+            "phrase_tr": "Я говорю по-английски и учу испанский.",
+            "extra": "Существительное мужского рода (el)"
+          },
+          {
+            "phrase": "el francés",
+            "note": "французский язык",
+            "pron": "🗣️ [эль франсе́с]",
+            "phrase_ex": "Mi compañera de clase aprende francés.",
+            "phrase_tr": "Моя одногруппница учит французский язык.",
+            "extra": "Существительное мужского рода (el)"
+          },
+          {
+            "phrase": "el alemán",
+            "note": "немецкий язык",
+            "pron": "🗣️ [эль алема́н]",
+            "phrase_ex": "El alemán es un idioma muy estructurado.",
+            "phrase_tr": "Немецкий язык — очень структурированный язык.",
+            "extra": "Существительное мужского рода (el)"
+          },
+          {
+            "phrase": "el chino",
+            "note": "китайский язык",
+            "pron": "🗣️ [эль чи́но]",
+            "phrase_ex": "El chino tiene muchos caracteres.",
+            "phrase_tr": "В китайском языке много иероглифов.",
+            "extra": "Существительное мужского рода (el)"
+          },
+          {
+            "phrase": "el ruso",
+            "note": "русский язык",
+            "pron": "🗣️ [эль ру́со]",
+            "phrase_ex": "El ruso es mi idioma nativo.",
+            "phrase_tr": "Русский язык — мой родной язык.",
+            "extra": "Существительное мужского рода (el)"
+          },
+          {
+            "phrase": "el árabe",
+            "note": "арабский язык",
+            "pron": "🗣️ [эль а́рабе]",
+            "phrase_ex": "Estudio árabe en la facultad.",
+            "phrase_tr": "Я изучаю арабский язык на факультете.",
+            "extra": "Существительное мужского рода (el)"
+          },
+          {
+            "phrase": "el italiano",
+            "note": "итальянский язык",
+            "pron": "🗣️ [эль италья́но]",
+            "phrase_ex": "El italiano es muy melódico.",
+            "phrase_tr": "Итальянский язык очень мелодичный.",
+            "extra": "Существительное мужского рода (el)"
+          },
+          {
+            "phrase": "el letón",
+            "note": "латышский язык",
+            "pron": "🗣️ [эль лето́н]",
+            "phrase_ex": "En Letonia la gente habla letón.",
+            "phrase_tr": "В Латвии люди говорят на латышском языке.",
+            "extra": "Существительное мужского рода (el)"
+          },
+          {
+            "phrase": "la televisión",
+            "note": "телевидение, телевизор",
+            "pron": "🗣️ [ла телевисьо́н]",
+            "phrase_ex": "Por la noche me gusta ver la televisión.",
+            "phrase_tr": "Вечером мне нравится смотреть телевизор.",
+            "extra": "Существительное женского рода (la), суффикс -ión"
+          },
+          {
+            "phrase": "la radio",
+            "note": "радио",
+            "pron": "🗣️ [ла ра́дьо]",
+            "phrase_ex": "Escucho la radio en el coche.",
+            "phrase_tr": "Я слушаю радио в машине.",
+            "extra": "Существительное женского рода (la) — исключение на -o!"
+          },
+          {
+            "phrase": "el texto",
+            "note": "текст",
+            "pron": "🗣️ [эль тэ́ксто]",
+            "phrase_ex": "Escribo un texto breve en español.",
+            "phrase_tr": "Я пишу короткий текст на испанском.",
+            "extra": "Существительное мужского рода (el)"
+          },
+          {
+            "phrase": "la página web",
+            "note": "веб-страница, сайт",
+            "pron": "🗣️ [ла па́хина уэ́б]",
+            "phrase_ex": "Visito páginas web en español para leer noticias.",
+            "phrase_tr": "Я посещаю сайты на испанском, чтобы читать новости.",
+            "extra": "Существительное женского рода (la). Мн. ч: las páginas web"
+          },
+          {
+            "phrase": "la literatura",
+            "note": "литература",
+            "pron": "🗣️ [ла литерату́ра]",
+            "phrase_ex": "Me interesa mucho la literatura hispanoamericana.",
+            "phrase_tr": "Меня очень интересует испаноамериканская литература.",
+            "extra": "Существительное женского рода (la)"
+          },
+          {
+            "phrase": "la historia",
+            "note": "история",
+            "pron": "🗣️ [ла исто́рья]",
+            "phrase_ex": "Leo libros sobre la historia de Madrid.",
+            "phrase_tr": "Я читаю книги об истории Мадрида.",
+            "extra": "Существительное женского рода (la). Буква H — немая"
+          },
+          {
+            "phrase": "la pronunciación",
+            "note": "произношение",
+            "pron": "🗣️ [ла пронунсьясьо́н]",
+            "phrase_ex": "Practico la pronunciación con mi profesor.",
+            "phrase_tr": "Я тренирую произношение с преподавателем.",
+            "extra": "Существительное женского рода (la), суффикс -ión"
+          },
+          {
+            "phrase": "el ejercicio",
+            "note": "упражнение",
+            "pron": "🗣️ [эль эхэрси́сьо]",
+            "phrase_ex": "Hago los ejercicios de gramática cada día.",
+            "phrase_tr": "Я делаю упражнения по грамматике каждый день.",
+            "extra": "Существительное мужского рода (el). Мн. ч: los ejercicios"
+          },
+          {
+            "phrase": "el intercambio",
+            "note": "языковой обмен, обмен",
+            "pron": "🗣️ [эль интэрька́мбьо]",
+            "phrase_ex": "Hago un intercambio con un nativo para hablar con fluidez.",
+            "phrase_tr": "Я занимаюсь языковым обменом с носителем языка, чтобы говорить бегло.",
+            "extra": "Существительное мужского рода (el). Формат разговорной практики"
+          },
+          {
+            "phrase": "la familia",
+            "note": "семья",
+            "pron": "🗣️ [ла фами́лья]",
+            "phrase_ex": "Los domingos visito a la familia.",
+            "phrase_tr": "По воскресеньям я навещаю семью.",
+            "extra": "Существительное женского рода (la)"
+          },
+          {
+            "phrase": "el compañero / la compañera",
+            "note": "одногруппник / одногруппница, товарищ",
+            "pron": "🗣️ [эль компаньэ́ро / ла компаньэ́ра]",
+            "phrase_ex": "Mi compañero Nikita quiere vivir en Suecia.",
+            "phrase_tr": "Мой одногруппник Никита хочет жить в Швеции.",
+            "extra": "Существительное с родовыми формами на -o / -a"
+          },
+          {
+            "phrase": "el colega / la colega",
+            "note": "коллега",
+            "pron": "🗣️ [эль коле́га / ла коле́га]",
+            "phrase_ex": "Salgo con mis colegas después del trabajo.",
+            "phrase_tr": "Я выбираюсь куда-нибудь с коллегами после работы.",
+            "extra": "Окончание -a неизменно, род выражается артиклем (el/la colega)"
+          },
+          {
+            "phrase": "hispanoamericano / hispanoamericana",
+            "note": "испаноамериканский, латиноамериканский",
+            "pron": "🗣️ [испаноамэрика́но / испаноамэрика́на]",
+            "phrase_ex": "Estudio en una universidad hispanoamericana.",
+            "phrase_tr": "Я учусь в испаноамериканском университете.",
+            "extra": "Прилагательное / существительное. Относится к испаноязычным странам Америки"
+          },
+          {
+            "phrase": "el país",
+            "note": "страна",
+            "pron": "🗣️ [эль паи́с]",
+            "phrase_ex": "España es un país hermoso.",
+            "phrase_tr": "Испания — прекрасная страна.",
+            "extra": "Существительное мужского рода (el). Знак графического ударения í обязателен. Мн. ч: los países"
+          },
+          {
+            "phrase": "el país hispanohablante",
+            "note": "испаноязычная страна",
+            "pron": "🗣️ [эль паи́с испаноаβла́нтэ]",
+            "phrase_ex": "Quiero trabajar en un país hispanohablante.",
+            "phrase_tr": "Я хочу работать в испаноязычной стране.",
+            "extra": "Мужской род (el). Страна, где официальный язык — испанский"
+          },
+          {
+            "phrase": "el pueblo",
+            "note": "поселок, деревня; народ",
+            "pron": "🗣️ [эль пуэ́бло]",
+            "phrase_ex": "Paso las vacaciones en un pueblo cerca del mar.",
+            "phrase_tr": "Я провожу отпуск в поселке у моря.",
+            "extra": "Существительное мужского рода (el). Мн. ч: los pueblos"
+          },
+          {
+            "phrase": "el lugar",
+            "note": "место",
+            "pron": "🗣️ [эль луга́р]",
+            "phrase_ex": "Es un lugar perfecto para descansar.",
+            "phrase_tr": "Это идеальное место для отдыха.",
+            "extra": "Существительное мужского рода (el). Мн. ч: los lugares"
+          },
+          {
+            "phrase": "el lugar histórico",
+            "note": "историческое место",
+            "pron": "🗣️ [эль луга́р исто́рико]",
+            "phrase_ex": "Toledo es un lugar histórico muy famoso.",
+            "phrase_tr": "Толедо — очень известное историческое место.",
+            "extra": "Существительное мужского рода (el). Мн. ч: los lugares históricos"
+          },
+          {
+            "phrase": "la naturaleza",
+            "note": "природа",
+            "pron": "🗣️ [ла натурале́са]",
+            "phrase_ex": "Me gusta pasear y disfrutar de la naturaleza.",
+            "phrase_tr": "Мне нравится гулять и наслаждаться природой.",
+            "extra": "Существительное женского рода (la)"
+          },
+          {
+            "phrase": "el arte",
+            "note": "искусство",
+            "pron": "🗣️ [эль а́ртэ]",
+            "phrase_ex": "El Museo del Prado tiene obras de arte universales.",
+            "phrase_tr": "В музее Прадо находятся всемирные произведения искусства.",
+            "extra": "В единственном числе мужского рода (el arte), во множественном женского (las artes)"
+          },
+          {
+            "phrase": "la comida",
+            "note": "еда, пища, обед",
+            "pron": "🗣️ [ла коми́да]",
+            "phrase_ex": "La comida española incluye tapas y paella.",
+            "phrase_tr": "Испанская еда включает тапас и паэлью.",
+            "extra": "Существительное женского рода (la)"
+          },
+          {
+            "phrase": "la vida nocturna",
+            "note": "ночная жизнь",
+            "pron": "🗣️ [ла би́да нокту́рна]",
+            "phrase_ex": "Barcelona es conocida por su vibrante vida nocturna.",
+            "phrase_tr": "Барселона известна своей оживленной ночной жизнью.",
+            "extra": "Устойчивое сочетание женского рода (la)"
+          },
+          {
+            "phrase": "el curso de teatro",
+            "note": "курс актерского мастерства / театральный курс",
+            "pron": "🗣️ [эль ку́рсо дэ тэа́тро]",
+            "phrase_ex": "Hago un curso de teatro para mejorar mi expresión oral.",
+            "phrase_tr": "Я хожу на актерские курсы, чтобы улучшить устную речь.",
+            "extra": "Мужской род (el)"
+          },
+          {
+            "phrase": "la guitarra",
+            "note": "гитара",
+            "pron": "🗣️ [ла гита́рра]",
+            "phrase_ex": "Toco la guitarra en mis momentos libres.",
+            "phrase_tr": "Я играю на гитаре в свободное время.",
+            "extra": "Существительное женского рода (la). Двойная 'rr' читается раскатисто"
+          },
+          {
+            "phrase": "el fin de semana",
+            "note": "выходные, уикенд",
+            "pron": "🗣️ [эль фин дэ сэма́на]",
+            "phrase_ex": "¿Qué queréis hacer este fin de semana?",
+            "phrase_tr": "Что вы хотите делать в эти выходные?",
+            "extra": "Мужской род (el). Мн. ч: los fines de semana"
+          },
+          {
+            "phrase": "¿por qué?",
+            "note": "почему?, отчего?",
+            "pron": "🗣️ [пор кэ́?]",
+            "phrase_ex": "¿Por qué quieres aprender español?",
+            "phrase_tr": "Почему ты хочешь учить испанский?",
+            "extra": "Вопросительное слово. Пишется раздельно и с графическим ударением на é"
+          },
+          {
+            "phrase": "porque",
+            "note": "потому что, так как",
+            "pron": "🗣️ [по́ркэ]",
+            "phrase_ex": "Estudio porque quiero viajar por Latinoamérica.",
+            "phrase_tr": "Я учусь, потому что хочу путешествовать по Латинской Америке.",
+            "extra": "Причинный союз. Пишется слитно, без ударения. После него идет спрягаемый глагол"
+          },
+          {
+            "phrase": "para",
+            "note": "чтобы, для (+ инфинитив)",
+            "pron": "🗣️ [па́ра]",
+            "phrase_ex": "Estudio español para leer novelas en versión original.",
+            "phrase_tr": "Я учу испанский, чтобы читать романы в оригинале.",
+            "extra": "Предлог цели. Употребляется перед инфинитивом: para + infinitivo (para trabajar, para leer)"
+          },
+          {
+            "phrase": "por",
+            "note": "из-за, по причине, ради (+ существительное)",
+            "pron": "🗣️ [по́р]",
+            "phrase_ex": "Aprendo idiomas por mi carrera.",
+            "phrase_tr": "Я изучаю языки ради своей карьеры.",
+            "extra": "Предлог причины. Употребляется перед существительным: por + sustantivo (por mi trabajo, por mi carrera)"
+          },
+          {
+            "phrase": "ir al cine",
+            "note": "идти в кино, ходить в кинотеатр",
+            "pron": "🗣️ [и́р аль си́нэ]",
+            "phrase_ex": "Melania y yo queremos ir al cine hoy.",
+            "phrase_tr": "Мы с Меланией хотим пойти в кино сегодня.",
+            "extra": "Слияние предлога 'a' и артикля 'el': a + el = al"
+          },
+          {
+            "phrase": "ir al teatro",
+            "note": "идти в театр",
+            "pron": "🗣️ [и́р аль тэа́тро]",
+            "phrase_ex": "El viernes vamos al teatro a ver una obra clásica.",
+            "phrase_tr": "В пятницу мы идем в театр смотреть классическую пьесу.",
+            "extra": "Слияние предлога: a + el = al"
+          },
+          {
+            "phrase": "ir al parque",
+            "note": "идти в парк",
+            "pron": "🗣️ [и́р аль па́ркэ]",
+            "phrase_ex": "Voy al parque para descansar y respirar aire fresco.",
+            "phrase_tr": "Я иду в парк, чтобы отдохнуть и подышать свежим воздухом.",
+            "extra": "Слияние предлога: a + el = al"
+          },
+          {
+            "phrase": "ir a un concierto",
+            "note": "идти на концерт",
+            "pron": "🗣️ [и́р а ун консьэ́рто]",
+            "phrase_ex": "El sábado quiero ir a un concierto de guitarra.",
+            "phrase_tr": "В субботу я хочу пойти на концерт гитарной музыки.",
+            "extra": "Конструкция направления движения: ir a + неопределенный артикль"
+          },
+          {
+            "phrase": "ir a un museo",
+            "note": "идти в музей",
+            "pron": "🗣️ [и́р а ун мусэ́о]",
+            "phrase_ex": "Cuando viajo, siempre voy a un museo local.",
+            "phrase_tr": "Когда я путешествую, я всегда хожу в местный музей.",
+            "extra": "Конструкция направления движения: ir a + un museo"
+          },
+          {
+            "phrase": "ir a una exposición",
+            "note": "идти на выставку",
+            "pron": "🗣️ [и́р а у́на экспосисьо́н]",
+            "phrase_ex": "Mañana vamos a una exposición de pintura.",
+            "phrase_tr": "Завтра мы идем на художественную выставку.",
+            "extra": "Конструкция направления движения: ir a + una exposición"
+          },
+          {
+            "phrase": "ir de compras",
+            "note": "ходить за покупками, заниматься шопингом",
+            "pron": "🗣️ [и́р дэ ко́мпрас]",
+            "phrase_ex": "Los fines de semana voy de compras con mi familia.",
+            "phrase_tr": "По выходным я хожу за покупками с семьей.",
+            "extra": "Устойчивая модель: ir de + существительное цели действия"
+          },
+          {
+            "phrase": "ir de copas",
+            "note": "идти выпить, ходить по барам",
+            "pron": "🗣️ [и́р дэ ко́пас]",
+            "phrase_ex": "Los viernes por la noche salimos a ir de copas.",
+            "phrase_tr": "По вечерам в пятницу мы выбираемся выпить по бокалу.",
+            "extra": "Традиционный испанский досуг: вечерний поход по барам за бокалом вина/напитка"
+          },
+          {
+            "phrase": "ir de tapas",
+            "note": "ходить по тапас-барам, перекусить тапас",
+            "pron": "🗣️ [и́р дэ та́пас]",
+            "phrase_ex": "En el centro histórico es muy popular ir de tapas.",
+            "phrase_tr": "В историческом центре очень популярно ходить по тапас-барам.",
+            "extra": "Культурное явление Испании: перемещаться из бара в бар, заказывая напиток и закуску (tapa)"
+          },
+          {
+            "phrase": "ir de excursión",
+            "note": "отправляться на экскурсию / за город",
+            "pron": "🗣️ [и́р дэ экскурсьо́н]",
+            "phrase_ex": "El domingo vamos de excursión a la naturaleza.",
+            "phrase_tr": "В воскресенье мы отправляемся на экскурсию на природу.",
+            "extra": "Устойчивая модель: ir de + excursión"
+          },
+          {
+            "phrase": "salir a cenar",
+            "note": "пойти поужинать (вне дома, в кафе/ресторане)",
+            "pron": "🗣️ [сали́р а сэна́р]",
+            "phrase_ex": "Hoy no cocinamos, salimos a cenar fuera.",
+            "phrase_tr": "Сегодня мы не готовим, мы идем ужинать вне дома.",
+            "extra": "Модель: salir a + глагол цели действия (выйти, чтобы поужинать)"
+          },
+          {
+            "phrase": "salir a pasear",
+            "note": "пойти прогуляться, выйти на прогулку",
+            "pron": "🗣️ [сали́р а пасэа́р]",
+            "phrase_ex": "Por la tarde me gusta salir a pasear por el parque.",
+            "phrase_tr": "Вечером мне нравится выйти прогуляться по парку.",
+            "extra": "Модель: salir a + infinitivo"
+          },
+          {
+            "phrase": "salir de compras",
+            "note": "выбираться по магазинам, отправляться за покупками",
+            "pron": "🗣️ [сали́р дэ ко́мпрас]",
+            "phrase_ex": "Mi hermana sale de compras todos los sábados.",
+            "phrase_tr": "Моя сестра выбирается по магазинам каждую субботу.",
+            "extra": "Модель: salir de + существительное цели"
+          },
+          {
+            "phrase": "salir de noche",
+            "note": "тусоваться ночью, выбираться на ночные развлечения",
+            "pron": "🗣️ [сали́р дэ но́чэ]",
+            "phrase_ex": "En Madrid mucha gente sale de noche los fines de semana.",
+            "phrase_tr": "В Мадриде многие люди тусуются по ночам на выходных.",
+            "extra": "Испанская идиома ночного досуга"
+          },
+          {
+            "phrase": "salir con amigos",
+            "note": "гулять / проводить время с друзьями",
+            "pron": "🗣️ [сали́р кон ами́гос]",
+            "phrase_ex": "Los viernes por la tarde salgo con amigos.",
+            "phrase_tr": "По вечерам в пятницу я гуляю с друзьями.",
+            "extra": "Модель: salir con + лицо/группа"
+          },
+          {
+            "phrase": "salir con colegas",
+            "note": "тусоваться / выходить куда-то с коллегами",
+            "pron": "🗣️ [сали́р кон коле́гас]",
+            "phrase_ex": "Después de la oficina salgo con colegas a tomar un café.",
+            "phrase_tr": "После работы я выбираюсь с коллегами выпить кофе.",
+            "extra": "Модель: salir con + лицо/группа"
+          },
+          {
+            "phrase": "hacer la cama",
+            "note": "заправлять кровать / постель",
+            "pron": "🗣️ [асэ́р ла ка́ма]",
+            "phrase_ex": "Por la mañana siempre hago la cama antes de salir.",
+            "phrase_tr": "Утром я всегда заправляю постель перед выходом.",
+            "extra": "Идиоматическое бытовое выражение с глаголом hacer (hago la cama = заправляю кровать)"
+          },
+          {
+            "phrase": "hacer la cena",
+            "note": "готовить ужин",
+            "pron": "🗣️ [асэ́р ла сэ́на]",
+            "phrase_ex": "A las ocho hago la cena para la familia.",
+            "phrase_tr": "В восемь часов я готовлю ужин для семьи.",
+            "extra": "Разговорный синоним preparar la cena"
+          },
+          {
+            "phrase": "hacer el desayuno",
+            "note": "готовить завтрак",
+            "pron": "🗣️ [асэ́р эль дэсайу́но]",
+            "phrase_ex": "Hago el desayuno con café y tostadas.",
+            "phrase_tr": "Я готовлю завтрак с кофе и тостами.",
+            "extra": "Разговорное выражение с глаголом hacer"
+          },
+          {
+            "phrase": "hacer una carta",
+            "note": "писать письмо, составлять письмо",
+            "pron": "🗣️ [асэ́р у́на ка́рта]",
+            "phrase_ex": "Hago una carta para felicitar a mi amigo.",
+            "phrase_tr": "Я пишу письмо, чтобы поздравить своего друга.",
+            "extra": "Разговорное использование глагола hacer в значении redigir/escribir una carta"
+          },
+          {
+            "phrase": "hacer fotos",
+            "note": "фотографировать, делать фотографии",
+            "pron": "🗣️ [асэ́р фо́тос]",
+            "phrase_ex": "En los viajes siempre me gusta hacer muchas fotos.",
+            "phrase_tr": "В поездках мне всегда нравится делать много фотографий.",
+            "extra": "Общеупотребительное выражение в Испании (в Латинской Америке чаще tomar fotos)"
+          },
+          {
+            "phrase": "hacer un curso de teatro",
+            "note": "проходить курс актерского мастерства",
+            "pron": "🗣️ [асэ́р ун ку́рсо дэ тэа́тро]",
+            "phrase_ex": "Hago un curso de teatro los miércoles por la tarde.",
+            "phrase_tr": "Я хожу на актерские курсы по средам вечером.",
+            "extra": "Устойчивая связка: hacer un curso de..."
+          },
+          {
+            "phrase": "hacer un intercambio",
+            "note": "участвовать в языковом обмене",
+            "pron": "🗣️ [асэ́р ун интэрька́мбьо]",
+            "phrase_ex": "Hago un intercambio con un estudiante español.",
+            "phrase_tr": "Я занимаюсь языковым обменом с испанским студентом.",
+            "extra": "Устойчивая связка языковой практики"
+          },
+          {
+            "phrase": "tocar la guitarra",
+            "note": "играть на гитаре",
+            "pron": "🗣️ [тока́р ла гита́рра]",
+            "phrase_ex": "Anne sabe tocar la guitarra muy bien.",
+            "phrase_tr": "Анна умеет очень хорошо играть на гитаре.",
+            "extra": "Внимание: для музыкальных инструментов всегда глагол tocar, НЕ jugar!"
+          },
+          {
+            "phrase": "jugar a videojuegos",
+            "note": "играть в видеоигры",
+            "pron": "🗣️ [хуга́р а бидэохуэ́гос]",
+            "phrase_ex": "Los sábados juego a videojuegos online.",
+            "phrase_tr": "По субботам я играю в видеоигры по сети.",
+            "extra": "Глагол jugar всегда требует предлог 'a': jugar a + игра"
+          },
+          {
+            "phrase": "jugar al fútbol",
+            "note": "играть в футбол",
+            "pron": "🗣️ [хуга́р аль фу́тболь]",
+            "phrase_ex": "Mis amigos juegan al fútbol en el parque.",
+            "phrase_tr": "Мои друзья играют в футбол в парке.",
+            "extra": "Слияние предлога 'a' и артикля 'el': jugar a + el fútbol = jugar al fútbol"
+          },
+          {
+            "phrase": "jugar al tenis",
+            "note": "играть в теннис",
+            "pron": "🗣️ [хуга́р аль тэ́нис]",
+            "phrase_ex": "Quiero aprender a jugar al tenis este año.",
+            "phrase_tr": "Я хочу научиться играть в теннис в этом году.",
+            "extra": "Слияние предлога 'a' и артикля 'el': jugar a + el tenis = jugar al tenis"
+          },
+          {
+            "phrase": "ver la televisión",
+            "note": "смотреть телевизор",
+            "pron": "🗣️ [бэ́р ла телевисьо́н]",
+            "phrase_ex": "Cenamos y después vemos la televisión.",
+            "phrase_tr": "Мы ужинаем, а затем смотрим телевизор.",
+            "extra": "Глагольная связка ver + прямой объект"
+          },
+          {
+            "phrase": "ver una serie",
+            "note": "смотреть сериал",
+            "pron": "🗣️ [бэ́р у́на сэ́рье]",
+            "phrase_ex": "Veo una serie española con subtítulos.",
+            "phrase_tr": "Я смотрю испанский сериал с субтитрами.",
+            "extra": "Глагольная связка ver + una serie"
+          },
+          {
+            "phrase": "ver una película",
+            "note": "смотреть фильм",
+            "pron": "🗣️ [бэ́р у́на пэли́кула]",
+            "phrase_ex": "El domingo queremos ver una película de acción.",
+            "phrase_tr": "В воскресенье мы хотим посмотреть боевик.",
+            "extra": "Глагольная связка ver + una película"
+          },
+          {
+            "phrase": "escuchar música",
+            "note": "слушать музыку",
+            "pron": "🗣️ [эскуча́р му́сика]",
+            "phrase_ex": "Anne y Michael quieren escuchar música en la fiesta.",
+            "phrase_tr": "Анна и Майкл хотят послушать музыку на вечеринке.",
+            "extra": "Предлог не нужен: escuchar música (без предлога 'a')"
+          },
+          {
+            "phrase": "escuchar la radio",
+            "note": "слушать радио",
+            "pron": "🗣️ [эскуча́р ла ра́дьо]",
+            "phrase_ex": "Por las mañanas escucho la radio de noticias.",
+            "phrase_tr": "По утрам я слушаю радио новостей.",
+            "extra": "Глагольная связка escuchar + la radio"
+          },
+          {
+            "phrase": "escuchar un pódcast",
+            "note": "слушать подкаст",
+            "pron": "🗣️ [эскуча́р ун по́дкаст]",
+            "phrase_ex": "Escucho un pódcast en español mientras paseo.",
+            "phrase_tr": "Я слушаю подкаст на испанском, пока гуляю.",
+            "extra": "Глагольная связка escuchar + un pódcast"
+          },
+          {
+            "phrase": "leer el periódico",
+            "note": "читать газету",
+            "pron": "🗣️ [лэ́эр эль пэрьо́дико]",
+            "phrase_ex": "Mi padre lee el periódico cada mañana.",
+            "phrase_tr": "Мой отец читает газету каждое утро.",
+            "extra": "Глагольная связка leer + el periódico"
+          },
+          {
+            "phrase": "leer una revista",
+            "note": "читать журнал",
+            "pron": "🗣️ [лэ́эр у́на рэби́ста]",
+            "phrase_ex": "En el avión leo una revista de viajes.",
+            "phrase_tr": "В самолете я читаю журнал о путешествиях.",
+            "extra": "Глагольная связка leer + una revista"
+          },
+          {
+            "phrase": "escribir un mensaje",
+            "note": "писать сообщение",
+            "pron": "🗣️ [эскриби́р ун мэнса́хэ]",
+            "phrase_ex": "Escribo un mensaje a mi compañero de piso.",
+            "phrase_tr": "Я пишу сообщение соседу по комнате.",
+            "extra": "Глагольная связка escribir + un mensaje"
+          },
+          {
+            "phrase": "escribir un diario",
+            "note": "вести дневник, писать в дневнике",
+            "pron": "🗣️ [эскриби́р ун дья́рьо]",
+            "phrase_ex": "Escribo un diario en español para no olvidar las palabras.",
+            "phrase_tr": "Я веду дневник на испанском, чтобы не забывать слова.",
+            "extra": "Глагольная связка escribir + un diario"
+          },
+          {
+            "phrase": "hablar con nativos",
+            "note": "говорить с носителями языка",
+            "pron": "🗣️ [аβла́р кон нати́βос]",
+            "phrase_ex": "Estudio gramática para hablar con nativos con soltura.",
+            "phrase_tr": "Я учу грамматику, чтобы легко общаться с носителями языка.",
+            "extra": "Предлог 'con' (с кем-то)"
+          },
+          {
+            "phrase": "hablar con hispanohablantes",
+            "note": "общаться с испаноязычными людьми",
+            "pron": "🗣️ [аβла́р кон испаноаβла́нтэс]",
+            "phrase_ex": "Quiero viajar a España para hablar con hispanohablantes.",
+            "phrase_tr": "Я хочу поехать в Испанию, чтобы общаться с испаноязычными людьми.",
+            "extra": "Устойчивая связка межкультурного общения"
+          },
+          {
+            "phrase": "chatear con amigos",
+            "note": "переписываться в чате с друзьями",
+            "pron": "🗣️ [чатэа́р кон ами́гос]",
+            "phrase_ex": "Tom estudia español para chatear con sus amigos.",
+            "phrase_tr": "Том учит испанский, чтобы переписываться в чате со своими друзьями.",
+            "extra": "Связка: chatear con + друзья"
+          },
+          {
+            "phrase": "visitar páginas web",
+            "note": "посещать веб-страницы / сайты",
+            "pron": "🗣️ [бисита́р па́хинас уэ́б]",
+            "phrase_ex": "Visito páginas web españolas para practicar lectura.",
+            "phrase_tr": "Я посещаю испанские сайты, чтобы практиковать чтение.",
+            "extra": "Глагольная связка visitar + páginas web"
+          },
+          {
+            "phrase": "visitar lugares históricos",
+            "note": "посещать исторические места",
+            "pron": "🗣️ [бисита́р луга́рэс исто́рикос]",
+            "phrase_ex": "En Madrid nos encanta visitar lugares históricos.",
+            "phrase_tr": "В Мадриде мы обожаем посещать исторические места.",
+            "extra": "Глагольная связка visitar + неодушевленное дополнение (без предлога 'a')"
+          },
+          {
+            "phrase": "visitar a la familia",
+            "note": "навещать семью / родных",
+            "pron": "🗣️ [бисита́р а ла фами́лья]",
+            "phrase_ex": "En Navidad voy al pueblo para visitar a la familia.",
+            "phrase_tr": "На Рождество я еду в поселок, чтобы навестить семью.",
+            "extra": "Предлог 'a' обязателен перед одушевленным дополнением (лицо/родные)"
+          },
+          {
+            "phrase": "visitar a los amigos",
+            "note": "навещать друзей",
+            "pron": "🗣️ [бисита́р а лос ами́гос]",
+            "phrase_ex": "El fin de semana salgo a visitar a los amigos.",
+            "phrase_tr": "На выходных я иду навестить друзей.",
+            "extra": "Предлог 'a' обязателен: visitar a + друзья"
+          },
+          {
+            "phrase": "practicar la pronunciación",
+            "note": "тренировать произношение",
+            "pron": "🗣️ [практика́р ла пронунсьясьо́н]",
+            "phrase_ex": "Repito las frases en voz alta para practicar la pronunciación.",
+            "phrase_tr": "Я повторяю фразы вслух, чтобы тренировать произношение.",
+            "extra": "Глагольная связка practicar + дополнение"
+          },
+          {
+            "phrase": "aprender a bailar",
+            "note": "учиться танцевать",
+            "pron": "🗣️ [апрэнде́р а байла́р]",
+            "phrase_ex": "Quiero aprender a bailar tango en Argentina.",
+            "phrase_tr": "Я хочу научиться танцевать танго в Аргентине.",
+            "extra": "Конструкция aprender a + инфинитив (учиться совершать действие)"
+          },
+          {
+            "phrase": "aprender a tocar la guitarra",
+            "note": "учиться играть на гитаре",
+            "pron": "🗣️ [апрэнде́р а тока́р ла гита́рра]",
+            "phrase_ex": "Mi hermano quiere aprender a tocar la guitarra clásica.",
+            "phrase_tr": "Мой брат хочет научиться играть на классической гитаре.",
+            "extra": "Конструкция aprender a + инфинитив"
+          },
+          {
+            "phrase": "pasar las vacaciones",
+            "note": "проводить отпуск / каникулы",
+            "pron": "🗣️ [паса́р лас вакасьо́нэс]",
+            "phrase_ex": "Anne y yo queremos pasar las vacaciones en Cuba.",
+            "phrase_tr": "Мы с Анной хотим провести отпуск на Кубе.",
+            "extra": "Устойчивое выражение"
+          },
+          {
+            "phrase": "te quiero",
+            "note": "я тебя люблю; ты мне дорог(-а)",
+            "pron": "🗣️ [тэ кье́ро]",
+            "phrase_ex": "Yo te quiero mucho, mi amor.",
+            "phrase_tr": "Я тебя очень люблю, любовь моя.",
+            "extra": "Форма выражения любви от глагола querer (yo te quiero = я тебя люблю)"
           }
         ],
         "vocab_pool": [
