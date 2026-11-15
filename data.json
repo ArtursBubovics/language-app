@@ -2396,6 +2396,78 @@
             "phrase_tr": "🗣️ [кье́ро сали́р дэ но́чэ кон мис ами́гос]\n🇱🇻 Gribu ar draugiem doties nakts izklaidēs.\n🇷🇺 Хочу пойти тусить ночью с друзьями.",
             "extra": "Женский род: la noche. Связка ночной жизни: salir de noche.",
             "in_stack": false
+          },
+          {
+            "word": "la carrera",
+            "translation": "Карьера / Профессия · Karjera",
+            "pron": "kaˈreɾa",
+            "phrase": "Estudio español por mi carrera profesional.",
+            "phrase_tr": "🗣️ [эсту́дьо эспаньо́ль пор ми каррэ́ра профэсьона́ль]\n🇱🇻 Mācos spāņu valodu savas profesionālās karjeras dēļ.\n🇷🇺 Учу испанский ради своей карьеры.",
+            "extra": "Женский род: la carrera. Слайд 5: por mi carrera.",
+            "in_stack": false
+          },
+          {
+            "word": "la novela",
+            "translation": "Роман (книга) · Romāns",
+            "pron": "noˈβela",
+            "phrase": "Leo novelas en español para practicar.",
+            "phrase_tr": "🗣️ [ле́о нобэ́лас эн эспаньо́ль па́ра практика́р]\n🇱🇻 Lasu romānus spāniski, lai praktizētos.\n🇷🇺 Читаю романы на испанском, чтобы практиковаться.",
+            "extra": "Женский род: la novela, las novelas. Слайд 5: para leer novelas.",
+            "in_stack": false
+          },
+          {
+            "word": "el novio / la novia",
+            "translation": "Парень / Девушка (жених / невеста) · Puisis / meitene (līgavainis / līgava)",
+            "pron": "ˈnoβjo / ˈnoβja",
+            "phrase": "Su novio es colombiano y mi novia es letona.",
+            "phrase_tr": "🗣️ [су но́бьо эс коломбья́но и ми но́бья эс лэто́на]\n🇱🇻 Viņas puisis ir kolumbietis un mana meitene ir latviete.\n🇷🇺 Её парень — колумбиец, а моя девушка — латышка.",
+            "extra": "Мужской род: el novio. Женский род: la novia. Слайд 5 и 9.",
+            "in_stack": false
+          },
+          {
+            "word": "viajar",
+            "translation": "Путешествовать · Ceļot",
+            "pron": "bjaˈxaɾ",
+            "phrase": "Quiero viajar a España este verano.",
+            "phrase_tr": "🗣️ [кье́ро бьяха́р а эспа́нья э́стэ бэра́но]\n🇱🇻 Šovasar gribu ceļot uz Spāniju.\n🇷🇺 Хочу поехать путешествовать в Испанию этим летом.",
+            "extra": "Глагол 1-го спряжения (-AR): viajo, viajas, viaja, viajamos, viajáis, viajan. Буква J дает звук [х]: [бьяха́р].",
+            "in_stack": false
+          },
+          {
+            "word": "chatear",
+            "translation": "Переписываться в чате · Tērzēt čatā",
+            "pron": "tʃateˈaɾ",
+            "phrase": "Estudio español para chatear con mis amigos.",
+            "phrase_tr": "🗣️ [эсту́дьо эспаньо́ль па́ра чатэа́р кон мис ами́гос]\n🇱🇻 Mācos spāņu valodu, lai tērzētu ar draugiem čatā.\n🇷🇺 Учу испанский, чтобы переписываться в чате с друзьями.",
+            "extra": "Глагол 1-го спряжения (-AR): chateo, chateas, chatea, chateamos. Слайд 9.",
+            "in_stack": false
+          },
+          {
+            "word": "el futuro",
+            "translation": "Будущее · Nākotne",
+            "pron": "fuˈtuɾo",
+            "phrase": "En el futuro quiero vivir en España.",
+            "phrase_tr": "🗣️ [эн эль футу́ро кье́ро биби́р эн эспа́нья]\n🇱🇻 Nākotnē gribu dzīvot Spānijā.\n🇷🇺 В будущем хочу жить в Испании.",
+            "extra": "Мужской род: el futuro. Слайд 9: ¿Qué quieres hacer en el futuro?",
+            "in_stack": false
+          },
+          {
+            "word": "el idioma",
+            "translation": "Язык (иностранный) · Valoda",
+            "pron": "iˈðjoma",
+            "phrase": "Quiero aprender otros idiomas.",
+            "phrase_tr": "🗣️ [кье́ро апрэндэ́р о́трос идьо́мас]\n🇱🇻 Gribu apgūt citas valodas.\n🇷🇺 Хочу выучить другие языки.",
+            "extra": "Внимание! Мужской род греческого происхождения: EL idioma, LOS idiomas (несмотря на окончание -a).",
+            "in_stack": false
+          },
+          {
+            "word": "las vacaciones",
+            "translation": "Каникулы / Отпуск · Atvaļinājums, brīvdienas",
+            "pron": "bakaˈθjones",
+            "phrase": "Quiero pasar las vacaciones en Colombia.",
+            "phrase_tr": "🗣️ [кье́ро паса́р лас бакасьо́нэс эн коло́мбья]\n🇱🇻 Gribu pavadīt atvaļinājumu Kolumbijā.\n🇷🇺 Хочу провести отпуск в Колумбии.",
+            "extra": "Женский род во множественном числе: las vacaciones. Связка: pasar las vacaciones (проводить отпуск).",
+            "in_stack": false
           }
         ],
         "grammar_base": [
@@ -3400,6 +3472,38 @@
             "phrase": "1. Te quiero.\n2. ¿Me quieres?\n3. Lo quiero.\n4. La quiero.\n5. Os queremos.",
             "phrase_tr": "1. 🗣️ [тэ кье́ро]\n   🇱🇻 Es tevi mīlu. • 🇷🇺 Я тебя люблю.\n2. 🗣️ [мэ кье́рэс?]\n   🇱🇻 Vai tu mani mīli? • 🇷🇺 Ты меня любишь?\n3. 🗣️ [ло кье́ро]\n   🇱🇻 Es viņu mīlu. • 🇷🇺 Я его люблю.\n4. 🗣️ [ла кье́ро]\n   🇱🇻 Es viņu mīlu. • 🇷🇺 Я её люблю.\n5. 🗣️ [ос кэрэ́мос]\n   🇱🇻 Mēs jūs mīlam. • 🇷🇺 Мы вас любим.",
             "extra": "Местоимение-мишень (кого?) ставится СТРОГО ПЕРЕД глаголом: Te quiero, ¿Me quieres? Личное местоимение yo/tú опускается.",
+            "in_stack": false
+          },
+          {
+            "rule": "🎯 БАТТЛ ТРИГГЕРОВ: POR (+СУЩ.) VS PARA (+ИНФ.) VS PORQUE (+ГЛАГОЛ)\n1. Estudio español [...] mi trabajo (ради работы / dēļ darba) ➔ ...?\n2. Estudio español [...] viajar por el mundo (чтобы путешествовать / lai ceļotu) ➔ ...?\n3. Estudio español [...] trabajo con españoles (потому что работаю / tāpēc, ka strādāju) ➔ ...?\n4. Estudio español [...] mi carrera (ради карьеры / dēļ karjeras) ➔ ...?",
+            "cheat": "1. por | 2. para | 3. porque | 4. por",
+            "phrase": "1. Estudio español por mi trabajo.\n2. Estudio español para viajar por el mundo.\n3. Estudio español porque trabajo con españoles.\n4. Estudio español por mi carrera.",
+            "phrase_tr": "1. 🗣️ [эсту́дьо эспаньо́ль пор ми траба́хо]\n   🇱🇻 Mācos spāņu valodu sava darba dēļ. • 🇷🇺 Учу испанский ради работы.\n2. 🗣️ [эсту́дьо эспаньо́ль па́ра бьяха́р пор эль му́ндо]\n   🇱🇻 Mācos spāņu valodu, lai ceļotu pa pasauli. • 🇷🇺 Учу испанский, чтобы путешествовать.\n3. 🗣️ [эсту́дьо эспаньо́ль по́ркэ траба́хо кон эспаньо́лэс]\n   🇱🇻 Mācos spāņu valodu, tāpēc ka strādāju ar spāņiem. • 🇷🇺 Учу испанский, потому что работаю с испанцами.\n4. 🗣️ [эсту́дьо эспаньо́ль пор ми каррэ́ра]\n   🇱🇻 Mācos spāņu valodu karjeras dēļ. • 🇷🇺 Учу испанский ради карьеры.",
+            "extra": "Правило дорожных знаков: POR цепляет существительное (por mi trabajo). PARA цепляет инфинитив цели (para viajar). PORQUE цепляет предложение с глаголом (porque trabajo).",
+            "in_stack": false
+          },
+          {
+            "rule": "🎯 ЛОВУШКА ДВУХ «PORQUE»: ПРОСТО ГЛАГОЛ VS QUIERO + ИНФИНИТИВ (Слайд 5)\n1. Estudio español [...] trabajo en una empresa española (факт: работаю) ➔ ...?\n2. Estudio español [...] quiero viajar a Colombia (желание: хочу поехать) ➔ ...?\n3. Estudio español [...] hablar con mi novia (цель: чтобы говорить, инф. без quiero) ➔ ...?\n4. Estudio español [...] quiero estudiar en México (желание: хочу учиться) ➔ ...?",
+            "cheat": "1. porque | 2. porque | 3. para | 4. porque",
+            "phrase": "1. Estudio español porque trabajo en una empresa española.\n2. Estudio español porque quiero viajar a Colombia.\n3. Estudio español para hablar con mi novia.\n4. Estudio español porque quiero estudiar en México.",
+            "phrase_tr": "1. 🗣️ [по́ркэ траба́хо эн у́на эмпрэ́са эспаньо́ла]\n   🇱🇻 Tāpēc, ka strādāju spāņu uzņēmumā. • 🇷🇺 Потому что работаю в испанской компании.\n2. 🗣️ [по́ркэ кье́ро бьяха́р а коло́мбья]\n   🇱🇻 Tāpēc, ka gribu ceļot uz Kolumbiju. • 🇷🇺 Потому что хочу поехать в Колумбию.\n3. 🗣️ [па́ра абла́р кон ми но́бья]\n   🇱🇻 Lai runātu ar savu draudzeni. • 🇷🇺 Чтобы разговаривать с девушкой.\n4. 🗣️ [по́ркэ кье́ро эстудья́р эн мэ́хико]\n   🇱🇻 Tāpēc, ka gribu mācīties Meksikā. • 🇷🇺 Потому что хочу учиться в Мексике.",
+            "extra": "Тонкость профессора Альберто: если есть QUIERO (спрягаемый глагол) ➔ ставится PORQUE quiero viajar! Если глагола quiero нет и идет сразу начальная форма ➔ ставится PARA hablar.",
+            "in_stack": false
+          },
+          {
+            "rule": "🎯 ВОПРОС VS ОТВЕТ: ¿POR QUÉ? VS PORQUE (Слайд 6 Альберто)\n1. [...] estudias español? (Почему ты учишь испанский? — вопрос) ➔ ...?\n2. [...] quiero vivir en España. (Потому что хочу жить в Испании — ответ) ➔ ...?\n3. [...] no vienes a la fiesta hoy? (Почему ты не придешь на вечеринку? — вопрос) ➔ ...?\n4. [...] tengo mucho trabajo. (Потому что у меня много работы — ответ) ➔ ...?",
+            "cheat": "1. ¿Por qué | 2. Porque | 3. ¿Por qué | 4. Porque",
+            "phrase": "1. ¿Por qué estudias español?\n2. Porque quiero vivir en España.\n3. ¿Por qué no vienes a la fiesta hoy?\n4. Porque tengo mucho trabajo.",
+            "phrase_tr": "1. 🗣️ [пор кэ эсту́дьяс эспаньо́ль?]\n   🇱🇻 Kāpēc tu mācies spāņu valodu? • 🇷🇺 Почему ты учишь испанский?\n2. 🗣️ [по́ркэ кье́ро биби́р эн эспа́нья]\n   🇱🇻 Tāpēc, ka gribu dzīvot Spānijā. • 🇷🇺 Потому что хочу жить в Испании.\n3. 🗣️ [пор кэ но бье́нэс а ла фье́ста ой?]\n   🇱🇻 Kāpēc tu šodien nenāc uz ballīti? • 🇷🇺 Почему ты сегодня не придешь на вечеринку?\n4. 🗣️ [по́ркэ тэ́нго му́чо траба́хо]\n   🇱🇻 Tāpēc, ka man ir daudz darba. • 🇷🇺 Потому что у меня много работы.",
+            "extra": "Графика Альберто: вопрос ¿Por qué? пишется раздельно и с графическим ударением на qué. Ответ porque пишется слитно и без ударения.",
+            "in_stack": false
+          },
+          {
+            "rule": "🎯 УПРАЖНЕНИЕ АЛЬБЕРТО (Слайд 9 TAREA Nº 6): РАЗБОР ГЕРОЕВ\n1. Tom estudia español [...] chatear con sus amigos (чтобы переписываться, инф.) ➔ ...?\n2. Sam estudia español [...] su novio es colombiano (потому что парень колумбиец, глагол) ➔ ...?\n3. Cris estudia español [...] su trabajo (ради работы, сущ.) ➔ ...?\n4. Vanessa estudia español [...] quiere vivir en Costa Rica (потому что хочет жить, quiero + инф.) ➔ ...?",
+            "cheat": "1. para | 2. porque | 3. por | 4. porque",
+            "phrase": "1. Tom estudia español para chatear con sus amigos.\n2. Sam estudia español porque su novio es colombiano.\n3. Cris estudia español por su trabajo.\n4. Vanessa estudia español porque quiere vivir en Costa Rica.",
+            "phrase_tr": "1. 🗣️ [па́ра чатэа́р кон сус ами́гос]\n   🇱🇻 Lai tērzētu ar saviem draugiem. • 🇷🇺 Чтобы переписываться с друзьями.\n2. 🗣️ [по́ркэ су но́бьо эс коломбья́но]\n   🇱🇻 Tāpēc, ka viņas draugs ir kolumbietis. • 🇷🇺 Потому что её парень — колумбиец.\n3. 🗣️ [пор су траба́хо]\n   🇱🇻 Sava darba dēļ. • 🇷🇺 Из-за / ради своей работы.\n4. 🗣️ [по́ркэ кье́рэ биби́р эн ко́ста ри́ка]\n   🇱🇻 Tāpēc, ka grib dzīvot Kostarikā. • 🇷🇺 Потому что хочет жить в Коста-Рике.",
+            "extra": "Реальное задание №9 из учебника Aula Internacional 1: Tom ➔ para (chatear), Sam ➔ porque (es), Cris ➔ por (su trabajo), Vanessa ➔ porque (quiere vivir).",
             "in_stack": false
           }
         ],
@@ -5817,6 +5921,78 @@
             "phrase_tr": "🗣️ [кье́ро сали́р дэ но́чэ кон мис ами́гос]\n🇱🇻 Gribu ar draugiem doties nakts izklaidēs.\n🇷🇺 Хочу пойти тусить ночью с друзьями.",
             "extra": "Женский род: la noche. Связка ночной жизни: salir de noche.",
             "in_stack": false
+          },
+          {
+            "word": "la carrera",
+            "translation": "Карьера / Профессия · Karjera",
+            "pron": "kaˈreɾa",
+            "phrase": "Estudio español por mi carrera profesional.",
+            "phrase_tr": "🗣️ [эсту́дьо эспаньо́ль пор ми каррэ́ра профэсьона́ль]\n🇱🇻 Mācos spāņu valodu savas profesionālās karjeras dēļ.\n🇷🇺 Учу испанский ради своей карьеры.",
+            "extra": "Женский род: la carrera. Слайд 5: por mi carrera.",
+            "in_stack": false
+          },
+          {
+            "word": "la novela",
+            "translation": "Роман (книга) · Romāns",
+            "pron": "noˈβela",
+            "phrase": "Leo novelas en español para practicar.",
+            "phrase_tr": "🗣️ [ле́о нобэ́лас эн эспаньо́ль па́ра практика́р]\n🇱🇻 Lasu romānus spāniski, lai praktizētos.\n🇷🇺 Читаю романы на испанском, чтобы практиковаться.",
+            "extra": "Женский род: la novela, las novelas. Слайд 5: para leer novelas.",
+            "in_stack": false
+          },
+          {
+            "word": "el novio / la novia",
+            "translation": "Парень / Девушка (жених / невеста) · Puisis / meitene (līgavainis / līgava)",
+            "pron": "ˈnoβjo / ˈnoβja",
+            "phrase": "Su novio es colombiano y mi novia es letona.",
+            "phrase_tr": "🗣️ [су но́бьо эс коломбья́но и ми но́бья эс лэто́на]\n🇱🇻 Viņas puisis ir kolumbietis un mana meitene ir latviete.\n🇷🇺 Её парень — колумбиец, а моя девушка — латышка.",
+            "extra": "Мужской род: el novio. Женский род: la novia. Слайд 5 и 9.",
+            "in_stack": false
+          },
+          {
+            "word": "viajar",
+            "translation": "Путешествовать · Ceļot",
+            "pron": "bjaˈxaɾ",
+            "phrase": "Quiero viajar a España este verano.",
+            "phrase_tr": "🗣️ [кье́ро бьяха́р а эспа́нья э́стэ бэра́но]\n🇱🇻 Šovasar gribu ceļot uz Spāniju.\n🇷🇺 Хочу поехать путешествовать в Испанию этим летом.",
+            "extra": "Глагол 1-го спряжения (-AR): viajo, viajas, viaja, viajamos, viajáis, viajan. Буква J дает звук [х]: [бьяха́р].",
+            "in_stack": false
+          },
+          {
+            "word": "chatear",
+            "translation": "Переписываться в чате · Tērzēt čatā",
+            "pron": "tʃateˈaɾ",
+            "phrase": "Estudio español para chatear con mis amigos.",
+            "phrase_tr": "🗣️ [эсту́дьо эспаньо́ль па́ра чатэа́р кон мис ами́гос]\n🇱🇻 Mācos spāņu valodu, lai tērzētu ar draugiem čatā.\n🇷🇺 Учу испанский, чтобы переписываться в чате с друзьями.",
+            "extra": "Глагол 1-го спряжения (-AR): chateo, chateas, chatea, chateamos. Слайд 9.",
+            "in_stack": false
+          },
+          {
+            "word": "el futuro",
+            "translation": "Будущее · Nākotne",
+            "pron": "fuˈtuɾo",
+            "phrase": "En el futuro quiero vivir en España.",
+            "phrase_tr": "🗣️ [эн эль футу́ро кье́ро биби́р эн эспа́нья]\n🇱🇻 Nākotnē gribu dzīvot Spānijā.\n🇷🇺 В будущем хочу жить в Испании.",
+            "extra": "Мужской род: el futuro. Слайд 9: ¿Qué quieres hacer en el futuro?",
+            "in_stack": false
+          },
+          {
+            "word": "el idioma",
+            "translation": "Язык (иностранный) · Valoda",
+            "pron": "iˈðjoma",
+            "phrase": "Quiero aprender otros idiomas.",
+            "phrase_tr": "🗣️ [кье́ро апрэндэ́р о́трос идьо́мас]\n🇱🇻 Gribu apgūt citas valodas.\n🇷🇺 Хочу выучить другие языки.",
+            "extra": "Внимание! Мужской род греческого происхождения: EL idioma, LOS idiomas (несмотря на окончание -a).",
+            "in_stack": false
+          },
+          {
+            "word": "las vacaciones",
+            "translation": "Каникулы / Отпуск · Atvaļinājums, brīvdienas",
+            "pron": "bakaˈθjones",
+            "phrase": "Quiero pasar las vacaciones en Colombia.",
+            "phrase_tr": "🗣️ [кье́ро паса́р лас бакасьо́нэс эн коло́мбья]\n🇱🇻 Gribu pavadīt atvaļinājumu Kolumbijā.\n🇷🇺 Хочу провести отпуск в Колумбии.",
+            "extra": "Женский род во множественном числе: las vacaciones. Связка: pasar las vacaciones (проводить отпуск).",
+            "in_stack": false
           }
         ],
         "vocab_rev_pool": [
@@ -8207,6 +8383,78 @@
             "phrase_tr": "🗣️ [кье́ро сали́р дэ но́чэ кон мис ами́гос]\n🇱🇻 Gribu ar draugiem doties nakts izklaidēs.\n🇷🇺 Хочу пойти тусить ночью с друзьями.",
             "extra": "Женский род: la noche. Связка ночной жизни: salir de noche.",
             "in_stack": false
+          },
+          {
+            "word": "la carrera",
+            "translation": "Карьера / Профессия · Karjera",
+            "pron": "kaˈreɾa",
+            "phrase": "Estudio español por mi carrera profesional.",
+            "phrase_tr": "🗣️ [эсту́дьо эспаньо́ль пор ми каррэ́ра профэсьона́ль]\n🇱🇻 Mācos spāņu valodu savas profesionālās karjeras dēļ.\n🇷🇺 Учу испанский ради своей карьеры.",
+            "extra": "Женский род: la carrera. Слайд 5: por mi carrera.",
+            "in_stack": false
+          },
+          {
+            "word": "la novela",
+            "translation": "Роман (книга) · Romāns",
+            "pron": "noˈβela",
+            "phrase": "Leo novelas en español para practicar.",
+            "phrase_tr": "🗣️ [ле́о нобэ́лас эн эспаньо́ль па́ра практика́р]\n🇱🇻 Lasu romānus spāniski, lai praktizētos.\n🇷🇺 Читаю романы на испанском, чтобы практиковаться.",
+            "extra": "Женский род: la novela, las novelas. Слайд 5: para leer novelas.",
+            "in_stack": false
+          },
+          {
+            "word": "el novio / la novia",
+            "translation": "Парень / Девушка (жених / невеста) · Puisis / meitene (līgavainis / līgava)",
+            "pron": "ˈnoβjo / ˈnoβja",
+            "phrase": "Su novio es colombiano y mi novia es letona.",
+            "phrase_tr": "🗣️ [су но́бьо эс коломбья́но и ми но́бья эс лэто́на]\n🇱🇻 Viņas puisis ir kolumbietis un mana meitene ir latviete.\n🇷🇺 Её парень — колумбиец, а моя девушка — латышка.",
+            "extra": "Мужской род: el novio. Женский род: la novia. Слайд 5 и 9.",
+            "in_stack": false
+          },
+          {
+            "word": "viajar",
+            "translation": "Путешествовать · Ceļot",
+            "pron": "bjaˈxaɾ",
+            "phrase": "Quiero viajar a España este verano.",
+            "phrase_tr": "🗣️ [кье́ро бьяха́р а эспа́нья э́стэ бэра́но]\n🇱🇻 Šovasar gribu ceļot uz Spāniju.\n🇷🇺 Хочу поехать путешествовать в Испанию этим летом.",
+            "extra": "Глагол 1-го спряжения (-AR): viajo, viajas, viaja, viajamos, viajáis, viajan. Буква J дает звук [х]: [бьяха́р].",
+            "in_stack": false
+          },
+          {
+            "word": "chatear",
+            "translation": "Переписываться в чате · Tērzēt čatā",
+            "pron": "tʃateˈaɾ",
+            "phrase": "Estudio español para chatear con mis amigos.",
+            "phrase_tr": "🗣️ [эсту́дьо эспаньо́ль па́ра чатэа́р кон мис ами́гос]\n🇱🇻 Mācos spāņu valodu, lai tērzētu ar draugiem čatā.\n🇷🇺 Учу испанский, чтобы переписываться в чате с друзьями.",
+            "extra": "Глагол 1-го спряжения (-AR): chateo, chateas, chatea, chateamos. Слайд 9.",
+            "in_stack": false
+          },
+          {
+            "word": "el futuro",
+            "translation": "Будущее · Nākotne",
+            "pron": "fuˈtuɾo",
+            "phrase": "En el futuro quiero vivir en España.",
+            "phrase_tr": "🗣️ [эн эль футу́ро кье́ро биби́р эн эспа́нья]\n🇱🇻 Nākotnē gribu dzīvot Spānijā.\n🇷🇺 В будущем хочу жить в Испании.",
+            "extra": "Мужской род: el futuro. Слайд 9: ¿Qué quieres hacer en el futuro?",
+            "in_stack": false
+          },
+          {
+            "word": "el idioma",
+            "translation": "Язык (иностранный) · Valoda",
+            "pron": "iˈðjoma",
+            "phrase": "Quiero aprender otros idiomas.",
+            "phrase_tr": "🗣️ [кье́ро апрэндэ́р о́трос идьо́мас]\n🇱🇻 Gribu apgūt citas valodas.\n🇷🇺 Хочу выучить другие языки.",
+            "extra": "Внимание! Мужской род греческого происхождения: EL idioma, LOS idiomas (несмотря на окончание -a).",
+            "in_stack": false
+          },
+          {
+            "word": "las vacaciones",
+            "translation": "Каникулы / Отпуск · Atvaļinājums, brīvdienas",
+            "pron": "bakaˈθjones",
+            "phrase": "Quiero pasar las vacaciones en Colombia.",
+            "phrase_tr": "🗣️ [кье́ро паса́р лас бакасьо́нэс эн коло́мбья]\n🇱🇻 Gribu pavadīt atvaļinājumu Kolumbijā.\n🇷🇺 Хочу провести отпуск в Колумбии.",
+            "extra": "Женский род во множественном числе: las vacaciones. Связка: pasar las vacaciones (проводить отпуск).",
+            "in_stack": false
           }
         ],
         "grammar_pool": [
@@ -9961,6 +10209,38 @@
             "phrase": "1. Te quiero.\n2. ¿Me quieres?\n3. Lo quiero.\n4. La quiero.\n5. Os queremos.",
             "phrase_tr": "1. 🗣️ [тэ кье́ро]\n   🇱🇻 Es tevi mīlu. • 🇷🇺 Я тебя люблю.\n2. 🗣️ [мэ кье́рэс?]\n   🇱🇻 Vai tu mani mīli? • 🇷🇺 Ты меня любишь?\n3. 🗣️ [ло кье́ро]\n   🇱🇻 Es viņu mīlu. • 🇷🇺 Я его люблю.\n4. 🗣️ [ла кье́ро]\n   🇱🇻 Es viņu mīlu. • 🇷🇺 Я её люблю.\n5. 🗣️ [ос кэрэ́мос]\n   🇱🇻 Mēs jūs mīlam. • 🇷🇺 Мы вас любим.",
             "extra": "Местоимение-мишень (кого?) ставится СТРОГО ПЕРЕД глаголом: Te quiero, ¿Me quieres? Личное местоимение yo/tú опускается.",
+            "in_stack": false
+          },
+          {
+            "rule": "🎯 БАТТЛ ТРИГГЕРОВ: POR (+СУЩ.) VS PARA (+ИНФ.) VS PORQUE (+ГЛАГОЛ)\n1. Estudio español [...] mi trabajo (ради работы / dēļ darba) ➔ ...?\n2. Estudio español [...] viajar por el mundo (чтобы путешествовать / lai ceļotu) ➔ ...?\n3. Estudio español [...] trabajo con españoles (потому что работаю / tāpēc, ka strādāju) ➔ ...?\n4. Estudio español [...] mi carrera (ради карьеры / dēļ karjeras) ➔ ...?",
+            "cheat": "1. por | 2. para | 3. porque | 4. por",
+            "phrase": "1. Estudio español por mi trabajo.\n2. Estudio español para viajar por el mundo.\n3. Estudio español porque trabajo con españoles.\n4. Estudio español por mi carrera.",
+            "phrase_tr": "1. 🗣️ [эсту́дьо эспаньо́ль пор ми траба́хо]\n   🇱🇻 Mācos spāņu valodu sava darba dēļ. • 🇷🇺 Учу испанский ради работы.\n2. 🗣️ [эсту́дьо эспаньо́ль па́ра бьяха́р пор эль му́ндо]\n   🇱🇻 Mācos spāņu valodu, lai ceļotu pa pasauli. • 🇷🇺 Учу испанский, чтобы путешествовать.\n3. 🗣️ [эсту́дьо эспаньо́ль по́ркэ траба́хо кон эспаньо́лэс]\n   🇱🇻 Mācos spāņu valodu, tāpēc ka strādāju ar spāņiem. • 🇷🇺 Учу испанский, потому что работаю с испанцами.\n4. 🗣️ [эсту́дьо эспаньо́ль пор ми каррэ́ра]\n   🇱🇻 Mācos spāņu valodu karjeras dēļ. • 🇷🇺 Учу испанский ради карьеры.",
+            "extra": "Правило дорожных знаков: POR цепляет существительное (por mi trabajo). PARA цепляет инфинитив цели (para viajar). PORQUE цепляет предложение с глаголом (porque trabajo).",
+            "in_stack": false
+          },
+          {
+            "rule": "🎯 ЛОВУШКА ДВУХ «PORQUE»: ПРОСТО ГЛАГОЛ VS QUIERO + ИНФИНИТИВ (Слайд 5)\n1. Estudio español [...] trabajo en una empresa española (факт: работаю) ➔ ...?\n2. Estudio español [...] quiero viajar a Colombia (желание: хочу поехать) ➔ ...?\n3. Estudio español [...] hablar con mi novia (цель: чтобы говорить, инф. без quiero) ➔ ...?\n4. Estudio español [...] quiero estudiar en México (желание: хочу учиться) ➔ ...?",
+            "cheat": "1. porque | 2. porque | 3. para | 4. porque",
+            "phrase": "1. Estudio español porque trabajo en una empresa española.\n2. Estudio español porque quiero viajar a Colombia.\n3. Estudio español para hablar con mi novia.\n4. Estudio español porque quiero estudiar en México.",
+            "phrase_tr": "1. 🗣️ [по́ркэ траба́хо эн у́на эмпрэ́са эспаньо́ла]\n   🇱🇻 Tāpēc, ka strādāju spāņu uzņēmumā. • 🇷🇺 Потому что работаю в испанской компании.\n2. 🗣️ [по́ркэ кье́ро бьяха́р а коло́мбья]\n   🇱🇻 Tāpēc, ka gribu ceļot uz Kolumbiju. • 🇷🇺 Потому что хочу поехать в Колумбию.\n3. 🗣️ [па́ра абла́р кон ми но́бья]\n   🇱🇻 Lai runātu ar savu draudzeni. • 🇷🇺 Чтобы разговаривать с девушкой.\n4. 🗣️ [по́ркэ кье́ро эстудья́р эн мэ́хико]\n   🇱🇻 Tāpēc, ka gribu mācīties Meksikā. • 🇷🇺 Потому что хочу учиться в Мексике.",
+            "extra": "Тонкость профессора Альберто: если есть QUIERO (спрягаемый глагол) ➔ ставится PORQUE quiero viajar! Если глагола quiero нет и идет сразу начальная форма ➔ ставится PARA hablar.",
+            "in_stack": false
+          },
+          {
+            "rule": "🎯 ВОПРОС VS ОТВЕТ: ¿POR QUÉ? VS PORQUE (Слайд 6 Альберто)\n1. [...] estudias español? (Почему ты учишь испанский? — вопрос) ➔ ...?\n2. [...] quiero vivir en España. (Потому что хочу жить в Испании — ответ) ➔ ...?\n3. [...] no vienes a la fiesta hoy? (Почему ты не придешь на вечеринку? — вопрос) ➔ ...?\n4. [...] tengo mucho trabajo. (Потому что у меня много работы — ответ) ➔ ...?",
+            "cheat": "1. ¿Por qué | 2. Porque | 3. ¿Por qué | 4. Porque",
+            "phrase": "1. ¿Por qué estudias español?\n2. Porque quiero vivir en España.\n3. ¿Por qué no vienes a la fiesta hoy?\n4. Porque tengo mucho trabajo.",
+            "phrase_tr": "1. 🗣️ [пор кэ эсту́дьяс эспаньо́ль?]\n   🇱🇻 Kāpēc tu mācies spāņu valodu? • 🇷🇺 Почему ты учишь испанский?\n2. 🗣️ [по́ркэ кье́ро биби́р эн эспа́нья]\n   🇱🇻 Tāpēc, ka gribu dzīvot Spānijā. • 🇷🇺 Потому что хочу жить в Испании.\n3. 🗣️ [пор кэ но бье́нэс а ла фье́ста ой?]\n   🇱🇻 Kāpēc tu šodien nenāc uz ballīti? • 🇷🇺 Почему ты сегодня не придешь на вечеринку?\n4. 🗣️ [по́ркэ тэ́нго му́чо траба́хо]\n   🇱🇻 Tāpēc, ka man ir daudz darba. • 🇷🇺 Потому что у меня много работы.",
+            "extra": "Графика Альберто: вопрос ¿Por qué? пишется раздельно и с графическим ударением на qué. Ответ porque пишется слитно и без ударения.",
+            "in_stack": false
+          },
+          {
+            "rule": "🎯 УПРАЖНЕНИЕ АЛЬБЕРТО (Слайд 9 TAREA Nº 6): РАЗБОР ГЕРОЕВ\n1. Tom estudia español [...] chatear con sus amigos (чтобы переписываться, инф.) ➔ ...?\n2. Sam estudia español [...] su novio es colombiano (потому что парень колумбиец, глагол) ➔ ...?\n3. Cris estudia español [...] su trabajo (ради работы, сущ.) ➔ ...?\n4. Vanessa estudia español [...] quiere vivir en Costa Rica (потому что хочет жить, quiero + инф.) ➔ ...?",
+            "cheat": "1. para | 2. porque | 3. por | 4. porque",
+            "phrase": "1. Tom estudia español para chatear con sus amigos.\n2. Sam estudia español porque su novio es colombiano.\n3. Cris estudia español por su trabajo.\n4. Vanessa estudia español porque quiere vivir en Costa Rica.",
+            "phrase_tr": "1. 🗣️ [па́ра чатэа́р кон сус ами́гос]\n   🇱🇻 Lai tērzētu ar saviem draugiem. • 🇷🇺 Чтобы переписываться с друзьями.\n2. 🗣️ [по́ркэ су но́бьо эс коломбья́но]\n   🇱🇻 Tāpēc, ka viņas draugs ir kolumbietis. • 🇷🇺 Потому что её парень — колумбиец.\n3. 🗣️ [пор су траба́хо]\n   🇱🇻 Sava darba dēļ. • 🇷🇺 Из-за / ради своей работы.\n4. 🗣️ [по́ркэ кье́рэ биби́р эн ко́ста ри́ка]\n   🇱🇻 Tāpēc, ka grib dzīvot Kostarikā. • 🇷🇺 Потому что хочет жить в Коста-Рике.",
+            "extra": "Реальное задание №9 из учебника Aula Internacional 1: Tom ➔ para (chatear), Sam ➔ porque (es), Cris ➔ por (su trabajo), Vanessa ➔ porque (quiere vivir).",
             "in_stack": false
           }
         ]
