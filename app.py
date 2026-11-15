@@ -1346,7 +1346,7 @@ def supabase_pull(lid: str) -> bool:
         if "star_days" in vr_t: cur_vr_days = dict(zip(vr_t["word"], vr_t["star_days"]))
 
     # 1. Vocab
-    v_res = client.table("vocab").select("*").eq("lang", lid).execute()
+    v_res = client.table("vocab").select("*").eq("lang", lid).order("id").execute()
     v_rows = v_res.data or []
     if v_rows:
         cur_v_in_stack = {}
@@ -1397,7 +1397,7 @@ def supabase_pull(lid: str) -> bool:
         if "due_date" in gp_t: cur_g_due = dict(zip(gp_t["rule"], gp_t["due_date"]))
         if "star_days" in gp_t: cur_g_days = dict(zip(gp_t["rule"], gp_t["star_days"]))
 
-    g_res = client.table("grammar").select("*").eq("lang", lid).execute()
+    g_res = client.table("grammar").select("*").eq("lang", lid).order("id").execute()
     g_rows = g_res.data or []
     if g_rows:
         base_list, pool_list = [], []
