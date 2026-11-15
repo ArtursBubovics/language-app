@@ -3251,11 +3251,11 @@
             "in_stack": false
           },
           {
-            "rule": "🎯 МУЛЬТИТУЛ HACER: УСТОЙЧИВЫЕ ВЫРАЖЕНИЯ (Слайд 3 Альберто)\n1. hago [...] (письмо / es rakstu vēstuli) ➔ ...?\n2. hago [...] (ужин / es gatavoju vakariņas) ➔ ...?\n3. hago [...] (постель / es klāju gultu) ➔ ...?\n4. hago [...] (завтрак / es gatavoju brokastis) ➔ ...?",
-            "cheat": "1. una carta | 2. la cena | 3. la cama | 4. el desayuno",
-            "phrase": "1. Hago una carta.\n2. Hago la cena.\n3. Hago la cama.\n4. Hago el desayuno.",
-            "phrase_tr": "1. 🗣️ [а́го у́на ка́рта]\n   🇱🇻 Es rakstu vēstuli. • 🇷🇺 Я пишу письмо.\n2. 🗣️ [а́го ла сэ́на]\n   🇱🇻 Es gatavoju vakariņas. • 🇷🇺 Я готовлю ужин.\n3. 🗣️ [а́го ла ка́ма]\n   🇱🇻 Es klāju gultu. • 🇷🇺 Я заправляю постель.\n4. 🗣️ [а́го эль дэсаю́но]\n   🇱🇻 Es gatavoju brokastis. • 🇷🇺 Я готовлю завтрак.",
-            "extra": "Испанский глагол-мультитул: вместо разных глаголов (писать, стелить, готовить) испанцы используют HACER: hacer una carta, hacer la cena, hacer la cama, hacer el desayuno.",
+            "rule": "🎯 МУЛЬТИТУЛ HACER В ДЕЙСТВИИ (Слайд 3 Альберто)\n1. Я пишу письмо (es rakstu vēstuli): Yo [...] una carta ➔ ...?\n2. Ты заправляешь постель? (vai tu klāj gultu?): ¿Tú [...] la cama? ➔ ...?\n3. Она готовит завтрак (viņa gatavo brokastis): Ella [...] el desayuno ➔ ...?\n4. Мы готовим ужин (mēs gatavojam vakariņas): Nosotros [...] la cena ➔ ...?",
+            "cheat": "1. hago | 2. haces | 3. hace | 4. hacemos",
+            "phrase": "1. Yo hago una carta.\n2. ¿Tú haces la cama?\n3. Ella hace el desayuno.\n4. Nosotros hacemos la cena.",
+            "phrase_tr": "1. 🗣️ [йо а́го у́на ка́рта]\n   🇱🇻 Es rakstu vēstuli. • 🇷🇺 Я пишу письмо.\n2. 🗣️ [ту а́сэс ла ка́ма?]\n   🇱🇻 Vai tu klāj gultu? • 🇷🇺 Ты заправляешь постель?\n3. 🗣️ [э́лья а́сэ эль дэсаю́но]\n   🇱🇻 Viņa gatavo brokastis. • 🇷🇺 Она готовит завтрак.\n4. 🗣️ [носо́трос асэ́мос ла сэ́на]\n   🇱🇻 Mēs gatavojam vakariņas. • 🇷🇺 Мы готовим ужин.",
+            "extra": "💡 В русском и латышском здесь 3 разных глагола (писать, застилать, готовить / rakstīt, klāt, gatavot). А в испанском ВСЕГДА глагол HACER! В лице Yo — хвост -go (hago), в остальных — обычные насадки -ER (haces, hace, hacemos).",
             "in_stack": false
           },
           {
@@ -9620,11 +9620,11 @@
             "in_stack": false
           },
           {
-            "rule": "🎯 МУЛЬТИТУЛ HACER: УСТОЙЧИВЫЕ ВЫРАЖЕНИЯ (Слайд 3 Альберто)\n1. hago [...] (письмо / es rakstu vēstuli) ➔ ...?\n2. hago [...] (ужин / es gatavoju vakariņas) ➔ ...?\n3. hago [...] (постель / es klāju gultu) ➔ ...?\n4. hago [...] (завтрак / es gatavoju brokastis) ➔ ...?",
-            "cheat": "1. una carta | 2. la cena | 3. la cama | 4. el desayuno",
-            "phrase": "1. Hago una carta.\n2. Hago la cena.\n3. Hago la cama.\n4. Hago el desayuno.",
-            "phrase_tr": "1. 🗣️ [а́го у́на ка́рта]\n   🇱🇻 Es rakstu vēstuli. • 🇷🇺 Я пишу письмо.\n2. 🗣️ [а́го ла сэ́на]\n   🇱🇻 Es gatavoju vakariņas. • 🇷🇺 Я готовлю ужин.\n3. 🗣️ [а́го ла ка́ма]\n   🇱🇻 Es klāju gultu. • 🇷🇺 Я заправляю постель.\n4. 🗣️ [а́го эль дэсаю́но]\n   🇱🇻 Es gatavoju brokastis. • 🇷🇺 Я готовлю завтрак.",
-            "extra": "Испанский глагол-мультитул: вместо разных глаголов (писать, стелить, готовить) испанцы используют HACER: hacer una carta, hacer la cena, hacer la cama, hacer el desayuno.",
+            "rule": "🎯 МУЛЬТИТУЛ HACER В ДЕЙСТВИИ (Слайд 3 Альберто)\n1. Я пишу письмо (es rakstu vēstuli): Yo [...] una carta ➔ ...?\n2. Ты заправляешь постель? (vai tu klāj gultu?): ¿Tú [...] la cama? ➔ ...?\n3. Она готовит завтрак (viņa gatavo brokastis): Ella [...] el desayuno ➔ ...?\n4. Мы готовим ужин (mēs gatavojam vakariņas): Nosotros [...] la cena ➔ ...?",
+            "cheat": "1. hago | 2. haces | 3. hace | 4. hacemos",
+            "phrase": "1. Yo hago una carta.\n2. ¿Tú haces la cama?\n3. Ella hace el desayuno.\n4. Nosotros hacemos la cena.",
+            "phrase_tr": "1. 🗣️ [йо а́го у́на ка́рта]\n   🇱🇻 Es rakstu vēstuli. • 🇷🇺 Я пишу письмо.\n2. 🗣️ [ту а́сэс ла ка́ма?]\n   🇱🇻 Vai tu klāj gultu? • 🇷🇺 Ты заправляешь постель?\n3. 🗣️ [э́лья а́сэ эль дэсаю́но]\n   🇱🇻 Viņa gatavo brokastis. • 🇷🇺 Она готовит завтрак.\n4. 🗣️ [носо́трос асэ́мос ла сэ́на]\n   🇱🇻 Mēs gatavojam vakariņas. • 🇷🇺 Мы готовим ужин.",
+            "extra": "💡 В русском и латышском здесь 3 разных глагола (писать, застилать, готовить / rakstīt, klāt, gatavot). А в испанском ВСЕГДА глагол HACER! В лице Yo — хвост -go (hago), в остальных — обычные насадки -ER (haces, hace, hacemos).",
             "in_stack": false
           },
           {
