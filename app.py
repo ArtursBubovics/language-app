@@ -2128,6 +2128,50 @@ def keyboard_hook():
     )
 
 
+def format_extra_html(extra_str):
+    if not extra_str:
+        return ""
+    if "<table" in extra_str:
+        return extra_str
+    sections = str(extra_str).split("\n\n")
+    html_sections = []
+    for sec in sections:
+        sec = sec.strip()
+        if not sec:
+            continue
+        lines = [l.strip() for l in sec.split("\n") if l.strip()]
+        if len(lines) >= 2 and all("|" in l for l in lines):
+            table_html = ['<table style="width:100%;border-collapse:collapse;margin:8px 0;font-size:12px;background:#ffffff;border-radius:8px;overflow:hidden;border:1px solid #e0e0e0;box-shadow:0 1px 3px rgba(0,0,0,0.06);">']
+            headers = [c.strip() for c in lines[0].split("|")]
+            table_html.append('<tr style="background:#f1f5f9;font-weight:700;color:#334155;border-bottom:2px solid #cbd5e1;">')
+            for h in headers:
+                table_html.append(f'<th style="padding:6px 8px;text-align:left;">{esc(h)}</th>')
+            table_html.append('</tr>')
+            for row in lines[1:]:
+                cells = [c.strip() for c in row.split("|")]
+                is_active = any("👉" in c or "⚡" in c for c in cells)
+                bg = "#fef9c3" if is_active else "#ffffff"
+                fw = "700" if is_active else "400"
+                col = "#713f12" if is_active else "#1f2937"
+                table_html.append(f'<tr style="background:{bg};font-weight:{fw};color:{col};border-bottom:1px solid #f1f5f9;">')
+                for c in cells:
+                    table_html.append(f'<td style="padding:5px 8px;">{esc(c)}</td>')
+                table_html.append('</tr>')
+            table_html.append('</table>')
+            html_sections.append("".join(table_html))
+        else:
+            styled_lines = []
+            for l in lines:
+                if l.startswith("💡") or l.startswith("⚠️"):
+                    styled_lines.append(f'<div style="margin-top:6px;padding:6px 10px;background:#fefce8;border-left:3px solid #eab308;border-radius:6px;font-size:12px;color:#713f12;font-weight:600;">{esc(l)}</div>')
+                elif l.startswith("🧩"):
+                    styled_lines.append(f'<div style="margin-top:6px;padding:6px 10px;background:#f0f9ff;border-left:3px solid #0284c7;border-radius:6px;font-size:12px;color:#0369a1;font-weight:600;">{esc(l)}</div>')
+                else:
+                    styled_lines.append(f'<div style="color:#4b5563;font-size:12px;margin-top:3px;">{esc(l)}</div>')
+            html_sections.append("".join(styled_lines))
+    return "".join(html_sections)
+
+
 def answer_html(kind, answer, rec):
     big = fit_px(answer, 26 if kind in VOCAB_KINDS else 20, 16)
     parts = [f'<div style="font-size:clamp(17px,4.5vw,{big}px);font-weight:800;line-height:1.25;color:#1f1f1f;overflow-wrap:anywhere">'
@@ -2139,7 +2183,7 @@ def answer_html(kind, answer, rec):
         if rec.get("phrase_tr"):
             parts.append(f'<div style="font-size:clamp(13px,3.4vw,15.5px);color:#2e7d32;margin-top:2px;overflow-wrap:anywhere">{esc(rec["phrase_tr"])}</div>')
     if rec.get("extra"):
-        parts.append(f'<div style="margin-top:6px;font-size:clamp(11.5px,3vw,13px);color:#4e4e4e;overflow-wrap:anywhere">📝 {esc(rec["extra"])}</div>')
+        parts.append(f'<div style="margin-top:6px;overflow-wrap:anywhere">{format_extra_html(rec["extra"])}</div>')
     return ('<div class="c" style="background:#e8f5e9;border-left:7px solid #43a047;border-radius:12px;'
             'padding:12px 14px;margin:8px 0;box-shadow:0 1px 3px rgba(0,0,0,0.12);color:#1f1f1f">' + "".join(parts) + "</div>")
 
