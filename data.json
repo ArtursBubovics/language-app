@@ -4627,7 +4627,14 @@
             "phrase": "Vamos a comer a las dos.",
             "phrase_tr": "Пойдём обедать в два.",
             "extra": "",
-            "in_stack": false
+            "in_stack": false,
+            "reviews": 6,
+            "streak": 0,
+            "type": "Выпускник",
+            "weight": 1.0,
+            "last": "2026-11-08",
+            "due_date": "",
+            "star_days": 5
           },
           {
             "word": "¿Cómo te llamas?",
@@ -4636,7 +4643,14 @@
             "phrase": "¿Cómo te llamas?",
             "phrase_tr": "Kā tevi sauc?",
             "extra": "C = [к], LL = [й]",
-            "in_stack": false
+            "in_stack": false,
+            "reviews": 1,
+            "streak": 0,
+            "type": "Выпускник",
+            "weight": 1.0,
+            "last": "2026-11-08",
+            "due_date": "",
+            "star_days": 5
           },
           {
             "word": "Me gustaría",
@@ -4645,7 +4659,14 @@
             "phrase": "Me gustaría",
             "phrase_tr": "Я бы хотел кофе",
             "extra": "Из стека недели",
-            "in_stack": false
+            "in_stack": false,
+            "reviews": 1,
+            "streak": 0,
+            "type": "Выпускник",
+            "weight": 1.0,
+            "last": "2026-11-08",
+            "due_date": "",
+            "star_days": 5
           },
           {
             "word": "No entiendo",
@@ -4654,7 +4675,14 @@
             "phrase": "No entiendo",
             "phrase_tr": "Я не понимаю",
             "extra": "Из стека недели",
-            "in_stack": false
+            "in_stack": false,
+            "reviews": 1,
+            "streak": 0,
+            "type": "Выпускник",
+            "weight": 1.0,
+            "last": "2026-11-08",
+            "due_date": "",
+            "star_days": 5
           },
           {
             "word": "la casa",
@@ -4663,7 +4691,14 @@
             "phrase": "Mi casa es pequeña.",
             "phrase_tr": "Мой дом маленький.",
             "extra": "",
-            "in_stack": false
+            "in_stack": false,
+            "reviews": 6,
+            "streak": 0,
+            "type": "Выпускник",
+            "weight": 1.0,
+            "last": "2026-11-06",
+            "due_date": "",
+            "star_days": 5
           },
           {
             "word": "el agua",
@@ -4672,7 +4707,14 @@
             "phrase": "Quiero un vaso de agua.",
             "phrase_tr": "Хочу стакан воды.",
             "extra": "",
-            "in_stack": false
+            "in_stack": false,
+            "reviews": 6,
+            "streak": 0,
+            "type": "Выпускник",
+            "weight": 1.0,
+            "last": "2026-11-06",
+            "due_date": "",
+            "star_days": 5
           },
           {
             "word": "por favor",
@@ -4681,7 +4723,14 @@
             "phrase": "Un café, por favor.",
             "phrase_tr": "Один кофе, пожалуйста.",
             "extra": "",
-            "in_stack": false
+            "in_stack": false,
+            "reviews": 6,
+            "streak": 1,
+            "type": "Выпускник",
+            "weight": 1.0,
+            "last": "2026-11-06",
+            "due_date": "",
+            "star_days": 5
           },
           {
             "word": "gracias",
@@ -4690,7 +4739,14 @@
             "phrase": "Muchas gracias por tu ayuda.",
             "phrase_tr": "Большое спасибо за помощь.",
             "extra": "",
-            "in_stack": false
+            "in_stack": false,
+            "reviews": 6,
+            "streak": 1,
+            "type": "Выпускник",
+            "weight": 1.0,
+            "last": "2026-11-06",
+            "due_date": "",
+            "star_days": 5
           },
           {
             "word": "hola",
@@ -4699,7 +4755,14 @@
             "phrase": "¡Hola! ¿Cómo estás?",
             "phrase_tr": "Привет! Как дела?",
             "extra": "",
-            "in_stack": false
+            "in_stack": false,
+            "reviews": 6,
+            "streak": 1,
+            "type": "Выпускник",
+            "weight": 1.0,
+            "last": "2026-11-06",
+            "due_date": "",
+            "star_days": 5
           },
           {
             "word": "Hola, me llamo Juan. ¿Y tú?",
@@ -4708,7 +4771,14 @@
             "phrase": "Hola, me llamo Juan. ¿Y tú?",
             "phrase_tr": "Sveiks, mani sauc Huan. Un tu?",
             "extra": "H — немая, LL = [й], J = [х], Y = [и]",
-            "in_stack": false
+            "in_stack": false,
+            "reviews": 1,
+            "streak": 0,
+            "type": "Выпускник",
+            "weight": 1.0,
+            "last": "2026-11-08",
+            "due_date": "",
+            "star_days": 5
           },
           {
             "word": "Cero",
@@ -4717,7 +4787,14 @@
             "phrase": "Сero евро.",
             "phrase_tr": "Nulle eiro.",
             "extra": "C (перед E) = [с]",
-            "in_stack": false
+            "in_stack": false,
+            "reviews": 1,
+            "streak": 0,
+            "type": "Выпускник",
+            "weight": 1.0,
+            "last": "2026-11-08",
+            "due_date": "",
+            "star_days": 5
           },
           {
             "word": "Uno",
@@ -4726,7 +4803,14 @@
             "phrase": "Uno, dos, tres...",
             "phrase_tr": "Viens, divi, trīs...",
             "extra": "U = [у]",
-            "in_stack": false
+            "in_stack": false,
+            "reviews": 1,
+            "streak": 0,
+            "type": "Выпускник",
+            "weight": 1.0,
+            "last": "2026-11-08",
+            "due_date": "",
+            "star_days": 5
           },
           {
             "word": "Dos",
@@ -4735,7 +4819,14 @@
             "phrase": "Dos cafés, por favor.",
             "phrase_tr": "Divas kafijas, lūdzu.",
             "extra": "O = [о]",
-            "in_stack": false
+            "in_stack": false,
+            "reviews": 1,
+            "streak": 0,
+            "type": "Выпускник",
+            "weight": 1.0,
+            "last": "2026-11-08",
+            "due_date": "",
+            "star_days": 5
           },
           {
             "word": "Tres",
@@ -4744,7 +4835,14 @@
             "phrase": "Tres personas.",
             "phrase_tr": "Trīs cilvēki.",
             "extra": "E = [э]",
-            "in_stack": false
+            "in_stack": false,
+            "reviews": 1,
+            "streak": 0,
+            "type": "Выпускник",
+            "weight": 1.0,
+            "last": "2026-11-08",
+            "due_date": "",
+            "star_days": 5
           },
           {
             "word": "Cuatro",
@@ -4753,7 +4851,14 @@
             "phrase": "Cuatro estaciones.",
             "phrase_tr": "Četri gadalaiki.",
             "extra": "C (перед U) = [к]",
-            "in_stack": false
+            "in_stack": false,
+            "reviews": 1,
+            "streak": 0,
+            "type": "Выпускник",
+            "weight": 1.0,
+            "last": "2026-11-08",
+            "due_date": "",
+            "star_days": 5
           },
           {
             "word": "Cinco",
@@ -4762,7 +4867,14 @@
             "phrase": "Cinco minutos.",
             "phrase_tr": "Piecas minūtes.",
             "extra": "C (перед I) = [с], C (перед O) = [к]",
-            "in_stack": false
+            "in_stack": false,
+            "reviews": 1,
+            "streak": 0,
+            "type": "Выпускник",
+            "weight": 1.0,
+            "last": "2026-11-08",
+            "due_date": "",
+            "star_days": 5
           },
           {
             "word": "Seis",
@@ -4771,7 +4883,14 @@
             "phrase": "Seis días.",
             "phrase_tr": "Sešas dienas.",
             "extra": "E+I = [ей]",
-            "in_stack": false
+            "in_stack": false,
+            "reviews": 1,
+            "streak": 0,
+            "type": "Выпускник",
+            "weight": 1.0,
+            "last": "2026-11-08",
+            "due_date": "",
+            "star_days": 5
           },
           {
             "word": "Siete",
@@ -4780,7 +4899,14 @@
             "phrase": "Siete horas.",
             "phrase_tr": "Septiņas stundas.",
             "extra": "I+E = [ье]",
-            "in_stack": false
+            "in_stack": false,
+            "reviews": 1,
+            "streak": 1,
+            "type": "Выпускник",
+            "weight": 1.0,
+            "last": "2026-11-08",
+            "due_date": "",
+            "star_days": 5
           },
           {
             "word": "Ocho",
@@ -4789,7 +4915,14 @@
             "phrase": "Ocho euros.",
             "phrase_tr": "Astoņi eiro.",
             "extra": "CH = [ч]",
-            "in_stack": false
+            "in_stack": false,
+            "reviews": 1,
+            "streak": 0,
+            "type": "Выпускник",
+            "weight": 1.0,
+            "last": "2026-11-08",
+            "due_date": "",
+            "star_days": 5
           },
           {
             "word": "Nueve",
@@ -4798,7 +4931,14 @@
             "phrase": "Nueve meses.",
             "phrase_tr": "Deviņi mēneši.",
             "extra": "V = [б]",
-            "in_stack": false
+            "in_stack": false,
+            "reviews": 1,
+            "streak": 0,
+            "type": "Выпускник",
+            "weight": 1.0,
+            "last": "2026-11-08",
+            "due_date": "",
+            "star_days": 5
           },
           {
             "word": "Diez",
@@ -4807,7 +4947,14 @@
             "phrase": "Diez puntos.",
             "phrase_tr": "Desmit punkti.",
             "extra": "Z = [с]",
-            "in_stack": false
+            "in_stack": false,
+            "reviews": 1,
+            "streak": 0,
+            "type": "Выпускник",
+            "weight": 1.0,
+            "last": "2026-11-08",
+            "due_date": "",
+            "star_days": 5
           },
           {
             "word": "¿Cómo se dice esto en español?",
@@ -4816,7 +4963,14 @@
             "phrase": "¿Cómo se dice esto en español?",
             "phrase_tr": "Kā tas ir spāņu valodā?",
             "extra": "C (перед O) = [к], C (перед E) = [с], Ñ = [нь]",
-            "in_stack": false
+            "in_stack": false,
+            "reviews": 1,
+            "streak": 0,
+            "type": "Выпускник",
+            "weight": 1.0,
+            "last": "2026-11-08",
+            "due_date": "",
+            "star_days": 5
           },
           {
             "word": "¿Qué significa...?",
@@ -4825,7 +4979,14 @@
             "phrase": "¿Qué significa \"ordenador\"?",
             "phrase_tr": "Ko nozīmē \"ordenador\"?",
             "extra": "QU = [к], G (перед N) = [г]",
-            "in_stack": false
+            "in_stack": false,
+            "reviews": 1,
+            "streak": 0,
+            "type": "Выпускник",
+            "weight": 1.0,
+            "last": "2026-11-08",
+            "due_date": "",
+            "star_days": 5
           },
           {
             "word": "¿Cómo se pronuncia...?",
@@ -4834,7 +4995,14 @@
             "phrase": "¿Cómo se pronuncia \"pizarra\"?",
             "phrase_tr": "Kā izrunā \"pizarra\"?",
             "extra": "C (перед O) = [к], C (перед I) = [с]",
-            "in_stack": false
+            "in_stack": false,
+            "reviews": 1,
+            "streak": 0,
+            "type": "Выпускник",
+            "weight": 1.0,
+            "last": "2026-11-08",
+            "due_date": "",
+            "star_days": 5
           },
           {
             "word": "la silla",
@@ -4843,7 +5011,14 @@
             "phrase": "La silla es cómoda.",
             "phrase_tr": "🗣️ [ла си́йа эс ко́мода]\n🇷🇺 Стул удобный.",
             "extra": "Женский род (-a). Двойная ll читается [й]. Во мн. ч: las sillas.",
-            "in_stack": false
+            "in_stack": false,
+            "reviews": 1,
+            "streak": 0,
+            "type": "Выпускник",
+            "weight": 1.0,
+            "last": "2026-11-08",
+            "due_date": "",
+            "star_days": 5
           },
           {
             "word": "proyector",
@@ -4852,7 +5027,14 @@
             "phrase": "Es un proyector.",
             "phrase_tr": "Tas ir projektors.",
             "extra": "Y = [й]",
-            "in_stack": false
+            "in_stack": false,
+            "reviews": 1,
+            "streak": 0,
+            "type": "Выпускник",
+            "weight": 1.0,
+            "last": "2026-11-08",
+            "due_date": "",
+            "star_days": 5
           },
           {
             "word": "papelera",
@@ -4861,7 +5043,14 @@
             "phrase": "Es una papelera.",
             "phrase_tr": "Tā ir miskaste.",
             "extra": "—",
-            "in_stack": false
+            "in_stack": false,
+            "reviews": 1,
+            "streak": 0,
+            "type": "Выпускник",
+            "weight": 1.0,
+            "last": "2026-11-08",
+            "due_date": "",
+            "star_days": 5
           },
           {
             "word": "tableta",
@@ -4870,7 +5059,14 @@
             "phrase": "Es una tableta.",
             "phrase_tr": "Tas ir planšetdators.",
             "extra": "—",
-            "in_stack": false
+            "in_stack": false,
+            "reviews": 1,
+            "streak": 0,
+            "type": "Выпускник",
+            "weight": 1.0,
+            "last": "2026-11-08",
+            "due_date": "",
+            "star_days": 5
           },
           {
             "word": "estuche",
@@ -4879,7 +5075,14 @@
             "phrase": "Es un estuche.",
             "phrase_tr": "Tas ir penālis.",
             "extra": "CH = [ч]",
-            "in_stack": false
+            "in_stack": false,
+            "reviews": 1,
+            "streak": 0,
+            "type": "Выпускник",
+            "weight": 1.0,
+            "last": "2026-11-08",
+            "due_date": "",
+            "star_days": 5
           },
           {
             "word": "la mesa",
@@ -4888,7 +5091,14 @@
             "phrase": "La mesa es blanca.",
             "phrase_tr": "🗣️ [ла мэ́са эс бла́нка]\n🇷🇺 Стол белый.",
             "extra": "Женский род (-a). Во множественном числе: las mesas.",
-            "in_stack": false
+            "in_stack": false,
+            "reviews": 1,
+            "streak": 0,
+            "type": "Выпускник",
+            "weight": 1.0,
+            "last": "2026-11-08",
+            "due_date": "",
+            "star_days": 5
           },
           {
             "word": "el libro",
@@ -4897,7 +5107,14 @@
             "phrase": "El libro es muy interesante.",
             "phrase_tr": "🗣️ [эль ли́бро эс муй интэрэса́нтэ]\n🇷🇺 Книга очень интересная.",
             "extra": "Мужской род (-o). Во множественном числе: los libros.",
-            "in_stack": false
+            "in_stack": false,
+            "reviews": 1,
+            "streak": 0,
+            "type": "Выпускник",
+            "weight": 1.0,
+            "last": "2026-11-08",
+            "due_date": "",
+            "star_days": 5
           },
           {
             "word": "el bolígrafo",
@@ -4906,7 +5123,14 @@
             "phrase": "Tengo el bolígrafo.",
             "phrase_tr": "🗣️ [тэ́нго эль боли́графо]\n🇷🇺 У меня есть ручка.",
             "extra": "Мужской род (-o). Сокращенно: el boli. Во мн. ч: los bolígrafos.",
-            "in_stack": false
+            "in_stack": false,
+            "reviews": 1,
+            "streak": 0,
+            "type": "Выпускник",
+            "weight": 1.0,
+            "last": "2026-11-08",
+            "due_date": "",
+            "star_days": 5
           },
           {
             "word": "el ordenador",
@@ -4915,7 +5139,14 @@
             "phrase": "El ordenador es rápido.",
             "phrase_tr": "🗣️ [эль ордэнадо́р эс ра́пидо]\n🇷🇺 Компьютер быстрый.",
             "extra": "Мужской род (на согласную). Во мн. ч. подушка +es: los ordenadores.",
-            "in_stack": false
+            "in_stack": false,
+            "reviews": 1,
+            "streak": 0,
+            "type": "Выпускник",
+            "weight": 1.0,
+            "last": "2026-11-08",
+            "due_date": "",
+            "star_days": 5
           },
           {
             "word": "el cuaderno",
@@ -4924,7 +5155,14 @@
             "phrase": "El cuaderno es nuevo.",
             "phrase_tr": "🗣️ [эль куадэ́рно эс нуэ́во]\n🇷🇺 Тетрадь новая.",
             "extra": "Мужской род (-o). Во мн. ч: los cuadernos.",
-            "in_stack": false
+            "in_stack": false,
+            "reviews": 1,
+            "streak": 0,
+            "type": "Выпускник",
+            "weight": 1.0,
+            "last": "2026-11-08",
+            "due_date": "",
+            "star_days": 5
           },
           {
             "word": "la pizarra",
@@ -4933,7 +5171,14 @@
             "phrase": "La pizarra es verde.",
             "phrase_tr": "🗣️ [ла писа́рра эс вэ́рдэ]\n🇷🇺 Доска зелёная.",
             "extra": "Женский род (-a). Во мн. ч: las pizarras.",
-            "in_stack": false
+            "in_stack": false,
+            "reviews": 1,
+            "streak": 0,
+            "type": "Выпускник",
+            "weight": 1.0,
+            "last": "2026-11-08",
+            "due_date": "",
+            "star_days": 5
           },
           {
             "word": "hoja de papel",
@@ -4942,7 +5187,14 @@
             "phrase": "Es una hoja de papel.",
             "phrase_tr": "Tā ir papīra lapa.",
             "extra": "H — немая, J = [х]",
-            "in_stack": false
+            "in_stack": false,
+            "reviews": 1,
+            "streak": 0,
+            "type": "Выпускник",
+            "weight": 1.0,
+            "last": "2026-11-08",
+            "due_date": "",
+            "star_days": 5
           },
           {
             "word": "la mochila",
@@ -4951,7 +5203,14 @@
             "phrase": "La mochila es negra.",
             "phrase_tr": "🗣️ [ла мочи́ла эс нэ́гра]\n🇷🇺 Рюкзак чёрный.",
             "extra": "Женский род (-a). Во мн. ч: las mochilas.",
-            "in_stack": false
+            "in_stack": false,
+            "reviews": 1,
+            "streak": 0,
+            "type": "Выпускник",
+            "weight": 1.0,
+            "last": "2026-11-08",
+            "due_date": "",
+            "star_days": 5
           },
           {
             "word": "¡Hasta la vista!",
@@ -4960,7 +5219,14 @@
             "phrase": "¡Hasta la vista!",
             "phrase_tr": "🗣️ [а́ста ла ви́ста]\n🇷🇺 До встречи!",
             "extra": "Буква H немая. Популярное прощание.",
-            "in_stack": false
+            "in_stack": false,
+            "reviews": 1,
+            "streak": 0,
+            "type": "Выпускник",
+            "weight": 1.0,
+            "last": "2026-11-08",
+            "due_date": "",
+            "star_days": 5
           },
           {
             "word": "¡Hasta luego!",
@@ -4969,7 +5235,14 @@
             "phrase": "Muchas gracias y ¡hasta luego!",
             "phrase_tr": "🗣️ [му́час гра́сиас и а́ста луэ́го]\n🇷🇺 Большое спасибо и до скорого!",
             "extra": "Самое популярное прощание в Испании. Буква H немая, G перед O = твердый [г].",
-            "in_stack": false
+            "in_stack": false,
+            "reviews": 1,
+            "streak": 0,
+            "type": "Выпускник",
+            "weight": 1.0,
+            "last": "2026-11-08",
+            "due_date": "",
+            "star_days": 5
           },
           {
             "word": "¡Hasta pronto!",
@@ -4978,7 +5251,14 @@
             "phrase": "¡Hasta pronto, amigo!",
             "phrase_tr": "🗣️ [а́ста про́нто, ами́го]\n🇷🇺 До скорой встречи, друг!",
             "extra": "Буква H немая. Говорят, когда планируют скоро увидеться.",
-            "in_stack": false
+            "in_stack": false,
+            "reviews": 1,
+            "streak": 0,
+            "type": "Выпускник",
+            "weight": 1.0,
+            "last": "2026-11-08",
+            "due_date": "",
+            "star_days": 5
           },
           {
             "word": "Se dice \"libro\"",
@@ -5014,7 +5294,14 @@
             "phrase": "¡Buenos días! ¿Qué tal?",
             "phrase_tr": "🗣️ [буэ́нос ди́ас, ке таль]\n🇷🇺 Доброе утро! Как дела?",
             "extra": "м.р. (buenOS días). Утро до обеда (~06:00–14:00). Слово día — исключение мужского рода!",
-            "in_stack": false
+            "in_stack": false,
+            "reviews": 1,
+            "streak": 0,
+            "type": "Выпускник",
+            "weight": 1.0,
+            "last": "2026-11-14",
+            "due_date": "",
+            "star_days": 5
           },
           {
             "word": "Buenas tardes",
@@ -5077,7 +5364,14 @@
             "phrase": "¡Chao, un beso!",
             "phrase_tr": "Čau, buča!",
             "extra": "CH = [ч]",
-            "in_stack": false
+            "in_stack": false,
+            "reviews": 1,
+            "streak": 0,
+            "type": "Выпускник",
+            "weight": 1.0,
+            "last": "2026-11-08",
+            "due_date": "",
+            "star_days": 5
           },
           {
             "word": "¡Hasta mañana!",
@@ -11578,10 +11872,10 @@
             "cheat": "Кнопка Mute: немая на 100% (не читается)",
             "position": 0,
             "interval": 0,
-            "reviews": 0,
-            "last": "",
+            "reviews": 1,
+            "last": "2026-11-15",
             "weight": 1.0,
-            "streak": 0,
+            "streak": 1,
             "due_date": "",
             "star_days": 5
           },
@@ -11591,10 +11885,10 @@
             "cheat": "Звук [С / θ] (шепелявый, язык между зубами)",
             "position": 0,
             "interval": 0,
-            "reviews": 0,
-            "last": "",
+            "reviews": 1,
+            "last": "2026-11-15",
             "weight": 1.0,
-            "streak": 0,
+            "streak": 1,
             "due_date": "",
             "star_days": 5
           },
@@ -11604,10 +11898,10 @@
             "cheat": "Звук [Х] (хриплый, как в слове «хлеб»)",
             "position": 0,
             "interval": 0,
-            "reviews": 0,
-            "last": "",
+            "reviews": 1,
+            "last": "2026-11-15",
             "weight": 1.0,
-            "streak": 0,
+            "streak": 1,
             "due_date": "",
             "star_days": 5
           },
@@ -11617,10 +11911,10 @@
             "cheat": "Звук [КЭ / КИ] (буква U немая — телохранитель)",
             "position": 0,
             "interval": 0,
-            "reviews": 0,
-            "last": "",
+            "reviews": 1,
+            "last": "2026-11-15",
             "weight": 1.0,
-            "streak": 0,
+            "streak": 1,
             "due_date": "",
             "star_days": 5
           },
@@ -11630,10 +11924,10 @@
             "cheat": "ВСЕГДА звук [Х] (перед любой гласной)",
             "position": 0,
             "interval": 0,
-            "reviews": 0,
-            "last": "",
+            "reviews": 1,
+            "last": "2026-11-15",
             "weight": 1.0,
-            "streak": 0,
+            "streak": 1,
             "due_date": "",
             "star_days": 5
           },
