@@ -2243,6 +2243,87 @@
             "phrase_tr": "🗣️ [ри́га эс ла капита́ль дэ лэто́нья]\n🇱🇻 Rīga ir Latvijas galvaspilsēta.\n🇷🇺 Рига — столица Латвии.",
             "extra": "Женский род: la capital. Слайд 1: Riga es la capital de Letonia (с артиклем la, т.к. столица единственная).",
             "in_stack": false
+          },
+          {
+            "word": "hacer",
+            "translation": "Делать · Darīt",
+            "pron": "aˈseɾ",
+            "phrase": "¿Qué haces hoy? Hago la cama.",
+            "phrase_tr": "🗣️ [кэ а́сэс ой? а́го ла ка́ма]\n🇱🇻 Ko tu šodien dari? Klāju gultu.\n🇷🇺 Что ты сегодня делаешь? Заправляю постель.",
+            "extra": "Глагол-мультитул. Форма yo с хвостом -go: yo hago. Буква H немая: [асэ́р].",
+            "in_stack": false
+          },
+          {
+            "word": "querer",
+            "translation": "Хотеть / Любить · Gribēt, mīlēt",
+            "pron": "keˈɾeɾ",
+            "phrase": "Quiero descansar y te quiero mucho.",
+            "phrase_tr": "🗣️ [кье́ро дэсканса́р и тэ кье́ро му́чо]\n🇱🇻 Gribu atpūsties un ļoti tevi mīlu.\n🇷🇺 Хочу отдохнуть и очень тебя люблю.",
+            "extra": "Глагол-ботинок: чередование e➔ie (quiero, quieres, quiere, quieren).",
+            "in_stack": false
+          },
+          {
+            "word": "la película",
+            "translation": "Фильм / Кино · Filma",
+            "pron": "peˈlikula",
+            "phrase": "Esta noche veo una película en casa.",
+            "phrase_tr": "🗣️ [э́ста но́чэ бэ́о у́на пэли́кула эн ка́са]\n🇱🇻 Šovakar es skatos filmu mājās.\n🇷🇺 Сегодня вечером я смотрю фильм дома.",
+            "extra": "Женский род: la película, las películas. Ударение на третий слог с конца: pe-lí-cu-la.",
+            "in_stack": false
+          },
+          {
+            "word": "la cena",
+            "translation": "Ужин · Vakariņas",
+            "pron": "ˈsena",
+            "phrase": "Preparo la cena para mis amigos.",
+            "phrase_tr": "🗣️ [прэпа́ро ла сэ́на па́ра мис ами́гос]\n🇱🇻 Gatavoju vakariņas saviem draugiem.\n🇷🇺 Готовлю ужин для своих друзей.",
+            "extra": "Женский род: la cena. Слайд 3: hago la cena / preparo la cena.",
+            "in_stack": false
+          },
+          {
+            "word": "el desayuno",
+            "translation": "Завтрак · Brokastis",
+            "pron": "desaˈʝuno",
+            "phrase": "Hago el desayuno a las ocho de la mañana.",
+            "phrase_tr": "🗣️ [а́го эль дэсаю́но а лас о́чо дэ ла манья́на]\n🇱🇻 Gatavoju brokastis astoņos no rīta.\n🇷🇺 Готовлю завтрак в восемь утра.",
+            "extra": "Мужской род: el desayuno. Слайд 3: hago el desayuno.",
+            "in_stack": false
+          },
+          {
+            "word": "la cama",
+            "translation": "Кровать / Постель · Gulta",
+            "pron": "ˈkama",
+            "phrase": "Por la mañana siempre hago la cama.",
+            "phrase_tr": "🗣️ [пор ла манья́на сье́мпрэ а́го ла ка́ма]\n🇱🇻 No rīta vienmēr klāju gultu.\n🇷🇺 Утром всегда заправляю кровать.",
+            "extra": "Женский род: la cama. Слайд 3: hacer la cama (заправлять кровать).",
+            "in_stack": false
+          },
+          {
+            "word": "cenar",
+            "translation": "Ужинать · Vakariņot",
+            "pron": "seˈnaɾ",
+            "phrase": "Quiero cenar en McDonalds hoy.",
+            "phrase_tr": "🗣️ [кье́ро сэна́р эн макдо́нальдс ой]\n🇱🇻 Šodien gribu vakariņot McDonaldā.\n🇷🇺 Хочу сегодня поужинать в Макдональдсе.",
+            "extra": "Глагол 1-го спряжения (-AR): ceno, cenas, cena, cenamos. Слайд 4.",
+            "in_stack": false
+          },
+          {
+            "word": "ver",
+            "translation": "Видеть / Смотреть · Redzēt, skatīties",
+            "pron": "beɾ",
+            "phrase": "Veo una película interesante.",
+            "phrase_tr": "🗣️ [бэ́о у́на пэли́кула интэрэса́нтэ]\n🇱🇻 Skatos interesantu filmu.\n🇷🇺 Смотрю интересный фильм.",
+            "extra": "Короткий глагол 2-го спряжения (-ER): yo veo, tú ves, él ve, nosotros vemos, vosotros veis, ellos ven.",
+            "in_stack": false
+          },
+          {
+            "word": "preparar",
+            "translation": "Готовить / Подготавливать · Gatavot, sagatavot",
+            "pron": "pɾepaˈɾaɾ",
+            "phrase": "Yo preparo la cena para la familia.",
+            "phrase_tr": "🗣️ [йо прэпа́ро ла сэ́на па́ра ла фами́лья]\n🇱🇻 Es gatavoju vakariņas ģimenei.\n🇷🇺 Я готовлю ужин для семьи.",
+            "extra": "Глагол 1-го спряжения (-AR): preparo, preparas, prepara, preparamos. Слайд 3.",
+            "in_stack": false
           }
         ],
         "grammar_base": [
@@ -3159,6 +3240,46 @@
             "phrase": "1. Vd. / Ud. = usted.\n2. Vds. / Uds. = ustedes.\n3. ¿Usted cómo se llama?\n4. ¿Ustedes dónde viven?",
             "phrase_tr": "1. 🗣️ [устэ́д] · 🇱🇻 Jūs (viena persona) · 🇷🇺 Вы (к одному человеку).\n2. 🗣️ [устэ́дэс] · 🇱🇻 Jūs (vairākas personas) · 🇷🇺 Вы (к группе людей).\n3. 🗣️ [устэ́д ко́мо сэ я́ма?] · 🇱🇻 Kā Jūs sauc? · 🇷🇺 Как Вас зовут?\n4. 🗣️ [устэ́дэс до́ндэ би́бэн?] · 🇱🇻 Kur Jūs dzīvojat? · 🇷🇺 Где вы живёте?",
             "extra": "Сокращения профессора Альберто: Vd. (от старинного Vuestra Merced — Ваша Милость) или современное Ud. = Usted. Множественное число: Vds. / Uds. = Ustedes.",
+            "in_stack": false
+          },
+          {
+            "rule": "🎯 ГЛАГОЛ HACER: ХВОСТ -GO В ФОРМЕ YO И СПРЯЖЕНИЕ (Слайд 3)\n1. Yo [...] (hacer) la cama por la mañana. ➔ ...?\n2. Tú ¿qué [...] (hacer) hoy? ➔ ...?\n3. Ella [...] (hacer) el desayuno. ➔ ...?\n4. Nosotros [...] (hacer) la cena juntos. ➔ ...?\n5. Vosotros ¿qué [...] (hacer)? ➔ ...?",
+            "cheat": "1. hago | 2. haces | 3. hace | 4. hacemos | 5. hacéis",
+            "phrase": "1. Yo hago la cama por la mañana.\n2. ¿Qué haces tú hoy?\n3. Ella hace el desayuno.\n4. Nosotros hacemos la cena juntos.\n5. ¿Qué hacéis vosotros?",
+            "phrase_tr": "1. 🗣️ [йо а́го ла ка́ма пор ла манья́на]\n   🇱🇻 Es no rīta klāju gultu. • 🇷🇺 Я заправляю постель утром.\n2. 🗣️ [кэ а́сэс ту ой?]\n   🇱🇻 Ko tu šodien dari? • 🇷🇺 Что ты сегодня делаешь?\n3. 🗣️ [э́лья а́сэ эль дэсаю́но]\n   🇱🇻 Viņa gatavo brokastis. • 🇷🇺 Она готовит завтрак.\n4. 🗣️ [носо́трос асэ́мос ла сэ́на ху́нтос]\n   🇱🇻 Mēs kopā gatavojam vakariņas. • 🇷🇺 Мы готовим ужин вместе.\n5. 🗣️ [кэ асэ́йс носо́трос?]\n   🇱🇻 Ko jūs darāt? • 🇷🇺 Что вы делаете?",
+            "extra": "Глагол HACER (darīt / делать): неправильный в форме yo ➔ yo hago (хвост -go). В остальных лицах спрягается регулярно как глагол на -ER: haces, hace, hacemos, hacéis, hacen. Буква H немая!",
+            "in_stack": false
+          },
+          {
+            "rule": "🎯 МУЛЬТИТУЛ HACER: УСТОЙЧИВЫЕ ВЫРАЖЕНИЯ (Слайд 3 Альберто)\n1. hago [...] (письмо / es rakstu vēstuli) ➔ ...?\n2. hago [...] (ужин / es gatavoju vakariņas) ➔ ...?\n3. hago [...] (постель / es klāju gultu) ➔ ...?\n4. hago [...] (завтрак / es gatavoju brokastis) ➔ ...?",
+            "cheat": "1. una carta | 2. la cena | 3. la cama | 4. el desayuno",
+            "phrase": "1. Hago una carta.\n2. Hago la cena.\n3. Hago la cama.\n4. Hago el desayuno.",
+            "phrase_tr": "1. 🗣️ [а́го у́на ка́рта]\n   🇱🇻 Es rakstu vēstuli. • 🇷🇺 Я пишу письмо.\n2. 🗣️ [а́го ла сэ́на]\n   🇱🇻 Es gatavoju vakariņas. • 🇷🇺 Я готовлю ужин.\n3. 🗣️ [а́го ла ка́ма]\n   🇱🇻 Es klāju gultu. • 🇷🇺 Я заправляю постель.\n4. 🗣️ [а́го эль дэсаю́но]\n   🇱🇻 Es gatavoju brokastis. • 🇷🇺 Я готовлю завтрак.",
+            "extra": "Испанский глагол-мультитул: вместо разных глаголов (писать, стелить, готовить) испанцы используют HACER: hacer una carta, hacer la cena, hacer la cama, hacer el desayuno.",
+            "in_stack": false
+          },
+          {
+            "rule": "🎯 ГЛАГОЛ QUERER: БОТИНОК С ЧЕРЕДОВАНИЕМ E ➔ IE (Слайд 4)\n1. Yo [...] (querer) descansar en casa. ➔ ...?\n2. Tú ¿qué [...] (querer) hacer hoy? ➔ ...?\n3. Marco [...] (querer) ir a Jurmala. ➔ ...?\n4. Nosotros [...] (querer) cenar en McDonalds. ➔ ...?\n5. Vosotros ¿[...] (querer) venir? ➔ ...?\n6. Ellos [...] (querer) viajar. ➔ ...?",
+            "cheat": "1. quiero | 2. quieres | 3. quiere | 4. queremos | 5. queréis | 6. quieren",
+            "phrase": "1. Quiero descansar en casa.\n2. ¿Qué quieres hacer hoy?\n3. Marco quiere ir a Jurmala.\n4. Queremos cenar en McDonalds.\n5. ¿Queréis vosotros venir?\n6. Ellos quieren viajar.",
+            "phrase_tr": "1. 🗣️ [кье́ро дэсканса́р эн ка́са]\n   🇱🇻 Es gribu atpūsties mājās. • 🇷🇺 Я хочу отдохнуть дома.\n2. 🗣️ [кэ кье́рэс асэ́р ой?]\n   🇱🇻 Ko tu šodien gribi darīt? • 🇷🇺 Что ты хочешь делать сегодня?\n3. 🗣️ [ма́рко кье́рэ ир а ю́рмала]\n   🇱🇻 Marko grib doties uz Jūrmalu. • 🇷🇺 Марко хочет поехать в Юрмалу.\n4. 🗣️ [кэрэ́мос сэна́р эн макдо́нальдс]\n   🇱🇻 Mēs gribam vakariņot McDonaldā. • 🇷🇺 Мы хотим поужинать в Макдаке.\n5. 🗣️ [кэрэ́йс носо́трос бэни́р?]\n   🇱🇻 Vai jūs gribat nākt? • 🇷🇺 Вы хотите прийти?\n6. 🗣️ [э́льос кье́рэн бьяха́р]\n   🇱🇻 Viņi grib ceļot. • 🇷🇺 Они хотят путешествовать.",
+            "extra": "Глагол-ботинок QUERER (gribēt): буква e в корне под ударением переходит в ie (quiero, quieres, quiere, quieren). Формы nosotros (queremos) и vosotros (queréis) находятся вне ботинка — корень не меняется!",
+            "in_stack": false
+          },
+          {
+            "rule": "🎯 ФОРМУЛА ПЛАНОВ И ЖЕЛАНИЙ: QUERER + INFINITIVO (Слайд 4)\n1. Хочу отдохнуть (descansar) ➔ ...?\n2. Хочу поехать в Юрмалу (ir a Jurmala) ➔ ...?\n3. Хочу поужинать в Макдональдсе (cenar en McDonalds) ➔ ...?\n4. Что ты хочешь делать сегодня? (¿qué / querer / hacer / hoy?) ➔ ...?",
+            "cheat": "1. Quiero descansar. | 2. Quiero ir a Jurmala. | 3. Quiero cenar en McDonalds. | 4. ¿Qué quieres hacer hoy?",
+            "phrase": "1. Quiero descansar.\n2. Quiero ir a Jurmala.\n3. Quiero cenar en McDonalds.\n4. ¿Qué quieres hacer hoy?",
+            "phrase_tr": "1. 🗣️ [кье́ро дэсканса́р]\n   🇱🇻 Gribu atpūsties. • 🇷🇺 Хочу отдохнуть.\n2. 🗣️ [кье́ро ир а ю́рмала]\n   🇱🇻 Gribu braukt uz Jūrmalu. • 🇷🇺 Хочу поехать в Юрмалу.\n3. 🗣️ [кье́ро сэна́р эн макдо́нальдс]\n   🇱🇻 Gribu vakariņot McDonaldā. • 🇷🇺 Хочу поужинать в Макдональдсе.\n4. 🗣️ [кэ кье́рэс асэ́р ой?]\n   🇱🇻 Ko tu gribi darīt šodien? • 🇷🇺 Что ты хочешь делать сегодня?",
+            "extra": "Золотая связка планов: QUERER (в нужной форме) + INFINITIVO (второй глагол в начальной форме на -ar/-er/-ir). Подлежащее yo опускается, так как окончание -o уже показывает «я».",
+            "in_stack": false
+          },
+          {
+            "rule": "🎯 СТРЕЛЫ ЧУВСТВ: ME / TE / LO / LA + QUERER (Слайд 4 & Мишени)\n1. Я тебя люблю (тебя = te) ➔ [...] ...?\n2. Ты меня любишь? (меня = me) ➔ [...] ...?\n3. Я его люблю (его = lo) ➔ [...] ...?\n4. Я её люблю (её = la) ➔ [...] ...?\n5. Мы вас любим (вас = os) ➔ [...] ...?",
+            "cheat": "1. Te quiero | 2. ¿Me quieres? | 3. Lo quiero | 4. La quiero | 5. Os queremos",
+            "phrase": "1. Te quiero.\n2. ¿Me quieres?\n3. Lo quiero.\n4. La quiero.\n5. Os queremos.",
+            "phrase_tr": "1. 🗣️ [тэ кье́ро]\n   🇱🇻 Es tevi mīlu. • 🇷🇺 Я тебя люблю.\n2. 🗣️ [мэ кье́рэс?]\n   🇱🇻 Vai tu mani mīli? • 🇷🇺 Ты меня любишь?\n3. 🗣️ [ло кье́ро]\n   🇱🇻 Es viņu mīlu. • 🇷🇺 Я его люблю (или хочу это).\n4. 🗣️ [ла кье́ро]\n   🇱🇻 Es viņu mīlu. • 🇷🇺 Я её люблю (или хочу её).\n5. 🗣️ [ос кэрэ́мос]\n   🇱🇻 Mēs jūs mīlam. • 🇷🇺 Мы вас любим.",
+            "extra": "Позиция стрелы (прямого дополнения): местоимения-мишени me (меня), te (тебя), lo (его), la (её) ставятся СТРОГО ПЕРЕД личной формой глагола. Никакого «Te me quieres» — мишень ровно одна!",
             "in_stack": false
           }
         ],
@@ -5423,6 +5544,87 @@
             "phrase_tr": "🗣️ [ри́га эс ла капита́ль дэ лэто́нья]\n🇱🇻 Rīga ir Latvijas galvaspilsēta.\n🇷🇺 Рига — столица Латвии.",
             "extra": "Женский род: la capital. Слайд 1: Riga es la capital de Letonia (с артиклем la, т.к. столица единственная).",
             "in_stack": false
+          },
+          {
+            "word": "hacer",
+            "translation": "Делать · Darīt",
+            "pron": "aˈseɾ",
+            "phrase": "¿Qué haces hoy? Hago la cama.",
+            "phrase_tr": "🗣️ [кэ а́сэс ой? а́го ла ка́ма]\n🇱🇻 Ko tu šodien dari? Klāju gultu.\n🇷🇺 Что ты сегодня делаешь? Заправляю постель.",
+            "extra": "Глагол-мультитул. Форма yo с хвостом -go: yo hago. Буква H немая: [асэ́р].",
+            "in_stack": false
+          },
+          {
+            "word": "querer",
+            "translation": "Хотеть / Любить · Gribēt, mīlēt",
+            "pron": "keˈɾeɾ",
+            "phrase": "Quiero descansar y te quiero mucho.",
+            "phrase_tr": "🗣️ [кье́ро дэсканса́р и тэ кье́ро му́чо]\n🇱🇻 Gribu atpūsties un ļoti tevi mīlu.\n🇷🇺 Хочу отдохнуть и очень тебя люблю.",
+            "extra": "Глагол-ботинок: чередование e➔ie (quiero, quieres, quiere, quieren).",
+            "in_stack": false
+          },
+          {
+            "word": "la película",
+            "translation": "Фильм / Кино · Filma",
+            "pron": "peˈlikula",
+            "phrase": "Esta noche veo una película en casa.",
+            "phrase_tr": "🗣️ [э́ста но́чэ бэ́о у́на пэли́кула эн ка́са]\n🇱🇻 Šovakar es skatos filmu mājās.\n🇷🇺 Сегодня вечером я смотрю фильм дома.",
+            "extra": "Женский род: la película, las películas. Ударение на третий слог с конца: pe-lí-cu-la.",
+            "in_stack": false
+          },
+          {
+            "word": "la cena",
+            "translation": "Ужин · Vakariņas",
+            "pron": "ˈsena",
+            "phrase": "Preparo la cena para mis amigos.",
+            "phrase_tr": "🗣️ [прэпа́ро ла сэ́на па́ра мис ами́гос]\n🇱🇻 Gatavoju vakariņas saviem draugiem.\n🇷🇺 Готовлю ужин для своих друзей.",
+            "extra": "Женский род: la cena. Слайд 3: hago la cena / preparo la cena.",
+            "in_stack": false
+          },
+          {
+            "word": "el desayuno",
+            "translation": "Завтрак · Brokastis",
+            "pron": "desaˈʝuno",
+            "phrase": "Hago el desayuno a las ocho de la mañana.",
+            "phrase_tr": "🗣️ [а́го эль дэсаю́но а лас о́чо дэ ла манья́на]\n🇱🇻 Gatavoju brokastis astoņos no rīta.\n🇷🇺 Готовлю завтрак в восемь утра.",
+            "extra": "Мужской род: el desayuno. Слайд 3: hago el desayuno.",
+            "in_stack": false
+          },
+          {
+            "word": "la cama",
+            "translation": "Кровать / Постель · Gulta",
+            "pron": "ˈkama",
+            "phrase": "Por la mañana siempre hago la cama.",
+            "phrase_tr": "🗣️ [пор ла манья́на сье́мпрэ а́го ла ка́ма]\n🇱🇻 No rīta vienmēr klāju gultu.\n🇷🇺 Утром всегда заправляю кровать.",
+            "extra": "Женский род: la cama. Слайд 3: hacer la cama (заправлять кровать).",
+            "in_stack": false
+          },
+          {
+            "word": "cenar",
+            "translation": "Ужинать · Vakariņot",
+            "pron": "seˈnaɾ",
+            "phrase": "Quiero cenar en McDonalds hoy.",
+            "phrase_tr": "🗣️ [кье́ро сэна́р эн макдо́нальдс ой]\n🇱🇻 Šodien gribu vakariņot McDonaldā.\n🇷🇺 Хочу сегодня поужинать в Макдональдсе.",
+            "extra": "Глагол 1-го спряжения (-AR): ceno, cenas, cena, cenamos. Слайд 4.",
+            "in_stack": false
+          },
+          {
+            "word": "ver",
+            "translation": "Видеть / Смотреть · Redzēt, skatīties",
+            "pron": "beɾ",
+            "phrase": "Veo una película interesante.",
+            "phrase_tr": "🗣️ [бэ́о у́на пэли́кула интэрэса́нтэ]\n🇱🇻 Skatos interesantu filmu.\n🇷🇺 Смотрю интересный фильм.",
+            "extra": "Короткий глагол 2-го спряжения (-ER): yo veo, tú ves, él ve, nosotros vemos, vosotros veis, ellos ven.",
+            "in_stack": false
+          },
+          {
+            "word": "preparar",
+            "translation": "Готовить / Подготавливать · Gatavot, sagatavot",
+            "pron": "pɾepaˈɾaɾ",
+            "phrase": "Yo preparo la cena para la familia.",
+            "phrase_tr": "🗣️ [йо прэпа́ро ла сэ́на па́ра ла фами́лья]\n🇱🇻 Es gatavoju vakariņas ģimenei.\n🇷🇺 Я готовлю ужин для семьи.",
+            "extra": "Глагол 1-го спряжения (-AR): preparo, preparas, prepara, preparamos. Слайд 3.",
+            "in_stack": false
           }
         ],
         "vocab_rev_pool": [
@@ -7660,6 +7862,87 @@
             "phrase_tr": "🗣️ [ри́га эс ла капита́ль дэ лэто́нья]\n🇱🇻 Rīga ir Latvijas galvaspilsēta.\n🇷🇺 Рига — столица Латвии.",
             "extra": "Женский род: la capital. Слайд 1: Riga es la capital de Letonia (с артиклем la, т.к. столица единственная).",
             "in_stack": false
+          },
+          {
+            "word": "hacer",
+            "translation": "Делать · Darīt",
+            "pron": "aˈseɾ",
+            "phrase": "¿Qué haces hoy? Hago la cama.",
+            "phrase_tr": "🗣️ [кэ а́сэс ой? а́го ла ка́ма]\n🇱🇻 Ko tu šodien dari? Klāju gultu.\n🇷🇺 Что ты сегодня делаешь? Заправляю постель.",
+            "extra": "Глагол-мультитул. Форма yo с хвостом -go: yo hago. Буква H немая: [асэ́р].",
+            "in_stack": false
+          },
+          {
+            "word": "querer",
+            "translation": "Хотеть / Любить · Gribēt, mīlēt",
+            "pron": "keˈɾeɾ",
+            "phrase": "Quiero descansar y te quiero mucho.",
+            "phrase_tr": "🗣️ [кье́ро дэсканса́р и тэ кье́ро му́чо]\n🇱🇻 Gribu atpūsties un ļoti tevi mīlu.\n🇷🇺 Хочу отдохнуть и очень тебя люблю.",
+            "extra": "Глагол-ботинок: чередование e➔ie (quiero, quieres, quiere, quieren).",
+            "in_stack": false
+          },
+          {
+            "word": "la película",
+            "translation": "Фильм / Кино · Filma",
+            "pron": "peˈlikula",
+            "phrase": "Esta noche veo una película en casa.",
+            "phrase_tr": "🗣️ [э́ста но́чэ бэ́о у́на пэли́кула эн ка́са]\n🇱🇻 Šovakar es skatos filmu mājās.\n🇷🇺 Сегодня вечером я смотрю фильм дома.",
+            "extra": "Женский род: la película, las películas. Ударение на третий слог с конца: pe-lí-cu-la.",
+            "in_stack": false
+          },
+          {
+            "word": "la cena",
+            "translation": "Ужин · Vakariņas",
+            "pron": "ˈsena",
+            "phrase": "Preparo la cena para mis amigos.",
+            "phrase_tr": "🗣️ [прэпа́ро ла сэ́на па́ра мис ами́гос]\n🇱🇻 Gatavoju vakariņas saviem draugiem.\n🇷🇺 Готовлю ужин для своих друзей.",
+            "extra": "Женский род: la cena. Слайд 3: hago la cena / preparo la cena.",
+            "in_stack": false
+          },
+          {
+            "word": "el desayuno",
+            "translation": "Завтрак · Brokastis",
+            "pron": "desaˈʝuno",
+            "phrase": "Hago el desayuno a las ocho de la mañana.",
+            "phrase_tr": "🗣️ [а́го эль дэсаю́но а лас о́чо дэ ла манья́на]\n🇱🇻 Gatavoju brokastis astoņos no rīta.\n🇷🇺 Готовлю завтрак в восемь утра.",
+            "extra": "Мужской род: el desayuno. Слайд 3: hago el desayuno.",
+            "in_stack": false
+          },
+          {
+            "word": "la cama",
+            "translation": "Кровать / Постель · Gulta",
+            "pron": "ˈkama",
+            "phrase": "Por la mañana siempre hago la cama.",
+            "phrase_tr": "🗣️ [пор ла манья́на сье́мпрэ а́го ла ка́ма]\n🇱🇻 No rīta vienmēr klāju gultu.\n🇷🇺 Утром всегда заправляю кровать.",
+            "extra": "Женский род: la cama. Слайд 3: hacer la cama (заправлять кровать).",
+            "in_stack": false
+          },
+          {
+            "word": "cenar",
+            "translation": "Ужинать · Vakariņot",
+            "pron": "seˈnaɾ",
+            "phrase": "Quiero cenar en McDonalds hoy.",
+            "phrase_tr": "🗣️ [кье́ро сэна́р эн макдо́нальдс ой]\n🇱🇻 Šodien gribu vakariņot McDonaldā.\n🇷🇺 Хочу сегодня поужинать в Макдональдсе.",
+            "extra": "Глагол 1-го спряжения (-AR): ceno, cenas, cena, cenamos. Слайд 4.",
+            "in_stack": false
+          },
+          {
+            "word": "ver",
+            "translation": "Видеть / Смотреть · Redzēt, skatīties",
+            "pron": "beɾ",
+            "phrase": "Veo una película interesante.",
+            "phrase_tr": "🗣️ [бэ́о у́на пэли́кула интэрэса́нтэ]\n🇱🇻 Skatos interesantu filmu.\n🇷🇺 Смотрю интересный фильм.",
+            "extra": "Короткий глагол 2-го спряжения (-ER): yo veo, tú ves, él ve, nosotros vemos, vosotros veis, ellos ven.",
+            "in_stack": false
+          },
+          {
+            "word": "preparar",
+            "translation": "Готовить / Подготавливать · Gatavot, sagatavot",
+            "pron": "pɾepaˈɾaɾ",
+            "phrase": "Yo preparo la cena para la familia.",
+            "phrase_tr": "🗣️ [йо прэпа́ро ла сэ́на па́ра ла фами́лья]\n🇱🇻 Es gatavoju vakariņas ģimenei.\n🇷🇺 Я готовлю ужин для семьи.",
+            "extra": "Глагол 1-го спряжения (-AR): preparo, preparas, prepara, preparamos. Слайд 3.",
+            "in_stack": false
           }
         ],
         "grammar_pool": [
@@ -9326,6 +9609,46 @@
             "phrase": "1. Vd. / Ud. = usted.\n2. Vds. / Uds. = ustedes.\n3. ¿Usted cómo se llama?\n4. ¿Ustedes dónde viven?",
             "phrase_tr": "1. 🗣️ [устэ́д] · 🇱🇻 Jūs (viena persona) · 🇷🇺 Вы (к одному человеку).\n2. 🗣️ [устэ́дэс] · 🇱🇻 Jūs (vairākas personas) · 🇷🇺 Вы (к группе людей).\n3. 🗣️ [устэ́д ко́мо сэ я́ма?] · 🇱🇻 Kā Jūs sauc? · 🇷🇺 Как Вас зовут?\n4. 🗣️ [устэ́дэс до́ндэ би́бэн?] · 🇱🇻 Kur Jūs dzīvojat? · 🇷🇺 Где вы живёте?",
             "extra": "Сокращения профессора Альберто: Vd. (от старинного Vuestra Merced — Ваша Милость) или современное Ud. = Usted. Множественное число: Vds. / Uds. = Ustedes.",
+            "in_stack": false
+          },
+          {
+            "rule": "🎯 ГЛАГОЛ HACER: ХВОСТ -GO В ФОРМЕ YO И СПРЯЖЕНИЕ (Слайд 3)\n1. Yo [...] (hacer) la cama por la mañana. ➔ ...?\n2. Tú ¿qué [...] (hacer) hoy? ➔ ...?\n3. Ella [...] (hacer) el desayuno. ➔ ...?\n4. Nosotros [...] (hacer) la cena juntos. ➔ ...?\n5. Vosotros ¿qué [...] (hacer)? ➔ ...?",
+            "cheat": "1. hago | 2. haces | 3. hace | 4. hacemos | 5. hacéis",
+            "phrase": "1. Yo hago la cama por la mañana.\n2. ¿Qué haces tú hoy?\n3. Ella hace el desayuno.\n4. Nosotros hacemos la cena juntos.\n5. ¿Qué hacéis vosotros?",
+            "phrase_tr": "1. 🗣️ [йо а́го ла ка́ма пор ла манья́на]\n   🇱🇻 Es no rīta klāju gultu. • 🇷🇺 Я заправляю постель утром.\n2. 🗣️ [кэ а́сэс ту ой?]\n   🇱🇻 Ko tu šodien dari? • 🇷🇺 Что ты сегодня делаешь?\n3. 🗣️ [э́лья а́сэ эль дэсаю́но]\n   🇱🇻 Viņa gatavo brokastis. • 🇷🇺 Она готовит завтрак.\n4. 🗣️ [носо́трос асэ́мос ла сэ́на ху́нтос]\n   🇱🇻 Mēs kopā gatavojam vakariņas. • 🇷🇺 Мы готовим ужин вместе.\n5. 🗣️ [кэ асэ́йс носо́трос?]\n   🇱🇻 Ko jūs darāt? • 🇷🇺 Что вы делаете?",
+            "extra": "Глагол HACER (darīt / делать): неправильный в форме yo ➔ yo hago (хвост -go). В остальных лицах спрягается регулярно как глагол на -ER: haces, hace, hacemos, hacéis, hacen. Буква H немая!",
+            "in_stack": false
+          },
+          {
+            "rule": "🎯 МУЛЬТИТУЛ HACER: УСТОЙЧИВЫЕ ВЫРАЖЕНИЯ (Слайд 3 Альберто)\n1. hago [...] (письмо / es rakstu vēstuli) ➔ ...?\n2. hago [...] (ужин / es gatavoju vakariņas) ➔ ...?\n3. hago [...] (постель / es klāju gultu) ➔ ...?\n4. hago [...] (завтрак / es gatavoju brokastis) ➔ ...?",
+            "cheat": "1. una carta | 2. la cena | 3. la cama | 4. el desayuno",
+            "phrase": "1. Hago una carta.\n2. Hago la cena.\n3. Hago la cama.\n4. Hago el desayuno.",
+            "phrase_tr": "1. 🗣️ [а́го у́на ка́рта]\n   🇱🇻 Es rakstu vēstuli. • 🇷🇺 Я пишу письмо.\n2. 🗣️ [а́го ла сэ́на]\n   🇱🇻 Es gatavoju vakariņas. • 🇷🇺 Я готовлю ужин.\n3. 🗣️ [а́го ла ка́ма]\n   🇱🇻 Es klāju gultu. • 🇷🇺 Я заправляю постель.\n4. 🗣️ [а́го эль дэсаю́но]\n   🇱🇻 Es gatavoju brokastis. • 🇷🇺 Я готовлю завтрак.",
+            "extra": "Испанский глагол-мультитул: вместо разных глаголов (писать, стелить, готовить) испанцы используют HACER: hacer una carta, hacer la cena, hacer la cama, hacer el desayuno.",
+            "in_stack": false
+          },
+          {
+            "rule": "🎯 ГЛАГОЛ QUERER: БОТИНОК С ЧЕРЕДОВАНИЕМ E ➔ IE (Слайд 4)\n1. Yo [...] (querer) descansar en casa. ➔ ...?\n2. Tú ¿qué [...] (querer) hacer hoy? ➔ ...?\n3. Marco [...] (querer) ir a Jurmala. ➔ ...?\n4. Nosotros [...] (querer) cenar en McDonalds. ➔ ...?\n5. Vosotros ¿[...] (querer) venir? ➔ ...?\n6. Ellos [...] (querer) viajar. ➔ ...?",
+            "cheat": "1. quiero | 2. quieres | 3. quiere | 4. queremos | 5. queréis | 6. quieren",
+            "phrase": "1. Quiero descansar en casa.\n2. ¿Qué quieres hacer hoy?\n3. Marco quiere ir a Jurmala.\n4. Queremos cenar en McDonalds.\n5. ¿Queréis vosotros venir?\n6. Ellos quieren viajar.",
+            "phrase_tr": "1. 🗣️ [кье́ро дэсканса́р эн ка́са]\n   🇱🇻 Es gribu atpūsties mājās. • 🇷🇺 Я хочу отдохнуть дома.\n2. 🗣️ [кэ кье́рэс асэ́р ой?]\n   🇱🇻 Ko tu šodien gribi darīt? • 🇷🇺 Что ты хочешь делать сегодня?\n3. 🗣️ [ма́рко кье́рэ ир а ю́рмала]\n   🇱🇻 Marko grib doties uz Jūrmalu. • 🇷🇺 Марко хочет поехать в Юрмалу.\n4. 🗣️ [кэрэ́мос сэна́р эн макдо́нальдс]\n   🇱🇻 Mēs gribam vakariņot McDonaldā. • 🇷🇺 Мы хотим поужинать в Макдаке.\n5. 🗣️ [кэрэ́йс носо́трос бэни́р?]\n   🇱🇻 Vai jūs gribat nākt? • 🇷🇺 Вы хотите прийти?\n6. 🗣️ [э́льос кье́рэн бьяха́р]\n   🇱🇻 Viņi grib ceļot. • 🇷🇺 Они хотят путешествовать.",
+            "extra": "Глагол-ботинок QUERER (gribēt): буква e в корне под ударением переходит в ie (quiero, quieres, quiere, quieren). Формы nosotros (queremos) и vosotros (queréis) находятся вне ботинка — корень не меняется!",
+            "in_stack": false
+          },
+          {
+            "rule": "🎯 ФОРМУЛА ПЛАНОВ И ЖЕЛАНИЙ: QUERER + INFINITIVO (Слайд 4)\n1. Хочу отдохнуть (descansar) ➔ ...?\n2. Хочу поехать в Юрмалу (ir a Jurmala) ➔ ...?\n3. Хочу поужинать в Макдональдсе (cenar en McDonalds) ➔ ...?\n4. Что ты хочешь делать сегодня? (¿qué / querer / hacer / hoy?) ➔ ...?",
+            "cheat": "1. Quiero descansar. | 2. Quiero ir a Jurmala. | 3. Quiero cenar en McDonalds. | 4. ¿Qué quieres hacer hoy?",
+            "phrase": "1. Quiero descansar.\n2. Quiero ir a Jurmala.\n3. Quiero cenar en McDonalds.\n4. ¿Qué quieres hacer hoy?",
+            "phrase_tr": "1. 🗣️ [кье́ро дэсканса́р]\n   🇱🇻 Gribu atpūsties. • 🇷🇺 Хочу отдохнуть.\n2. 🗣️ [кье́ро ир а ю́рмала]\n   🇱🇻 Gribu braukt uz Jūrmalu. • 🇷🇺 Хочу поехать в Юрмалу.\n3. 🗣️ [кье́ро сэна́р эн макдо́нальдс]\n   🇱🇻 Gribu vakariņot McDonaldā. • 🇷🇺 Хочу поужинать в Макдональдсе.\n4. 🗣️ [кэ кье́рэс асэ́р ой?]\n   🇱🇻 Ko tu gribi darīt šodien? • 🇷🇺 Что ты хочешь делать сегодня?",
+            "extra": "Золотая связка планов: QUERER (в нужной форме) + INFINITIVO (второй глагол в начальной форме на -ar/-er/-ir). Подлежащее yo опускается, так как окончание -o уже показывает «я».",
+            "in_stack": false
+          },
+          {
+            "rule": "🎯 СТРЕЛЫ ЧУВСТВ: ME / TE / LO / LA + QUERER (Слайд 4 & Мишени)\n1. Я тебя люблю (тебя = te) ➔ [...] ...?\n2. Ты меня любишь? (меня = me) ➔ [...] ...?\n3. Я его люблю (его = lo) ➔ [...] ...?\n4. Я её люблю (её = la) ➔ [...] ...?\n5. Мы вас любим (вас = os) ➔ [...] ...?",
+            "cheat": "1. Te quiero | 2. ¿Me quieres? | 3. Lo quiero | 4. La quiero | 5. Os queremos",
+            "phrase": "1. Te quiero.\n2. ¿Me quieres?\n3. Lo quiero.\n4. La quiero.\n5. Os queremos.",
+            "phrase_tr": "1. 🗣️ [тэ кье́ро]\n   🇱🇻 Es tevi mīlu. • 🇷🇺 Я тебя люблю.\n2. 🗣️ [мэ кье́рэс?]\n   🇱🇻 Vai tu mani mīli? • 🇷🇺 Ты меня любишь?\n3. 🗣️ [ло кье́ро]\n   🇱🇻 Es viņu mīlu. • 🇷🇺 Я его люблю (или хочу это).\n4. 🗣️ [ла кье́ро]\n   🇱🇻 Es viņu mīlu. • 🇷🇺 Я её люблю (или хочу её).\n5. 🗣️ [ос кэрэ́мос]\n   🇱🇻 Mēs jūs mīlam. • 🇷🇺 Мы вас любим.",
+            "extra": "Позиция стрелы (прямого дополнения): местоимения-мишени me (меня), te (тебя), lo (его), la (её) ставятся СТРОГО ПЕРЕД личной формой глагола. Никакого «Te me quieres» — мишень ровно одна!",
             "in_stack": false
           }
         ]
