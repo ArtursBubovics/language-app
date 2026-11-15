@@ -83,6 +83,7 @@ st.markdown(
     """
 <style>
 /* ---------- ТИПОГРАФИКА И КОНТЕЙНЕРЫ ---------- */
+.c { white-space: pre-line !important; }
 div[data-testid="stMarkdownContainer"], div[data-testid="stCaptionContainer"] { overflow-wrap: anywhere; }
 div[data-testid="stMetricValue"] { overflow-wrap: anywhere; }
 div[data-testid="stMetricValue"] > div { white-space: normal !important; }
