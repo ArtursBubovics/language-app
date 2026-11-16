@@ -36,7 +36,7 @@ TYPE_STYLE = {
     "Повторяем": {"bg": "#fff3e0", "border": "#ff7043", "fg": "#d84315", "dot": "🟠"},
     "Старичок": {"bg": "#e3f2fd", "border": "#1e88e5", "fg": "#1976d2", "dot": "🔵"},
 }
-INT_COLS = {"position", "interval", "reviews", "streak", "star_days"}
+INT_COLS = {"position", "interval", "reviews", "streak", "star_days", "pack_id"}
 SPEECH_CODES = ["es-ES", "en-GB", "en-US", "lv-LV", "de-DE", "fr-FR", "it-IT", "pl-PL", "pt-PT", "ru-RU"]
 VOCAB_KINDS = ("vocab", "vocab_rev")
 
@@ -49,12 +49,49 @@ FIELDS = {
 }
 COLS = {
     "vocab_base": [k for k, _ in FIELDS["vocab"]],
-    "grammar_base": [k for k, _ in FIELDS["grammar"]],
+    "grammar_base": [k for k, _ in FIELDS["grammar"]] + ["pack_id", "topic"],
     "stack": ["phrase", "note", "pron", "phrase_ex", "phrase_tr", "extra"],
     "vocab_pool": ["word", "type", "position", "interval", "reviews", "last", "weight", "streak", "due_date", "star_days"],
     "vocab_rev_pool": ["word", "type", "position", "interval", "reviews", "last", "weight", "streak", "due_date", "star_days"],
-    "grammar_pool": ["rule", "type", "cheat", "position", "interval", "reviews", "last", "weight", "streak", "due_date", "star_days"],
+    "grammar_pool": ["rule", "type", "cheat", "position", "interval", "reviews", "last", "weight", "streak", "due_date", "star_days", "pack_id", "topic"],
 }
+PACK_TITLES = {
+    1: "🧭 Пак 1: Глагол ESTAR (6)",
+    2: "⚖️ Пак 2: esta/está и SER vs ESTAR (7)",
+    3: "📍 Пак 3: Предлоги места 1 (6)",
+    4: "📍 Пак 4: Предлоги места 2 (6)",
+    5: "☀️ Пак 5: Фабрика погоды HACER (10)",
+    6: "⏰ Пак 6: Часы и время (8)",
+    7: "🏛️ Пак 7: Местоимения и глагол SER (6)",
+    8: "🤝 Пак 8: Вежливость (Tú vs Usted) (5)",
+    9: "👉 Пак 9: Указательные местоимения (5)",
+    10: "📦 Пак 10: Артикли el/la/los/las (5)",
+    11: "🎁 Пак 11: Артикли un/una (5)",
+    12: "🌍 Пак 12: Страны и национальности (5)",
+    13: "💼 Пак 13: Профессии и DEDICARSE (5)",
+    14: "🔢 Пак 14: Числа 11–15 (семья -CE) (5)",
+    15: "🔢 Пак 15: Числа 16–29 и лесенка Y (5)",
+    16: "🎒 Пак 16: Глагол TENER (6)",
+    17: "🥶 Пак 17: Возраст и ощущения с TENER (5)",
+    18: "🔄 Пак 18: Семья 1 (-AR) HABLAR (6)",
+    19: "🍝 Пак 19: Семья 2 (-ER) COMER (6)",
+    20: "🏠 Пак 20: Семья 3 (-IR) VIVIR (6)",
+    21: "⚙️ Пак 21: Мультитул HACER (6)",
+    22: "🥾 Пак 22: Ботинок QUERER (6)",
+    23: "🎯 Пак 23: Баттл связок POR vs PARA (5)",
+    24: "🎟️ Пак 24: Движение, AL и отдых (8)",
+    25: "🔤 Пак 25: Алфавит и правила чтения (67)",
+}
+
+RULE_PACK_MAP = {}
+if DATA_FILE.exists():
+    try:
+        _d = json.loads(DATA_FILE.read_text(encoding="utf-8"))
+        for _r in _d.get("languages", {}).get("es", {}).get("tables", {}).get("grammar_base", []):
+            if "rule" in _r and "pack_id" in _r:
+                RULE_PACK_MAP[_r["rule"]] = int(_r["pack_id"])
+    except Exception:
+        pass
 POOLS = {
     "vocab": {
         "base": "vocab_base", "pool": "vocab_pool", "name": "word", "value": "translation",
@@ -1066,6 +1103,16 @@ def sync_pool(kind, lang=None):
     pool = pool[pool[name].isin(mapping.keys())].drop_duplicates(subset=name)
     if kind == "grammar" and not pool.empty:
         pool["cheat"] = pool[name].map(mapping)
+        if "pack_id" in base.columns:
+            pack_map = dict(zip(base[name], base["pack_id"]))
+            pool["pack_id"] = pool[name].map(lambda x: pack_map.get(x) or RULE_PACK_MAP.get(x, 25)).fillna(25).astype(int)
+        elif "pack_id" not in pool.columns:
+            pool["pack_id"] = pool[name].map(lambda x: RULE_PACK_MAP.get(x, 25)).fillna(25).astype(int)
+        if "topic" in base.columns:
+            topic_map = dict(zip(base[name], base["topic"]))
+            pool["topic"] = pool[name].map(lambda x: topic_map.get(x) or PACK_TITLES.get(int(pool.loc[pool[name] == x, "pack_id"].values[0]) if x in pool[name].values else 25, PACK_TITLES[25]))
+        elif "topic" not in pool.columns:
+            pool["topic"] = pool["pack_id"].map(lambda pid: PACK_TITLES.get(pid, PACK_TITLES[25]))
 
     existing = set(pool[name])
     new_rows = []
@@ -1074,6 +1121,12 @@ def sync_pool(kind, lang=None):
             row = {name: k, "type": "Выпускник", "position": 0, "interval": 0, "reviews": 0, "last": "", "weight": 1.0, "streak": 0, "due_date": "", "star_days": 5}
             if kind == "grammar":
                 row["cheat"] = v
+                pid = RULE_PACK_MAP.get(k, 25)
+                if "pack_id" in base.columns:
+                    p_map = dict(zip(base[name], base["pack_id"]))
+                    pid = int(p_map.get(k, pid))
+                row["pack_id"] = pid
+                row["topic"] = PACK_TITLES.get(pid, PACK_TITLES[25])
             new_rows.append(row)
     cols = COLS[cfg["pool"]]
     if new_rows:
@@ -1164,13 +1217,18 @@ def sync_all():
             sync_pool(kind, lang)
 
 
-def grade_item(kind, level, lang=None, item_idx=None):
+def grade_item(kind, level, lang=None, item_idx=None, card_name=None):
     target_lang = lang or L()
     cfg = POOLS[kind]
+    name = cfg["name"]
     df = target_lang["tables"][cfg["pool"]].copy()
     if df.empty:
         return
-    i = df.index[0] if item_idx is None else item_idx
+    if card_name is not None and name in df.columns:
+        matches = df.index[df[name] == card_name].tolist()
+        i = matches[0] if matches else (df.index[0] if item_idx is None else item_idx)
+    else:
+        i = df.index[0] if item_idx is None else item_idx
 
     cur_type = str(df.at[i, "type"])
     cur_streak = int(df.at[i, "streak"]) if "streak" in df and pd.notna(df.at[i, "streak"]) else 0
@@ -1391,11 +1449,18 @@ def supabase_pull(lid: str) -> bool:
 
     # 2. Grammar
     cur_g_streaks, cur_g_due, cur_g_days = {}, {}, {}
+    cur_g_packs, cur_g_topics = {}, {}
     if "grammar_pool" in lang.get("tables", {}):
         gp_t = lang["tables"]["grammar_pool"]
-        if "streak" in gp_t: cur_g_streaks = dict(zip(gp_t["rule"], gp_t["streak"]))
-        if "due_date" in gp_t: cur_g_due = dict(zip(gp_t["rule"], gp_t["due_date"]))
-        if "star_days" in gp_t: cur_g_days = dict(zip(gp_t["rule"], gp_t["star_days"]))
+        if isinstance(gp_t, pd.DataFrame):
+            if "streak" in gp_t: cur_g_streaks = dict(zip(gp_t["rule"], gp_t["streak"]))
+            if "due_date" in gp_t: cur_g_due = dict(zip(gp_t["rule"], gp_t["due_date"]))
+            if "star_days" in gp_t: cur_g_days = dict(zip(gp_t["rule"], gp_t["star_days"]))
+    if "grammar_base" in lang.get("tables", {}):
+        gb_t = lang["tables"]["grammar_base"]
+        if isinstance(gb_t, pd.DataFrame):
+            if "pack_id" in gb_t: cur_g_packs = dict(zip(gb_t["rule"], gb_t["pack_id"]))
+            if "topic" in gb_t: cur_g_topics = dict(zip(gb_t["rule"], gb_t["topic"]))
 
     g_res = client.table("grammar").select("*").eq("lang", lid).order("id").execute()
     g_rows = g_res.data or []
@@ -1403,9 +1468,12 @@ def supabase_pull(lid: str) -> bool:
         base_list, pool_list = [], []
         for r in g_rows:
             rule = r["rule"]
+            pid = int(r.get("pack_id") or cur_g_packs.get(rule) or RULE_PACK_MAP.get(rule, 25))
+            top_title = cur_g_topics.get(rule) or PACK_TITLES.get(pid, PACK_TITLES[25])
             base_list.append({
                 "rule": rule, "cheat": r.get("cheat", ""), "phrase": r.get("phrase", ""),
-                "phrase_tr": r.get("phrase_tr", ""), "extra": r.get("extra", "")
+                "phrase_tr": r.get("phrase_tr", ""), "extra": r.get("extra", ""),
+                "pack_id": pid, "topic": top_title
             })
             gt_type = r.get("type", "Выпускник")
             pool_list.append({
@@ -1415,7 +1483,8 @@ def supabase_pull(lid: str) -> bool:
                 "weight": round(float(r.get("weight", 1.0)), 1) if r.get("weight") is not None else 1.0,
                 "streak": int(r.get("streak")) if r.get("streak") is not None and pd.notna(r.get("streak")) else cur_g_streaks.get(rule, 0),
                 "due_date": str(r.get("due_date", "") or cur_g_due.get(rule, "")).strip(),
-                "star_days": int(r.get("star_days")) if r.get("star_days") is not None and pd.notna(r.get("star_days")) and int(r.get("star_days", 0)) > 0 else cur_g_days.get(rule, 5)
+                "star_days": int(r.get("star_days")) if r.get("star_days") is not None and pd.notna(r.get("star_days")) and int(r.get("star_days", 0)) > 0 else cur_g_days.get(rule, 5),
+                "pack_id": pid, "topic": top_title
             })
         lang["tables"]["grammar_base"] = normalize("grammar_base", pd.DataFrame(base_list))
         lang["tables"]["grammar_pool"] = reorder(normalize("grammar_pool", pd.DataFrame(pool_list)))
@@ -2230,7 +2299,12 @@ def do_reveal(rkey, val, kind=None):
         if cfg and cfg["pool"] in lang["tables"]:
             pool = lang["tables"][cfg["pool"]].copy()
             if not pool.empty:
-                i = pool.index[0]
+                name_col = cfg["name"]
+                if name_col in pool.columns and val in pool[name_col].values:
+                    matches = pool.index[pool[name_col] == val].tolist()
+                    i = matches[0] if matches else pool.index[0]
+                else:
+                    i = pool.index[0]
                 cur_t = str(pool.at[i, "type"])
                 if cur_t == "Старичок":
                     # «Старичок» подсмотрел перевод: оступился!
@@ -2251,8 +2325,8 @@ def do_reveal(rkey, val, kind=None):
                 save_state()
 
 
-def do_grade(kind, level, rkey):
-    grade_item(kind, level)
+def do_grade(kind, level, rkey, card_name=None):
+    grade_item(kind, level, card_name=card_name)
     st.session_state.pop(rkey, None)
     st.session_state["_peeked"] = False
     st.session_state["_active_card_key"] = None
@@ -2271,12 +2345,108 @@ def render_card(kind, compact=False):
     pool, base = T(cfg["pool"]), T(cfg["base"])
     card_suffix = "clean" if compact else "full"
     with kcont_border(f"studycard_{cur}_{kind}_{card_suffix}"):
+        if kind == "grammar":
+            # 1) Гарантируем наличие pack_id и topic
+            if not pool.empty:
+                if "pack_id" not in pool.columns or pool["pack_id"].isna().any() or (pool["pack_id"] == 0).any():
+                    pack_map = dict(zip(base[name], base.get("pack_id", []))) if "pack_id" in base.columns else {}
+                    pool["pack_id"] = pool[name].map(lambda x: pack_map.get(x) or RULE_PACK_MAP.get(x, 25)).fillna(25).astype(int)
+                if "topic" not in pool.columns or pool["topic"].isna().any() or (pool["topic"] == "").any():
+                    pool["topic"] = pool["pack_id"].map(lambda pid: PACK_TITLES.get(pid, PACK_TITLES[25]))
+
+            # 2) Селектор тем и выбор режима
+            topic_options = ["🌟 Все темы"] + [PACK_TITLES[i] for i in range(1, 26) if i in PACK_TITLES]
+            cur_topic = st.session_state.get("gram_topic_filter", "🌟 Все темы")
+            if cur_topic not in topic_options:
+                cur_topic = "🌟 Все темы"
+                st.session_state["gram_topic_filter"] = cur_topic
+
+            order_modes = ["🎯 По темам (Снайпер)", "🎲 Вразброс"]
+            cur_mode = st.session_state.get("gram_order_mode", "🎯 По темам (Снайпер)")
+            if cur_mode not in order_modes:
+                cur_mode = "🎯 По темам (Снайпер)"
+                st.session_state["gram_order_mode"] = cur_mode
+
+            with kcont(f"gram_filter_bar_{cur}"):
+                c_f1, c_f2 = st.columns([1.5, 1.0], vertical_alignment="center")
+                with c_f1:
+                    sel_topic = st.selectbox(
+                        "Тема",
+                        topic_options,
+                        index=topic_options.index(cur_topic),
+                        key=f"gram_topic_select_{cur}",
+                        label_visibility="collapsed",
+                        help="Выбери конкретный блок грамматики для тренировки (например, только глагол ESTAR)"
+                    )
+                    if sel_topic != cur_topic:
+                        st.session_state["gram_topic_filter"] = sel_topic
+                        st.rerun()
+
+                with c_f2:
+                    sel_mode = st.radio(
+                        "Режим",
+                        order_modes,
+                        index=order_modes.index(cur_mode),
+                        horizontal=True,
+                        key=f"gram_mode_select_{cur}",
+                        label_visibility="collapsed",
+                        help="«Снайпер» — темы идут строго по порядку блоков (Пак 1, 2, ...). «Вразброс» — интервальный микс."
+                    )
+                    if sel_mode != cur_mode:
+                        st.session_state["gram_order_mode"] = sel_mode
+                        st.rerun()
+
+            # 3) Применяем фильтр
+            if cur_topic != "🌟 Все темы":
+                pool = pool[pool["topic"] == cur_topic]
+
+            # 4) Применяем сортировку «Снайпер по блокам»
+            if cur_mode == "🎯 По темам (Снайпер)" and not pool.empty:
+                if "pack_id" in pool.columns and "interval" in pool.columns:
+                    pool = pool.copy()
+                    pool["_pack_prio"] = pool.groupby("pack_id")["interval"].transform("min")
+                    pool = pool.sort_values(by=["_pack_prio", "pack_id", "interval"], kind="stable").drop(columns=["_pack_prio"])
+
+            # 5) Статистика и переход для выбранной темы
+            if cur_topic != "🌟 Все темы" and not pool.empty:
+                topic_total = len(pool)
+                topic_stars = int((pool["type"] == "Старичок").sum())
+                topic_grads = int((pool["type"] == "Выпускник").sum())
+                topic_reps = int((pool["type"] == "Повторяем").sum())
+                topic_pct = int(round((topic_stars / topic_total) * 100)) if topic_total > 0 else 0
+                st.markdown(
+                    f'<div style="margin:4px 0 8px 0;padding:6px 10px;background:rgba(46,125,50,0.08);border:1px solid rgba(46,125,50,0.25);border-radius:8px;'
+                    f'display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:6px;">'
+                    f'<span style="font-weight:700;font-size:13px;color:#1b5e20;">🎯 {esc(cur_topic)}</span>'
+                    f'<span style="font-size:12px;font-weight:600;color:#2e7d32;">'
+                    f'Освоено: <b>{topic_stars}/{topic_total}</b> ({topic_pct}%) · 🟡 {topic_grads} · 🟠 {topic_reps} · 🔵 {topic_stars}'
+                    f'</span></div>',
+                    unsafe_allow_html=True
+                )
+                if topic_stars == topic_total and topic_total > 0:
+                    cur_pid = int(pool["pack_id"].iloc[0]) if "pack_id" in pool.columns else 1
+                    next_pid = cur_pid + 1 if cur_pid < 25 else 1
+                    next_topic = PACK_TITLES.get(next_pid, "🌟 Все темы")
+                    c_win1, c_win2 = st.columns([1.6, 1.4], vertical_alignment="center")
+                    with c_win1:
+                        st.success(f"🏆 Тема полностью освоена! Все {topic_total} карточек выучены на отлично.")
+                    with c_win2:
+                        if st.button(f"👉 Следующая тема: {next_topic}", key=f"next_topic_btn_{cur}", use_container_width=True):
+                            st.session_state["gram_topic_filter"] = next_topic
+                            st.rerun()
+
         if pool.empty:
             st.caption(cfg["caption"])
-            msg = f"Пул пуст. Добавь данные во вкладке «{'Словарь' if is_vocab else 'Грамматика'}»."
-            if rev:
-                msg += " Для обратного режима у слов должен быть заполнен перевод."
-            st.warning(msg)
+            if kind == "grammar" and st.session_state.get("gram_topic_filter", "🌟 Все темы") != "🌟 Все темы":
+                st.info(f"В теме «{st.session_state.get('gram_topic_filter')}» пока нет карточек.")
+                if st.button("🌟 Показать все темы", key=f"reset_topic_{cur}"):
+                    st.session_state["gram_topic_filter"] = "🌟 Все темы"
+                    st.rerun()
+            else:
+                msg = f"Пул пуст. Добавь данные во вкладке «{'Словарь' if is_vocab else 'Грамматика'}»."
+                if rev:
+                    msg += " Для обратного режима у слов должен быть заполнен перевод."
+                st.warning(msg)
             return
 
         top = pool.iloc[0]
@@ -2499,7 +2669,7 @@ def render_card(kind, compact=False):
                     label,
                     key=f"grade_{cur}_{kind}_{level}",
                     on_click=do_grade,
-                    args=(kind, level, rkey),
+                    args=(kind, level, rkey, top[name]),
                     use_container_width=True,
                 )
 
