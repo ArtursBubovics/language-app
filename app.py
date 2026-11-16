@@ -2357,12 +2357,46 @@ def render_card(kind, compact=False):
                 if "topic" not in pool.columns or pool["topic"].isna().any() or (pool["topic"] == "").any():
                     pool["topic"] = pool["pack_id"].map(lambda pid: PACK_TITLES.get(pid, PACK_TITLES[25]))
 
-            # 2) Селектор тем и выбор режима
-            topic_options = ["🌟 Все темы"] + [PACK_TITLES[k] for k in sorted(PACK_TITLES.keys())]
-            cur_topic = st.session_state.get("gram_topic_filter", "🌟 Все темы")
-            if cur_topic not in topic_options:
-                cur_topic = "🌟 Все темы"
-                st.session_state["gram_topic_filter"] = cur_topic
+            # Статистика по всем 27 пакам для чекбоксов/галочек
+            pack_stats = {}
+            done_packs_cnt = 0
+            for pid in sorted(PACK_TITLES.keys()):
+                p_mask = pool["pack_id"] == pid
+                p_tot = int(p_mask.sum())
+                p_stars = int((p_mask & (pool["type"] == "Старичок")).sum())
+                p_revs = int((p_mask & (pool["reviews"] > 0)).sum())
+                is_done = (p_stars == p_tot and p_tot > 0)
+                if is_done:
+                    done_packs_cnt += 1
+                pack_stats[pid] = {
+                    "total": p_tot,
+                    "stars": p_stars,
+                    "revs": p_revs,
+                    "done": is_done
+                }
+
+            tot_all = len(pool)
+            tot_stars = int((pool["type"] == "Старичок").sum())
+
+            def format_pack_option(opt_id):
+                if opt_id == 0:
+                    icon = "✅" if (tot_stars == tot_all and tot_all > 0) else "🌟"
+                    return f"{icon} Все темы (выучено: {tot_stars}/{tot_all} · тем: {done_packs_cnt}/27 ✅)"
+                st_info = pack_stats.get(opt_id, {"total": 0, "stars": 0, "revs": 0, "done": False})
+                p_title = PACK_TITLES[opt_id]
+                if st_info["done"]:
+                    return f"✅ {p_title} (готово {st_info['stars']}/{st_info['total']})"
+                elif st_info["stars"] > 0 or st_info["revs"] > 0:
+                    prog_num = max(st_info["stars"], st_info["revs"])
+                    return f"🟡 {p_title} ({prog_num}/{st_info['total']})"
+                else:
+                    return f"⚪ {p_title} (0/{st_info['total']})"
+
+            pack_options = [0] + sorted(PACK_TITLES.keys())
+            cur_pack_id = st.session_state.get("gram_selected_pack_id", 0)
+            if cur_pack_id not in pack_options:
+                cur_pack_id = 0
+                st.session_state["gram_selected_pack_id"] = 0
 
             order_modes = ["🎯 По темам (Снайпер)", "🎲 Вразброс"]
             cur_mode = st.session_state.get("gram_order_mode", "🎯 По темам (Снайпер)")
@@ -2373,16 +2407,18 @@ def render_card(kind, compact=False):
             with kcont(f"gram_filter_bar_{cur}"):
                 c_f1, c_f2 = st.columns([1.5, 1.0], vertical_alignment="center")
                 with c_f1:
-                    sel_topic = st.selectbox(
+                    sel_pack_id = st.selectbox(
                         "Тема",
-                        topic_options,
-                        index=topic_options.index(cur_topic),
-                        key=f"gram_topic_select_{cur}",
+                        pack_options,
+                        index=pack_options.index(cur_pack_id),
+                        format_func=format_pack_option,
+                        key=f"gram_pack_select_{cur}",
                         label_visibility="collapsed",
-                        help="Выбери конкретный блок грамматики для тренировки (например, только глагол ESTAR)"
+                        help="Выбери блок грамматики (✅ — тема пройдена полностью, 🟡 — в процессе, ⚪ — ещё не начата)"
                     )
-                    if sel_topic != cur_topic:
-                        st.session_state["gram_topic_filter"] = sel_topic
+                    if sel_pack_id != cur_pack_id:
+                        st.session_state["gram_selected_pack_id"] = sel_pack_id
+                        st.session_state["gram_topic_filter"] = PACK_TITLES.get(sel_pack_id, "🌟 Все темы")
                         st.rerun()
 
                 with c_f2:
@@ -2399,9 +2435,36 @@ def render_card(kind, compact=False):
                         st.session_state["gram_order_mode"] = sel_mode
                         st.rerun()
 
-            # 3) Применяем фильтр
-            if cur_topic != "🌟 Все темы":
-                pool = pool[pool["topic"] == cur_topic]
+            # Чеклист-карта всех 27 тем: где стоят галочки
+            with st.expander(f"🗺️ Чеклист всех тем: {done_packs_cnt} из {len(PACK_TITLES)} закрыто галочкой ✅", expanded=False):
+                pct_done = int(round((done_packs_cnt / len(PACK_TITLES)) * 100)) if PACK_TITLES else 0
+                st.progress(pct_done / 100.0)
+                st.caption(f"Общий прогресс: **{done_packs_cnt} из {len(PACK_TITLES)} тем** ({pct_done}%) закрыто галочкой ✅")
+                c_map1, c_map2 = st.columns(2)
+                p_items = sorted(PACK_TITLES.keys())
+                half = (len(p_items) + 1) // 2
+                for idx, pid in enumerate(p_items):
+                    col = c_map1 if idx < half else c_map2
+                    st_info = pack_stats.get(pid, {"total": 0, "stars": 0, "revs": 0, "done": False})
+                    icon = "✅" if st_info["done"] else ("🟡" if (st_info["stars"] > 0 or st_info["revs"] > 0) else "⚪")
+                    p_name = PACK_TITLES[pid]
+                    prog_str = f"{st_info['stars']}/{st_info['total']}" if st_info['done'] else f"{max(st_info['stars'], st_info['revs'])}/{st_info['total']}"
+                    is_active = (cur_pack_id == pid)
+                    active_style = "border:2px solid #2563eb;background:#eff6ff;font-weight:700;" if is_active else "border:1px solid rgba(128,128,128,0.2);"
+                    col.markdown(
+                        f'<div style="padding:5px 8px;margin-bottom:4px;border-radius:6px;{active_style}'
+                        f'display:flex;align-items:center;justify-content:space-between;font-size:12px;">'
+                        f'<span>{icon} {esc(p_name)}</span>'
+                        f'<span style="opacity:0.85;font-weight:600;">{prog_str}</span></div>',
+                        unsafe_allow_html=True
+                    )
+
+            # 3) Применяем фильтр по выбранному паку
+            if cur_pack_id != 0:
+                pool = pool[pool["pack_id"] == cur_pack_id]
+                cur_topic = PACK_TITLES.get(cur_pack_id, "🌟 Все темы")
+            else:
+                cur_topic = "🌟 Все темы"
 
             # 4) Применяем сортировку «Снайпер по блокам»
             if cur_mode == "🎯 По темам (Снайпер)" and not pool.empty:
@@ -2435,14 +2498,16 @@ def render_card(kind, compact=False):
                         st.success(f"🏆 Тема полностью освоена! Все {topic_total} карточек выучены на отлично.")
                     with c_win2:
                         if st.button(f"👉 Следующая тема: {next_topic}", key=f"next_topic_btn_{cur}", use_container_width=True):
+                            st.session_state["gram_selected_pack_id"] = next_pid
                             st.session_state["gram_topic_filter"] = next_topic
                             st.rerun()
 
         if pool.empty:
             st.caption(cfg["caption"])
-            if kind == "grammar" and st.session_state.get("gram_topic_filter", "🌟 Все темы") != "🌟 Все темы":
-                st.info(f"В теме «{st.session_state.get('gram_topic_filter')}» пока нет карточек.")
+            if kind == "grammar" and st.session_state.get("gram_selected_pack_id", 0) != 0:
+                st.info(f"В теме «{PACK_TITLES.get(st.session_state.get('gram_selected_pack_id', 0))}» пока нет карточек.")
                 if st.button("🌟 Показать все темы", key=f"reset_topic_{cur}"):
+                    st.session_state["gram_selected_pack_id"] = 0
                     st.session_state["gram_topic_filter"] = "🌟 Все темы"
                     st.rerun()
             else:
