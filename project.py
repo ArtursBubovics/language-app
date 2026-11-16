@@ -2150,7 +2150,7 @@ def format_extra_html(extra_str):
             table_html.append('</tr>')
             for row in lines[1:]:
                 cells = [c.strip() for c in row.split("|")]
-                is_active = any("👉" in c or "⚡" in c for c in cells)
+                is_active = any("👉" in c for c in cells)
                 bg = "#fef08a" if is_active else "#ffffff"
                 fw = "800" if is_active else "500"
                 col = "#854d0e" if is_active else "#1e293b"
