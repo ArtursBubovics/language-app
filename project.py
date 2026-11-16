@@ -80,7 +80,9 @@ PACK_TITLES = {
     22: "🥾 Пак 22: Ботинок QUERER (6)",
     23: "🎯 Пак 23: Баттл связок POR vs PARA (5)",
     24: "🎟️ Пак 24: Движение, AL и отдых (8)",
-    25: "🔤 Пак 25: Алфавит и правила чтения (67)",
+    25: "🔤 Пак 25: Алфавит — Назови имя буквы (30)",
+    26: "📖 Пак 26: Правила чтения — Слова вслух (16)",
+    27: "🔄 Пак 27: Алфавит — По имени назови букву (30)",
 }
 
 RULE_PACK_MAP = {}
@@ -2355,7 +2357,7 @@ def render_card(kind, compact=False):
                     pool["topic"] = pool["pack_id"].map(lambda pid: PACK_TITLES.get(pid, PACK_TITLES[25]))
 
             # 2) Селектор тем и выбор режима
-            topic_options = ["🌟 Все темы"] + [PACK_TITLES[i] for i in range(1, 26) if i in PACK_TITLES]
+            topic_options = ["🌟 Все темы"] + [PACK_TITLES[k] for k in sorted(PACK_TITLES.keys())]
             cur_topic = st.session_state.get("gram_topic_filter", "🌟 Все темы")
             if cur_topic not in topic_options:
                 cur_topic = "🌟 Все темы"
@@ -2425,7 +2427,7 @@ def render_card(kind, compact=False):
                 )
                 if topic_stars == topic_total and topic_total > 0:
                     cur_pid = int(pool["pack_id"].iloc[0]) if "pack_id" in pool.columns else 1
-                    next_pid = cur_pid + 1 if cur_pid < 25 else 1
+                    next_pid = cur_pid + 1 if cur_pid < max(PACK_TITLES.keys()) else 1
                     next_topic = PACK_TITLES.get(next_pid, "🌟 Все темы")
                     c_win1, c_win2 = st.columns([1.6, 1.4], vertical_alignment="center")
                     with c_win1:
@@ -2638,12 +2640,55 @@ def render_card(kind, compact=False):
                     f'<span>🇷🇺 Смысл:</span> <i>{esc(ru_hint)}</i></div>'
                 )
 
+        task_badge_html = ""
+        display_prompt = prompt
+        reading_box_html = ""
+
+        if "🎯 ЗАДАНИЕ:" in prompt:
+            lines = prompt.split("\n")
+            task_lines = []
+            body_lines = []
+            reading_lines = []
+            in_reading = False
+
+            for line in lines:
+                l_str = line.strip()
+                if l_str.startswith("🎯 ЗАДАНИЕ:"):
+                    task_lines.append(l_str.replace("🎯 ЗАДАНИЕ:", "").strip())
+                elif l_str.startswith("📖") or "Слова для чтения" in l_str:
+                    in_reading = True
+                    reading_lines.append(l_str)
+                elif in_reading:
+                    reading_lines.append(l_str)
+                else:
+                    body_lines.append(line)
+
+            if task_lines:
+                task_text = " ".join(task_lines)
+                task_badge_html = (
+                    f'<div style="margin-bottom:8px;padding:5px 12px;background:#e0f2fe;border:1.5px solid #0284c7;'
+                    f'border-radius:8px;font-size:clamp(12px,3.2vw,14px);font-weight:700;color:#0369a1;display:inline-flex;align-items:center;gap:6px;">'
+                    f'<span>🎯 ЗАДАНИЕ:</span> <span>{esc(task_text)}</span></div>'
+                )
+
+            display_prompt = "\n".join(body_lines).strip()
+
+            if reading_lines:
+                reading_content = "<br>".join(esc(l) for l in reading_lines if l.strip())
+                reading_box_html = (
+                    f'<div style="margin-top:10px;padding:10px 14px;background:rgba(255,255,255,0.92);border:2px dashed #0284c7;'
+                    f'border-radius:10px;font-size:clamp(15px,4vw,17px);color:#0f172a;line-height:1.6;box-shadow:0 1px 3px rgba(0,0,0,0.06);">'
+                    f'{reading_content}</div>'
+                )
+
         st.markdown(
             f'<div class="c" style="background:{ts["bg"]};border-left:7px solid {ts["border"]};border-radius:12px;'
             f'padding:12px 14px;color:#1f1f1f;box-shadow:0 1px 3px rgba(0,0,0,0.12);margin-bottom:6px;">'
             f'{topbar_html}'
-            f'<div style="font-size:clamp(18px,5.5vw,{size}px);font-weight:800;line-height:1.25;color:#1f1f1f;margin-top:8px;overflow-wrap:anywhere">'
-            f'{esc(prompt)} <span style="font-size:15px;opacity:0.55;">🔊</span></div>{pron_html}{ru_hint_html}</div>',
+            f'{task_badge_html}'
+            f'<div style="font-size:clamp(18px,5.5vw,{size}px);font-weight:800;line-height:1.25;color:#1f1f1f;margin-top:4px;overflow-wrap:anywhere">'
+            f'{esc(display_prompt)} <span style="font-size:15px;opacity:0.55;">🔊</span></div>'
+            f'{reading_box_html}{pron_html}{ru_hint_html}</div>',
             unsafe_allow_html=True,
         )
 
