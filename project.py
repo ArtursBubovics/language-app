@@ -2660,6 +2660,21 @@ if focus_mode:
                     if c_st2.button("🎓 В стек слов", key="clean_transfer_stack", use_container_width=True, disabled=not has_stk):
                         stack_to_vocab_dialog()
 
+                    st.markdown("---")
+                    st.markdown("##### 🎲 Очередь карточек")
+                    if st.button("🔀 Перемешать вразброс", key="clean_shuffle_btn", use_container_width=True, help="Перемешивает неизученные карточки грамматики вразброс, чтобы они не шли подряд"):
+                        gp = T("grammar_pool")
+                        if not gp.empty:
+                            new_m = (pd.to_numeric(gp["reviews"], errors="coerce").fillna(0).astype(int) == 0)
+                            if new_m.any():
+                                unrev = gp[new_m].sample(frac=1).reset_index(drop=True)
+                                rev = gp[~new_m].reset_index(drop=True)
+                                combined = pd.concat([unrev, rev], ignore_index=True)
+                                L()["tables"]["grammar_pool"] = combined
+                                save_state()
+                                st.toast("🎲 Карточки перемешаны вразброс!", icon="🔀")
+                                st.rerun()
+
             with c_tog:
                 focus_toggle = st.toggle(
                     "🎯 Чистый режим",
@@ -2713,6 +2728,18 @@ with st.sidebar:
         push_cloud_async()
         flash("Пулы обновлены")
         st.rerun()
+    if st.button("🎲 Перемешать очередь вразброс", use_container_width=True, help="Перемешивает неизученные карточки грамматики вразброс"):
+        gp = T("grammar_pool")
+        if not gp.empty:
+            new_m = (pd.to_numeric(gp["reviews"], errors="coerce").fillna(0).astype(int) == 0)
+            if new_m.any():
+                unrev = gp[new_m].sample(frac=1).reset_index(drop=True)
+                rev = gp[~new_m].reset_index(drop=True)
+                combined = pd.concat([unrev, rev], ignore_index=True)
+                L()["tables"]["grammar_pool"] = combined
+                save_state()
+                flash("Карточки перемешаны вразброс!")
+                st.rerun()
 
     st.markdown("---")
     st.subheader("🌍 Языки")
