@@ -2132,7 +2132,8 @@ def format_extra_html(extra_str):
     if not extra_str:
         return ""
     if "<table" in extra_str:
-        return extra_str
+        return f'<div style="white-space:normal!important;margin-top:8px;">{extra_str}</div>'
+    
     sections = str(extra_str).split("\n\n")
     html_sections = []
     for sec in sections:
@@ -2141,35 +2142,36 @@ def format_extra_html(extra_str):
             continue
         lines = [l.strip() for l in sec.split("\n") if l.strip()]
         if len(lines) >= 2 and all("|" in l for l in lines):
-            table_html = ['<table style="width:100%;border-collapse:collapse;margin:8px 0;font-size:12px;background:#ffffff;border-radius:8px;overflow:hidden;border:1px solid #e0e0e0;box-shadow:0 1px 3px rgba(0,0,0,0.06);">']
+            table_html = ['<div style="margin-top:10px;margin-bottom:8px;overflow-x:auto;white-space:normal!important;"><table style="width:100%;border-collapse:separate;border-spacing:0;font-size:12.5px;background:#ffffff;border-radius:10px;overflow:hidden;border:1px solid #cbd5e1;box-shadow:0 2px 6px rgba(0,0,0,0.06);">']
             headers = [c.strip() for c in lines[0].split("|")]
-            table_html.append('<tr style="background:#f1f5f9;font-weight:700;color:#334155;border-bottom:2px solid #cbd5e1;">')
+            table_html.append('<tr style="background:#1e293b;color:#f8fafc;font-weight:700;">')
             for h in headers:
-                table_html.append(f'<th style="padding:6px 8px;text-align:left;">{esc(h)}</th>')
+                table_html.append(f'<th style="padding:7px 10px;text-align:left;font-size:11.5px;letter-spacing:0.03em;">{esc(h)}</th>')
             table_html.append('</tr>')
             for row in lines[1:]:
                 cells = [c.strip() for c in row.split("|")]
                 is_active = any("👉" in c or "⚡" in c for c in cells)
-                bg = "#fef9c3" if is_active else "#ffffff"
-                fw = "700" if is_active else "400"
-                col = "#713f12" if is_active else "#1f2937"
-                table_html.append(f'<tr style="background:{bg};font-weight:{fw};color:{col};border-bottom:1px solid #f1f5f9;">')
+                bg = "#fef08a" if is_active else "#ffffff"
+                fw = "800" if is_active else "500"
+                col = "#854d0e" if is_active else "#1e293b"
+                border_b = "border-bottom:1px solid #fde047;" if is_active else "border-bottom:1px solid #f1f5f9;"
+                table_html.append(f'<tr style="background:{bg};font-weight:{fw};color:{col};">')
                 for c in cells:
-                    table_html.append(f'<td style="padding:5px 8px;">{esc(c)}</td>')
+                    table_html.append(f'<td style="padding:6px 10px;{border_b}">{esc(c)}</td>')
                 table_html.append('</tr>')
-            table_html.append('</table>')
+            table_html.append('</table></div>')
             html_sections.append("".join(table_html))
         else:
             styled_lines = []
             for l in lines:
                 if l.startswith("💡") or l.startswith("⚠️"):
-                    styled_lines.append(f'<div style="margin-top:6px;padding:6px 10px;background:#fefce8;border-left:3px solid #eab308;border-radius:6px;font-size:12px;color:#713f12;font-weight:600;">{esc(l)}</div>')
+                    styled_lines.append(f'<div style="margin-top:8px;padding:8px 12px;background:#fefce8;border-left:4px solid #eab308;border-radius:8px;font-size:12.5px;color:#713f12;font-weight:600;line-height:1.45;white-space:normal!important;">{esc(l)}</div>')
                 elif l.startswith("🧩"):
-                    styled_lines.append(f'<div style="margin-top:6px;padding:6px 10px;background:#f0f9ff;border-left:3px solid #0284c7;border-radius:6px;font-size:12px;color:#0369a1;font-weight:600;">{esc(l)}</div>')
+                    styled_lines.append(f'<div style="margin-top:8px;padding:8px 12px;background:#f0f9ff;border-left:4px solid #0284c7;border-radius:8px;font-size:12.5px;color:#0369a1;font-weight:600;line-height:1.45;white-space:normal!important;">{esc(l)}</div>')
                 else:
-                    styled_lines.append(f'<div style="color:#4b5563;font-size:12px;margin-top:3px;">{esc(l)}</div>')
+                    styled_lines.append(f'<div style="color:#334155;font-size:12.5px;margin-top:4px;white-space:normal!important;">{esc(l)}</div>')
             html_sections.append("".join(styled_lines))
-    return "".join(html_sections)
+    return '<div style="white-space:normal!important;">' + "".join(html_sections) + '</div>'
 
 
 def answer_html(kind, answer, rec):
