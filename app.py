@@ -2452,12 +2452,22 @@ def render_card(kind, compact=False):
             '</div>'
         )
 
+        ru_hint_html = ""
+        if not is_vocab and "phrase" in rec and "➔" in str(rec.get("phrase", "")):
+            ru_hint = str(rec["phrase"]).split("➔")[1].strip()
+            if ru_hint:
+                ru_hint_html = (
+                    f'<div style="margin-top:9px;padding:7px 11px;background:rgba(255,255,255,0.72);border-left:3px solid #2563eb;border-radius:6px;'
+                    f'font-size:clamp(13px,3.5vw,15px);color:#1e3a8a;font-weight:600;display:flex;align-items:center;gap:6px;">'
+                    f'<span>🇷🇺 Смысл:</span> <i>{esc(ru_hint)}</i></div>'
+                )
+
         st.markdown(
             f'<div class="c" style="background:{ts["bg"]};border-left:7px solid {ts["border"]};border-radius:12px;'
             f'padding:12px 14px;color:#1f1f1f;box-shadow:0 1px 3px rgba(0,0,0,0.12);margin-bottom:6px;">'
             f'{topbar_html}'
             f'<div style="font-size:clamp(18px,5.5vw,{size}px);font-weight:800;line-height:1.25;color:#1f1f1f;margin-top:8px;overflow-wrap:anywhere">'
-            f'{esc(prompt)} <span style="font-size:15px;opacity:0.55;">🔊</span></div>{pron_html}</div>',
+            f'{esc(prompt)} <span style="font-size:15px;opacity:0.55;">🔊</span></div>{pron_html}{ru_hint_html}</div>',
             unsafe_allow_html=True,
         )
 
