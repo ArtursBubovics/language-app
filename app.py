@@ -2164,7 +2164,13 @@ def format_extra_html(extra_str):
         else:
             styled_lines = []
             for l in lines:
-                if l.startswith("💡") or l.startswith("⚠️"):
+                if l.startswith("🔍"):
+                    styled_lines.append(f'<div style="margin-top:8px;padding:8px 12px;background:#f8fafc;border-left:4px solid #64748b;border-radius:8px;font-size:12.5px;color:#1e293b;font-weight:600;line-height:1.45;white-space:normal!important;">{esc(l)}</div>')
+                elif l.startswith("🧠"):
+                    styled_lines.append(f'<div style="margin-top:8px;padding:8px 12px;background:#f5f3ff;border-left:4px solid #8b5cf6;border-radius:8px;font-size:12.5px;color:#4c1d95;font-weight:600;line-height:1.45;white-space:normal!important;">{esc(l)}</div>')
+                elif l.startswith("⚙️"):
+                    styled_lines.append(f'<div style="margin-top:8px;padding:8px 12px;background:#fff7ed;border-left:4px solid #f97316;border-radius:8px;font-size:12.5px;color:#9a3412;font-weight:600;line-height:1.45;white-space:normal!important;">{esc(l)}</div>')
+                elif l.startswith("💡") or l.startswith("⚠️"):
                     styled_lines.append(f'<div style="margin-top:8px;padding:8px 12px;background:#fefce8;border-left:4px solid #eab308;border-radius:8px;font-size:12.5px;color:#713f12;font-weight:600;line-height:1.45;white-space:normal!important;">{esc(l)}</div>')
                 elif l.startswith("🧩"):
                     styled_lines.append(f'<div style="margin-top:8px;padding:8px 12px;background:#f0f9ff;border-left:4px solid #0284c7;border-radius:8px;font-size:12.5px;color:#0369a1;font-weight:600;line-height:1.45;white-space:normal!important;">{esc(l)}</div>')
