@@ -975,8 +975,9 @@ def ingest(saved):
                     vb = normalize("vocab_base", pd.concat([vb, pd.DataFrame(new_v)], ignore_index=True))
                 tables["vocab_base"] = vb
             daily = {str(k): int(v) for k, v in (ld.get("daily") or {}).items()}
+            checked_packs = [int(x) for x in (ld.get("checked_packs") or []) if str(x).isdigit()]
             langs[lid] = {"name": ld.get("name", lid), "flag": ld.get("flag", "🌍"),
-                          "speech": ld.get("speech", "es-ES"), "tables": tables, "daily": daily}
+                          "speech": ld.get("speech", "es-ES"), "tables": tables, "daily": daily, "checked_packs": checked_packs}
         cur = saved.get("current")
     if not langs:
         langs = {d["id"]: fresh_lang(d) for d in DEFAULT_LANGS}
@@ -991,7 +992,7 @@ def export_json():
         "current": st.session_state["cur"],
         "languages": {
             lid: {
-                "name": ld["name"], "flag": ld["flag"], "speech": ld["speech"], "daily": ld["daily"],
+                "name": ld["name"], "flag": ld["flag"], "speech": ld["speech"], "daily": ld["daily"], "checked_packs": ld.get("checked_packs", []),
                 "tables": {k: df.to_dict("records") for k, df in ld["tables"].items()},
             }
             for lid, ld in st.session_state["langs"].items()
@@ -2356,6 +2357,9 @@ def render_card(kind, compact=False):
                 if "topic" not in pool.columns or pool["topic"].isna().any() or (pool["topic"] == "").any():
                     pool["topic"] = pool["pack_id"].map(lambda pid: PACK_TITLES.get(pid, PACK_TITLES[25]))
 
+            # Отмеченные вручную темы (сохраняются в data.json)
+            checked_packs = set(int(x) for x in (lang.get("checked_packs") or []) if str(x).isdigit())
+
             # Статистика по всем 27 пакам для чекбоксов/галочек
             pack_stats = {}
             done_packs_cnt = 0
@@ -2380,16 +2384,17 @@ def render_card(kind, compact=False):
             def format_pack_option(opt_id):
                 if opt_id == 0:
                     icon = "✅" if (tot_stars == tot_all and tot_all > 0) else "🌟"
-                    return f"{icon} Все темы (выучено: {tot_stars}/{tot_all} · тем: {done_packs_cnt}/27 ✅)"
+                    return f"{icon} Все темы (выучено: {tot_stars}/{tot_all} · тем: {done_packs_cnt}/{len(PACK_TITLES)} ✅)"
                 st_info = pack_stats.get(opt_id, {"total": 0, "stars": 0, "revs": 0, "done": False})
                 p_title = PACK_TITLES[opt_id]
+                chk_mark = "☑️ " if opt_id in checked_packs else ""
                 if st_info["done"]:
-                    return f"✅ {p_title} (готово {st_info['stars']}/{st_info['total']})"
+                    return f"{chk_mark}✅ {p_title} (готово {st_info['stars']}/{st_info['total']})"
                 elif st_info["stars"] > 0 or st_info["revs"] > 0:
                     prog_num = max(st_info["stars"], st_info["revs"])
-                    return f"🟡 {p_title} ({prog_num}/{st_info['total']})"
+                    return f"{chk_mark}🟡 {p_title} ({prog_num}/{st_info['total']})"
                 else:
-                    return f"⚪ {p_title} (0/{st_info['total']})"
+                    return f"{chk_mark}⚪ {p_title} (0/{st_info['total']})"
 
             pack_options = [0] + sorted(PACK_TITLES.keys())
             cur_pack_id = st.session_state.get("gram_selected_pack_id", 0)
@@ -2403,6 +2408,12 @@ def render_card(kind, compact=False):
                 cur_mode = "🎯 По темам (Снайпер)"
                 st.session_state["gram_order_mode"] = cur_mode
 
+            status_modes = ["🌐 Все", "🆕 Новые", "🔁 Пройденные", "☑️ Отмеченные"]
+            cur_status = st.session_state.get("gram_status_filter", "🌐 Все")
+            if cur_status not in status_modes:
+                cur_status = "🌐 Все"
+                st.session_state["gram_status_filter"] = cur_status
+
             with kcont(f"gram_filter_bar_{cur}"):
                 c_f1, c_f2 = st.columns([1.5, 1.0], vertical_alignment="center")
                 with c_f1:
@@ -2413,7 +2424,7 @@ def render_card(kind, compact=False):
                         format_func=format_pack_option,
                         key=f"gram_pack_select_{cur}",
                         label_visibility="collapsed",
-                        help="Выбери блок грамматики (✅ — тема пройдена полностью, 🟡 — в процессе, ⚪ — ещё не начата)"
+                        help="Выбери блок грамматики (✅ — тема пройдена полностью, 🟡 — в процессе, ⚪ — ещё не начата, ☑️ — отмечена тобой)"
                     )
                     if sel_pack_id != cur_pack_id:
                         st.session_state["gram_selected_pack_id"] = sel_pack_id
@@ -2434,36 +2445,77 @@ def render_card(kind, compact=False):
                         st.session_state["gram_order_mode"] = sel_mode
                         st.rerun()
 
-            # Чеклист-карта всех 27 тем: где стоят галочки
-            with st.expander(f"🗺️ Чеклист всех тем: {done_packs_cnt} из {len(PACK_TITLES)} закрыто галочкой ✅", expanded=False):
+                sel_status = st.radio(
+                    "Фильтр карточек",
+                    status_modes,
+                    index=status_modes.index(cur_status),
+                    horizontal=True,
+                    key=f"gram_status_select_{cur}",
+                    label_visibility="collapsed",
+                    help="🌐 Все — вся тема · 🆕 Новые — ещё не открывал · 🔁 Пройденные — уже повторял · ☑️ Отмеченные — только темы с твоей галочкой в чеклисте"
+                )
+                if sel_status != cur_status:
+                    st.session_state["gram_status_filter"] = sel_status
+                    st.rerun()
+
+            # Интерактивный чеклист-карта всех 27 тем с живыми чекбоксами
+            auto_expand_chk = (cur_status == "☑️ Отмеченные" and len(checked_packs) == 0)
+            exp_title = f"🗺️ Чеклист тем: ✅ {done_packs_cnt}/{len(PACK_TITLES)} освоено · ☑️ {len(checked_packs)} отмечено"
+            with st.expander(exp_title, expanded=auto_expand_chk):
                 pct_done = int(round((done_packs_cnt / len(PACK_TITLES)) * 100)) if PACK_TITLES else 0
                 st.progress(pct_done / 100.0)
-                st.caption(f"Общий прогресс: **{done_packs_cnt} из {len(PACK_TITLES)} тем** ({pct_done}%) закрыто галочкой ✅")
+                c_q1, c_q2 = st.columns(2)
+                if c_q1.button("☑️ Отметить все начатые", key=f"chk_started_{cur}", use_container_width=True):
+                    started = [pid for pid, st_i in pack_stats.items() if st_i["revs"] > 0 or st_i["stars"] > 0]
+                    lang["checked_packs"] = sorted(started)
+                    save_state()
+                    st.rerun()
+                if c_q2.button("🧹 Снять все галочки", key=f"chk_clear_{cur}", use_container_width=True):
+                    lang["checked_packs"] = []
+                    save_state()
+                    st.rerun()
+                st.caption("Отмечай галочками нужные темы — в режиме **«☑️ Отмеченные»** будут крутиться только они!")
                 c_map1, c_map2 = st.columns(2)
                 p_items = sorted(PACK_TITLES.keys())
                 half = (len(p_items) + 1) // 2
+                changed_chk = False
+                new_checked = set(checked_packs)
                 for idx, pid in enumerate(p_items):
                     col = c_map1 if idx < half else c_map2
                     st_info = pack_stats.get(pid, {"total": 0, "stars": 0, "revs": 0, "done": False})
                     icon = "✅" if st_info["done"] else ("🟡" if (st_info["stars"] > 0 or st_info["revs"] > 0) else "⚪")
                     p_name = PACK_TITLES[pid]
-                    prog_str = f"{st_info['stars']}/{st_info['total']}" if st_info['done'] else f"{max(st_info['stars'], st_info['revs'])}/{st_info['total']}"
-                    is_active = (cur_pack_id == pid)
-                    active_style = "border:2px solid #2563eb;background:#eff6ff;font-weight:700;" if is_active else "border:1px solid rgba(128,128,128,0.2);"
-                    col.markdown(
-                        f'<div style="padding:5px 8px;margin-bottom:4px;border-radius:6px;{active_style}'
-                        f'display:flex;align-items:center;justify-content:space-between;font-size:12px;">'
-                        f'<span>{icon} {esc(p_name)}</span>'
-                        f'<span style="opacity:0.85;font-weight:600;">{prog_str}</span></div>',
-                        unsafe_allow_html=True
+                    prog_str = f"{st_info['stars']}/{st_info['total']}" if st_info["done"] else f"{max(st_info['stars'], st_info['revs'])}/{st_info['total']}"
+                    is_chk = col.checkbox(
+                        f"{icon} {p_name} ({prog_str})",
+                        value=(pid in checked_packs),
+                        key=f"gram_chk_{cur}_{pid}",
                     )
+                    if is_chk and pid not in checked_packs:
+                        new_checked.add(pid)
+                        changed_chk = True
+                    elif not is_chk and pid in checked_packs:
+                        new_checked.discard(pid)
+                        changed_chk = True
+                if changed_chk:
+                    lang["checked_packs"] = sorted(new_checked)
+                    save_state()
+                    st.rerun()
 
-            # 3) Применяем фильтр по выбранному паку
-            if cur_pack_id != 0:
-                pool = pool[pool["pack_id"] == cur_pack_id]
-                cur_topic = PACK_TITLES.get(cur_pack_id, "🌟 Все темы")
+            # 3) Применяем фильтр по выбранному паку и статусу
+            if cur_status == "☑️ Отмеченные":
+                pool = pool[pool["pack_id"].isin(checked_packs)] if checked_packs else pool.iloc[0:0]
+                cur_topic = f"☑️ Отмеченные темы ({len(checked_packs)})"
             else:
-                cur_topic = "🌟 Все темы"
+                if cur_pack_id != 0:
+                    pool = pool[pool["pack_id"] == cur_pack_id]
+                    cur_topic = PACK_TITLES.get(cur_pack_id, "🌟 Все темы")
+                else:
+                    cur_topic = "🌟 Все темы"
+                if cur_status == "🆕 Новые":
+                    pool = pool[pool["reviews"] == 0]
+                elif cur_status == "🔁 Пройденные":
+                    pool = pool[pool["reviews"] > 0]
 
             # 4) Применяем сортировку «Снайпер по блокам»
             if cur_mode == "🎯 По темам (Снайпер)" and not pool.empty:
@@ -2503,7 +2555,27 @@ def render_card(kind, compact=False):
 
         if pool.empty:
             st.caption(cfg["caption"])
-            if kind == "grammar" and st.session_state.get("gram_selected_pack_id", 0) != 0:
+            g_stat = st.session_state.get("gram_status_filter", "🌐 Все")
+            if kind == "grammar" and g_stat == "☑️ Отмеченные":
+                st.info("👆 Отметь галочками нужные темы в «🗺️ Чеклист тем» выше — и здесь будут крутиться только они!")
+                if st.button("🌐 Показать все карточки", key=f"reset_stat_chk_{cur}"):
+                    st.session_state["gram_status_filter"] = "🌐 Все"
+                    st.rerun()
+            elif kind == "grammar" and g_stat == "🆕 Новые":
+                st.success("🎉 Новых карточек здесь не осталось — ты уже всё открыл!")
+                c_e1, c_e2 = st.columns(2)
+                if c_e1.button("🔁 Показать пройденные", key=f"switch_rev_{cur}", use_container_width=True):
+                    st.session_state["gram_status_filter"] = "🔁 Пройденные"
+                    st.rerun()
+                if c_e2.button("🌐 Показать все", key=f"switch_all_n_{cur}", use_container_width=True):
+                    st.session_state["gram_status_filter"] = "🌐 Все"
+                    st.rerun()
+            elif kind == "grammar" and g_stat == "🔁 Пройденные":
+                st.info("Пока нет пройденных карточек в этой выборке. Начни с «🆕 Новые» или «🌐 Все»!")
+                if st.button("🆕 Показать новые", key=f"switch_new_{cur}"):
+                    st.session_state["gram_status_filter"] = "🆕 Новые"
+                    st.rerun()
+            elif kind == "grammar" and st.session_state.get("gram_selected_pack_id", 0) != 0:
                 st.info(f"В теме «{PACK_TITLES.get(st.session_state.get('gram_selected_pack_id', 0))}» пока нет карточек.")
                 if st.button("🌟 Показать все темы", key=f"reset_topic_{cur}"):
                     st.session_state["gram_selected_pack_id"] = 0
