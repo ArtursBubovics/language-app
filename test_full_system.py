@@ -34,8 +34,8 @@ WORKSPACE_DIR = os.path.dirname(os.path.abspath(__file__))
 if WORKSPACE_DIR not in sys.path:
     sys.path.insert(0, WORKSPACE_DIR)
 
-import app
-from app import (
+import project
+from project import (
     COLS, FIELDS, POOLS, INT_COLS, TYPES, clean_table, normalize,
     fresh_lang, empty_lang, ingest,
     reorder, sync_pool, sync_group,
